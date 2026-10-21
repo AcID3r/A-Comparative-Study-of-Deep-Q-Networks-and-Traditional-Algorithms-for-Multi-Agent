@@ -1,0 +1,7772 @@
+{
+  "purpose": "correctness_demonstration_not_research",
+  "observation_version": 2,
+  "source_hashes": {
+    "environments/grid_graph.py": "1696176bcff69c4f2a852ea48aaf36b0aaae3463933e146646a329a0af7d83ed",
+    "environments/single_agent_env.py": "346d83ff2ebcc82367aae334c1209f91c60f36ef539078b18bc0a535637b7597",
+    "environments/multi_agent_env.py": "586e3419c20b967eee77f52de2657b4d603899bd6411ea4225ea0c8b1ce6aa63",
+    "algorithms/prioritized.py": "a79f30be69852114d390075bcaaa49d440af659455882c199be08f082afeb9f9",
+    "experiments/run_team_episode.py": "77889dc9a6aa187bd9c8b39e9bdd018c0b71cbbb4ffb78bb422502b79dc1570d"
+  },
+  "cases": [
+    {
+      "name": "wait",
+      "method": "bfs",
+      "rows": 2,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "max_steps": 5,
+      "priority": [
+        0,
+        1
+      ],
+      "planning_success": true,
+      "paths": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "failed_agent": null,
+      "failure_reason": null,
+      "expanded_nodes": 17,
+      "planning_time_seconds": 0.00043509999522939324,
+      "steps": [
+        {
+          "actions": [
+            3,
+            4
+          ],
+          "observations": [
+            [
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            -1.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 1,
+            "arrival_steps": [
+              null,
+              null
+            ],
+            "moves": [
+              1,
+              0
+            ],
+            "total_moves": 1,
+            "path_cost": 1.0,
+            "episode_rewards": [
+              -1.0,
+              -1.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            0
+          ],
+          "observations": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.6,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "rewards": [
+            199.0,
+            199.0
+          ],
+          "terminated": true,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 2,
+            "arrival_steps": [
+              2,
+              2
+            ],
+            "moves": [
+              2,
+              1
+            ],
+            "total_moves": 3,
+            "path_cost": 3.0,
+            "episode_rewards": [
+              198.0,
+              198.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": true,
+            "truncated": false,
+            "success": true,
+            "makespan": 2,
+            "failure_reason": null
+          }
+        }
+      ],
+      "reset": {
+        "observations": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.5,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "info": {
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "goals": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "seed": 0,
+          "observation_version": 2,
+          "elapsed_steps": 0,
+          "arrival_steps": [
+            null,
+            null
+          ],
+          "moves": [
+            0,
+            0
+          ],
+          "total_moves": 0,
+          "path_cost": 0.0,
+          "episode_rewards": [
+            0.0,
+            0.0
+          ],
+          "reward_components": [
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            }
+          ],
+          "conflict_attempts": [
+            0,
+            0
+          ],
+          "vertex_conflicts": 0,
+          "swap_conflicts": 0,
+          "actual_collisions": 0,
+          "obstacle_attempts": [
+            0,
+            0
+          ],
+          "boundary_attempts": [
+            0,
+            0
+          ],
+          "events": {
+            "vertex_pairs": [],
+            "swap_pairs": [],
+            "rejected_agents": []
+          },
+          "terminated": false,
+          "truncated": false,
+          "success": false,
+          "makespan": null,
+          "failure_reason": null
+        }
+      },
+      "final_info": {
+        "positions": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "goals": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "seed": 0,
+        "observation_version": 2,
+        "elapsed_steps": 2,
+        "arrival_steps": [
+          2,
+          2
+        ],
+        "moves": [
+          2,
+          1
+        ],
+        "total_moves": 3,
+        "path_cost": 3.0,
+        "episode_rewards": [
+          198.0,
+          198.0
+        ],
+        "reward_components": [
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          }
+        ],
+        "conflict_attempts": [
+          0,
+          0
+        ],
+        "vertex_conflicts": 0,
+        "swap_conflicts": 0,
+        "actual_collisions": 0,
+        "obstacle_attempts": [
+          0,
+          0
+        ],
+        "boundary_attempts": [
+          0,
+          0
+        ],
+        "events": {
+          "vertex_pairs": [],
+          "swap_pairs": [],
+          "rejected_agents": []
+        },
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "makespan": 2,
+        "failure_reason": null
+      }
+    },
+    {
+      "name": "wait",
+      "method": "dijkstra",
+      "rows": 2,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "max_steps": 5,
+      "priority": [
+        0,
+        1
+      ],
+      "planning_success": true,
+      "paths": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "failed_agent": null,
+      "failure_reason": null,
+      "expanded_nodes": 17,
+      "planning_time_seconds": 0.0008971000206656754,
+      "steps": [
+        {
+          "actions": [
+            3,
+            4
+          ],
+          "observations": [
+            [
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            -1.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 1,
+            "arrival_steps": [
+              null,
+              null
+            ],
+            "moves": [
+              1,
+              0
+            ],
+            "total_moves": 1,
+            "path_cost": 1.0,
+            "episode_rewards": [
+              -1.0,
+              -1.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            0
+          ],
+          "observations": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.6,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "rewards": [
+            199.0,
+            199.0
+          ],
+          "terminated": true,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 2,
+            "arrival_steps": [
+              2,
+              2
+            ],
+            "moves": [
+              2,
+              1
+            ],
+            "total_moves": 3,
+            "path_cost": 3.0,
+            "episode_rewards": [
+              198.0,
+              198.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": true,
+            "truncated": false,
+            "success": true,
+            "makespan": 2,
+            "failure_reason": null
+          }
+        }
+      ],
+      "reset": {
+        "observations": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.5,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "info": {
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "goals": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "seed": 0,
+          "observation_version": 2,
+          "elapsed_steps": 0,
+          "arrival_steps": [
+            null,
+            null
+          ],
+          "moves": [
+            0,
+            0
+          ],
+          "total_moves": 0,
+          "path_cost": 0.0,
+          "episode_rewards": [
+            0.0,
+            0.0
+          ],
+          "reward_components": [
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            }
+          ],
+          "conflict_attempts": [
+            0,
+            0
+          ],
+          "vertex_conflicts": 0,
+          "swap_conflicts": 0,
+          "actual_collisions": 0,
+          "obstacle_attempts": [
+            0,
+            0
+          ],
+          "boundary_attempts": [
+            0,
+            0
+          ],
+          "events": {
+            "vertex_pairs": [],
+            "swap_pairs": [],
+            "rejected_agents": []
+          },
+          "terminated": false,
+          "truncated": false,
+          "success": false,
+          "makespan": null,
+          "failure_reason": null
+        }
+      },
+      "final_info": {
+        "positions": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "goals": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "seed": 0,
+        "observation_version": 2,
+        "elapsed_steps": 2,
+        "arrival_steps": [
+          2,
+          2
+        ],
+        "moves": [
+          2,
+          1
+        ],
+        "total_moves": 3,
+        "path_cost": 3.0,
+        "episode_rewards": [
+          198.0,
+          198.0
+        ],
+        "reward_components": [
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          }
+        ],
+        "conflict_attempts": [
+          0,
+          0
+        ],
+        "vertex_conflicts": 0,
+        "swap_conflicts": 0,
+        "actual_collisions": 0,
+        "obstacle_attempts": [
+          0,
+          0
+        ],
+        "boundary_attempts": [
+          0,
+          0
+        ],
+        "events": {
+          "vertex_pairs": [],
+          "swap_pairs": [],
+          "rejected_agents": []
+        },
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "makespan": 2,
+        "failure_reason": null
+      }
+    },
+    {
+      "name": "wait",
+      "method": "astar",
+      "rows": 2,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "max_steps": 5,
+      "priority": [
+        0,
+        1
+      ],
+      "planning_success": true,
+      "paths": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "failed_agent": null,
+      "failure_reason": null,
+      "expanded_nodes": 6,
+      "planning_time_seconds": 0.0013587000430561602,
+      "steps": [
+        {
+          "actions": [
+            3,
+            4
+          ],
+          "observations": [
+            [
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            -1.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 1,
+            "arrival_steps": [
+              null,
+              null
+            ],
+            "moves": [
+              1,
+              0
+            ],
+            "total_moves": 1,
+            "path_cost": 1.0,
+            "episode_rewards": [
+              -1.0,
+              -1.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            0
+          ],
+          "observations": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.6,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "rewards": [
+            199.0,
+            199.0
+          ],
+          "terminated": true,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 2,
+            "arrival_steps": [
+              2,
+              2
+            ],
+            "moves": [
+              2,
+              1
+            ],
+            "total_moves": 3,
+            "path_cost": 3.0,
+            "episode_rewards": [
+              198.0,
+              198.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": true,
+            "truncated": false,
+            "success": true,
+            "makespan": 2,
+            "failure_reason": null
+          }
+        }
+      ],
+      "reset": {
+        "observations": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.5,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "info": {
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "goals": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "seed": 0,
+          "observation_version": 2,
+          "elapsed_steps": 0,
+          "arrival_steps": [
+            null,
+            null
+          ],
+          "moves": [
+            0,
+            0
+          ],
+          "total_moves": 0,
+          "path_cost": 0.0,
+          "episode_rewards": [
+            0.0,
+            0.0
+          ],
+          "reward_components": [
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            }
+          ],
+          "conflict_attempts": [
+            0,
+            0
+          ],
+          "vertex_conflicts": 0,
+          "swap_conflicts": 0,
+          "actual_collisions": 0,
+          "obstacle_attempts": [
+            0,
+            0
+          ],
+          "boundary_attempts": [
+            0,
+            0
+          ],
+          "events": {
+            "vertex_pairs": [],
+            "swap_pairs": [],
+            "rejected_agents": []
+          },
+          "terminated": false,
+          "truncated": false,
+          "success": false,
+          "makespan": null,
+          "failure_reason": null
+        }
+      },
+      "final_info": {
+        "positions": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "goals": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "seed": 0,
+        "observation_version": 2,
+        "elapsed_steps": 2,
+        "arrival_steps": [
+          2,
+          2
+        ],
+        "moves": [
+          2,
+          1
+        ],
+        "total_moves": 3,
+        "path_cost": 3.0,
+        "episode_rewards": [
+          198.0,
+          198.0
+        ],
+        "reward_components": [
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          }
+        ],
+        "conflict_attempts": [
+          0,
+          0
+        ],
+        "vertex_conflicts": 0,
+        "swap_conflicts": 0,
+        "actual_collisions": 0,
+        "obstacle_attempts": [
+          0,
+          0
+        ],
+        "boundary_attempts": [
+          0,
+          0
+        ],
+        "events": {
+          "vertex_pairs": [],
+          "swap_pairs": [],
+          "rejected_agents": []
+        },
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "makespan": 2,
+        "failure_reason": null
+      }
+    },
+    {
+      "name": "four_lanes",
+      "method": "bfs",
+      "rows": 4,
+      "cols": 4,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "max_steps": 6,
+      "priority": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "planning_success": true,
+      "paths": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      ],
+      "failed_agent": null,
+      "failure_reason": null,
+      "expanded_nodes": 86,
+      "planning_time_seconds": 0.0007860000478103757,
+      "steps": [
+        {
+          "actions": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6666666666666666,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 1,
+            "arrival_steps": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "moves": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "total_moves": 4,
+            "path_cost": 4.0,
+            "episode_rewards": [
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.3333333333333333,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6666666666666666,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 2,
+            "arrival_steps": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "moves": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "total_moves": 8,
+            "path_cost": 8.0,
+            "episode_rewards": [
+              -2.0,
+              -2.0,
+              -2.0,
+              -2.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.5,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.3333333333333333,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.5,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6666666666666666,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.5,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.5,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            199.0,
+            199.0,
+            199.0,
+            199.0
+          ],
+          "terminated": true,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 3,
+            "arrival_steps": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "moves": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "total_moves": 12,
+            "path_cost": 12.0,
+            "episode_rewards": [
+              197.0,
+              197.0,
+              197.0,
+              197.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": true,
+            "truncated": false,
+            "success": true,
+            "makespan": 3,
+            "failure_reason": null
+          }
+        }
+      ],
+      "reset": {
+        "observations": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.3333333333333333,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.6666666666666666,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "info": {
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "goals": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "seed": 0,
+          "observation_version": 2,
+          "elapsed_steps": 0,
+          "arrival_steps": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "moves": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "total_moves": 0,
+          "path_cost": 0.0,
+          "episode_rewards": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reward_components": [
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            }
+          ],
+          "conflict_attempts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "vertex_conflicts": 0,
+          "swap_conflicts": 0,
+          "actual_collisions": 0,
+          "obstacle_attempts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "boundary_attempts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "events": {
+            "vertex_pairs": [],
+            "swap_pairs": [],
+            "rejected_agents": []
+          },
+          "terminated": false,
+          "truncated": false,
+          "success": false,
+          "makespan": null,
+          "failure_reason": null
+        }
+      },
+      "final_info": {
+        "positions": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "goals": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "seed": 0,
+        "observation_version": 2,
+        "elapsed_steps": 3,
+        "arrival_steps": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "moves": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "total_moves": 12,
+        "path_cost": 12.0,
+        "episode_rewards": [
+          197.0,
+          197.0,
+          197.0,
+          197.0
+        ],
+        "reward_components": [
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          }
+        ],
+        "conflict_attempts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertex_conflicts": 0,
+        "swap_conflicts": 0,
+        "actual_collisions": 0,
+        "obstacle_attempts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "boundary_attempts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": {
+          "vertex_pairs": [],
+          "swap_pairs": [],
+          "rejected_agents": []
+        },
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "makespan": 3,
+        "failure_reason": null
+      }
+    },
+    {
+      "name": "four_lanes",
+      "method": "dijkstra",
+      "rows": 4,
+      "cols": 4,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "max_steps": 6,
+      "priority": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "planning_success": true,
+      "paths": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      ],
+      "failed_agent": null,
+      "failure_reason": null,
+      "expanded_nodes": 86,
+      "planning_time_seconds": 0.0008329999982379377,
+      "steps": [
+        {
+          "actions": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6666666666666666,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 1,
+            "arrival_steps": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "moves": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "total_moves": 4,
+            "path_cost": 4.0,
+            "episode_rewards": [
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.3333333333333333,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6666666666666666,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 2,
+            "arrival_steps": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "moves": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "total_moves": 8,
+            "path_cost": 8.0,
+            "episode_rewards": [
+              -2.0,
+              -2.0,
+              -2.0,
+              -2.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.5,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.3333333333333333,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.5,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6666666666666666,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.5,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.5,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            199.0,
+            199.0,
+            199.0,
+            199.0
+          ],
+          "terminated": true,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 3,
+            "arrival_steps": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "moves": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "total_moves": 12,
+            "path_cost": 12.0,
+            "episode_rewards": [
+              197.0,
+              197.0,
+              197.0,
+              197.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": true,
+            "truncated": false,
+            "success": true,
+            "makespan": 3,
+            "failure_reason": null
+          }
+        }
+      ],
+      "reset": {
+        "observations": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.3333333333333333,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.6666666666666666,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "info": {
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "goals": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "seed": 0,
+          "observation_version": 2,
+          "elapsed_steps": 0,
+          "arrival_steps": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "moves": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "total_moves": 0,
+          "path_cost": 0.0,
+          "episode_rewards": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reward_components": [
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            }
+          ],
+          "conflict_attempts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "vertex_conflicts": 0,
+          "swap_conflicts": 0,
+          "actual_collisions": 0,
+          "obstacle_attempts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "boundary_attempts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "events": {
+            "vertex_pairs": [],
+            "swap_pairs": [],
+            "rejected_agents": []
+          },
+          "terminated": false,
+          "truncated": false,
+          "success": false,
+          "makespan": null,
+          "failure_reason": null
+        }
+      },
+      "final_info": {
+        "positions": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "goals": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "seed": 0,
+        "observation_version": 2,
+        "elapsed_steps": 3,
+        "arrival_steps": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "moves": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "total_moves": 12,
+        "path_cost": 12.0,
+        "episode_rewards": [
+          197.0,
+          197.0,
+          197.0,
+          197.0
+        ],
+        "reward_components": [
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          }
+        ],
+        "conflict_attempts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertex_conflicts": 0,
+        "swap_conflicts": 0,
+        "actual_collisions": 0,
+        "obstacle_attempts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "boundary_attempts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": {
+          "vertex_pairs": [],
+          "swap_pairs": [],
+          "rejected_agents": []
+        },
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "makespan": 3,
+        "failure_reason": null
+      }
+    },
+    {
+      "name": "four_lanes",
+      "method": "astar",
+      "rows": 4,
+      "cols": 4,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "max_steps": 6,
+      "priority": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "planning_success": true,
+      "paths": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      ],
+      "failed_agent": null,
+      "failure_reason": null,
+      "expanded_nodes": 16,
+      "planning_time_seconds": 0.00022190000163391232,
+      "steps": [
+        {
+          "actions": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6666666666666666,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.3333333333333333,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.8333333333333334,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 1,
+            "arrival_steps": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "moves": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "total_moves": 4,
+            "path_cost": 4.0,
+            "episode_rewards": [
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.3333333333333333,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6666666666666666,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.6666666666666666,
+              0.0,
+              0.3333333333333333,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.6666666666666666,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 2,
+            "arrival_steps": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "moves": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "total_moves": 8,
+            "path_cost": 8.0,
+            "episode_rewards": [
+              -2.0,
+              -2.0,
+              -2.0,
+              -2.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.5,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.3333333333333333,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.5,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6666666666666666,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.5,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.5,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            199.0,
+            199.0,
+            199.0,
+            199.0
+          ],
+          "terminated": true,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 3,
+            "arrival_steps": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "moves": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "total_moves": 12,
+            "path_cost": 12.0,
+            "episode_rewards": [
+              197.0,
+              197.0,
+              197.0,
+              197.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": true,
+            "truncated": false,
+            "success": true,
+            "makespan": 3,
+            "failure_reason": null
+          }
+        }
+      ],
+      "reset": {
+        "observations": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.3333333333333333,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.6666666666666666,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "info": {
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "goals": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "seed": 0,
+          "observation_version": 2,
+          "elapsed_steps": 0,
+          "arrival_steps": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "moves": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "total_moves": 0,
+          "path_cost": 0.0,
+          "episode_rewards": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reward_components": [
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            }
+          ],
+          "conflict_attempts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "vertex_conflicts": 0,
+          "swap_conflicts": 0,
+          "actual_collisions": 0,
+          "obstacle_attempts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "boundary_attempts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "events": {
+            "vertex_pairs": [],
+            "swap_pairs": [],
+            "rejected_agents": []
+          },
+          "terminated": false,
+          "truncated": false,
+          "success": false,
+          "makespan": null,
+          "failure_reason": null
+        }
+      },
+      "final_info": {
+        "positions": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "goals": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "seed": 0,
+        "observation_version": 2,
+        "elapsed_steps": 3,
+        "arrival_steps": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "moves": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "total_moves": 12,
+        "path_cost": 12.0,
+        "episode_rewards": [
+          197.0,
+          197.0,
+          197.0,
+          197.0
+        ],
+        "reward_components": [
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          }
+        ],
+        "conflict_attempts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertex_conflicts": 0,
+        "swap_conflicts": 0,
+        "actual_collisions": 0,
+        "obstacle_attempts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "boundary_attempts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": {
+          "vertex_pairs": [],
+          "swap_pairs": [],
+          "rejected_agents": []
+        },
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "makespan": 3,
+        "failure_reason": null
+      }
+    },
+    {
+      "name": "blocked_goal",
+      "method": "bfs",
+      "rows": 1,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "max_steps": 8,
+      "priority": [
+        0,
+        1
+      ],
+      "planning_success": false,
+      "paths": null,
+      "failed_agent": 1,
+      "failure_reason": "no_reserved_path_within_horizon",
+      "expanded_nodes": 11,
+      "planning_time_seconds": 0.00011650001397356391,
+      "steps": []
+    },
+    {
+      "name": "blocked_goal",
+      "method": "dijkstra",
+      "rows": 1,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "max_steps": 8,
+      "priority": [
+        0,
+        1
+      ],
+      "planning_success": false,
+      "paths": null,
+      "failed_agent": 1,
+      "failure_reason": "no_reserved_path_within_horizon",
+      "expanded_nodes": 11,
+      "planning_time_seconds": 0.00011439999798312783,
+      "steps": []
+    },
+    {
+      "name": "blocked_goal",
+      "method": "astar",
+      "rows": 1,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "max_steps": 8,
+      "priority": [
+        0,
+        1
+      ],
+      "planning_success": false,
+      "paths": null,
+      "failed_agent": 1,
+      "failure_reason": "no_reserved_path_within_horizon",
+      "expanded_nodes": 11,
+      "planning_time_seconds": 0.00011610001092776656,
+      "steps": []
+    },
+    {
+      "name": "priority_default",
+      "method": "bfs",
+      "rows": 2,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "goals": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "max_steps": 8,
+      "priority": [
+        0,
+        1
+      ],
+      "planning_success": false,
+      "paths": null,
+      "failed_agent": 1,
+      "failure_reason": "no_reserved_path_within_horizon",
+      "expanded_nodes": 15,
+      "planning_time_seconds": 0.00015620002523064613,
+      "steps": []
+    },
+    {
+      "name": "priority_default",
+      "method": "dijkstra",
+      "rows": 2,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "goals": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "max_steps": 8,
+      "priority": [
+        0,
+        1
+      ],
+      "planning_success": false,
+      "paths": null,
+      "failed_agent": 1,
+      "failure_reason": "no_reserved_path_within_horizon",
+      "expanded_nodes": 15,
+      "planning_time_seconds": 0.00015520001761615276,
+      "steps": []
+    },
+    {
+      "name": "priority_default",
+      "method": "astar",
+      "rows": 2,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "goals": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "max_steps": 8,
+      "priority": [
+        0,
+        1
+      ],
+      "planning_success": false,
+      "paths": null,
+      "failed_agent": 1,
+      "failure_reason": "no_reserved_path_within_horizon",
+      "expanded_nodes": 8,
+      "planning_time_seconds": 9.689998114481568e-05,
+      "steps": []
+    },
+    {
+      "name": "priority_reverse",
+      "method": "bfs",
+      "rows": 2,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "goals": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "max_steps": 8,
+      "priority": [
+        1,
+        0
+      ],
+      "planning_success": true,
+      "paths": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "failed_agent": null,
+      "failure_reason": null,
+      "expanded_nodes": 15,
+      "planning_time_seconds": 0.00016340002184733748,
+      "steps": [
+        {
+          "actions": [
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              0.5,
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.875,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.875,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            99.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 1,
+            "arrival_steps": [
+              null,
+              1
+            ],
+            "moves": [
+              1,
+              1
+            ],
+            "total_moves": 2,
+            "path_cost": 2.0,
+            "episode_rewards": [
+              -1.0,
+              99.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            4
+          ],
+          "observations": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.75,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.75,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            0.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 2,
+            "arrival_steps": [
+              null,
+              1
+            ],
+            "moves": [
+              2,
+              1
+            ],
+            "total_moves": 3,
+            "path_cost": 3.0,
+            "episode_rewards": [
+              -2.0,
+              99.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": 0.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            1,
+            4
+          ],
+          "observations": [
+            [
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.625,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.625,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "rewards": [
+            199.0,
+            100.0
+          ],
+          "terminated": true,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 3,
+            "arrival_steps": [
+              3,
+              1
+            ],
+            "moves": [
+              3,
+              1
+            ],
+            "total_moves": 4,
+            "path_cost": 4.0,
+            "episode_rewards": [
+              197.0,
+              199.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": 0.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 100.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": true,
+            "truncated": false,
+            "success": true,
+            "makespan": 3,
+            "failure_reason": null
+          }
+        }
+      ],
+      "reset": {
+        "observations": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "info": {
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "goals": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "seed": 0,
+          "observation_version": 2,
+          "elapsed_steps": 0,
+          "arrival_steps": [
+            null,
+            null
+          ],
+          "moves": [
+            0,
+            0
+          ],
+          "total_moves": 0,
+          "path_cost": 0.0,
+          "episode_rewards": [
+            0.0,
+            0.0
+          ],
+          "reward_components": [
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            }
+          ],
+          "conflict_attempts": [
+            0,
+            0
+          ],
+          "vertex_conflicts": 0,
+          "swap_conflicts": 0,
+          "actual_collisions": 0,
+          "obstacle_attempts": [
+            0,
+            0
+          ],
+          "boundary_attempts": [
+            0,
+            0
+          ],
+          "events": {
+            "vertex_pairs": [],
+            "swap_pairs": [],
+            "rejected_agents": []
+          },
+          "terminated": false,
+          "truncated": false,
+          "success": false,
+          "makespan": null,
+          "failure_reason": null
+        }
+      },
+      "final_info": {
+        "positions": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "goals": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "seed": 0,
+        "observation_version": 2,
+        "elapsed_steps": 3,
+        "arrival_steps": [
+          3,
+          1
+        ],
+        "moves": [
+          3,
+          1
+        ],
+        "total_moves": 4,
+        "path_cost": 4.0,
+        "episode_rewards": [
+          197.0,
+          199.0
+        ],
+        "reward_components": [
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": 0.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 0.0,
+            "team": 100.0
+          }
+        ],
+        "conflict_attempts": [
+          0,
+          0
+        ],
+        "vertex_conflicts": 0,
+        "swap_conflicts": 0,
+        "actual_collisions": 0,
+        "obstacle_attempts": [
+          0,
+          0
+        ],
+        "boundary_attempts": [
+          0,
+          0
+        ],
+        "events": {
+          "vertex_pairs": [],
+          "swap_pairs": [],
+          "rejected_agents": []
+        },
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "makespan": 3,
+        "failure_reason": null
+      }
+    },
+    {
+      "name": "priority_reverse",
+      "method": "dijkstra",
+      "rows": 2,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "goals": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "max_steps": 8,
+      "priority": [
+        1,
+        0
+      ],
+      "planning_success": true,
+      "paths": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "failed_agent": null,
+      "failure_reason": null,
+      "expanded_nodes": 15,
+      "planning_time_seconds": 0.0001803000341169536,
+      "steps": [
+        {
+          "actions": [
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              0.5,
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.875,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.875,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            99.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 1,
+            "arrival_steps": [
+              null,
+              1
+            ],
+            "moves": [
+              1,
+              1
+            ],
+            "total_moves": 2,
+            "path_cost": 2.0,
+            "episode_rewards": [
+              -1.0,
+              99.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            4
+          ],
+          "observations": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.75,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.75,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            0.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 2,
+            "arrival_steps": [
+              null,
+              1
+            ],
+            "moves": [
+              2,
+              1
+            ],
+            "total_moves": 3,
+            "path_cost": 3.0,
+            "episode_rewards": [
+              -2.0,
+              99.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": 0.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            1,
+            4
+          ],
+          "observations": [
+            [
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.625,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.625,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "rewards": [
+            199.0,
+            100.0
+          ],
+          "terminated": true,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 3,
+            "arrival_steps": [
+              3,
+              1
+            ],
+            "moves": [
+              3,
+              1
+            ],
+            "total_moves": 4,
+            "path_cost": 4.0,
+            "episode_rewards": [
+              197.0,
+              199.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": 0.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 100.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": true,
+            "truncated": false,
+            "success": true,
+            "makespan": 3,
+            "failure_reason": null
+          }
+        }
+      ],
+      "reset": {
+        "observations": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "info": {
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "goals": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "seed": 0,
+          "observation_version": 2,
+          "elapsed_steps": 0,
+          "arrival_steps": [
+            null,
+            null
+          ],
+          "moves": [
+            0,
+            0
+          ],
+          "total_moves": 0,
+          "path_cost": 0.0,
+          "episode_rewards": [
+            0.0,
+            0.0
+          ],
+          "reward_components": [
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            }
+          ],
+          "conflict_attempts": [
+            0,
+            0
+          ],
+          "vertex_conflicts": 0,
+          "swap_conflicts": 0,
+          "actual_collisions": 0,
+          "obstacle_attempts": [
+            0,
+            0
+          ],
+          "boundary_attempts": [
+            0,
+            0
+          ],
+          "events": {
+            "vertex_pairs": [],
+            "swap_pairs": [],
+            "rejected_agents": []
+          },
+          "terminated": false,
+          "truncated": false,
+          "success": false,
+          "makespan": null,
+          "failure_reason": null
+        }
+      },
+      "final_info": {
+        "positions": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "goals": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "seed": 0,
+        "observation_version": 2,
+        "elapsed_steps": 3,
+        "arrival_steps": [
+          3,
+          1
+        ],
+        "moves": [
+          3,
+          1
+        ],
+        "total_moves": 4,
+        "path_cost": 4.0,
+        "episode_rewards": [
+          197.0,
+          199.0
+        ],
+        "reward_components": [
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": 0.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 0.0,
+            "team": 100.0
+          }
+        ],
+        "conflict_attempts": [
+          0,
+          0
+        ],
+        "vertex_conflicts": 0,
+        "swap_conflicts": 0,
+        "actual_collisions": 0,
+        "obstacle_attempts": [
+          0,
+          0
+        ],
+        "boundary_attempts": [
+          0,
+          0
+        ],
+        "events": {
+          "vertex_pairs": [],
+          "swap_pairs": [],
+          "rejected_agents": []
+        },
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "makespan": 3,
+        "failure_reason": null
+      }
+    },
+    {
+      "name": "priority_reverse",
+      "method": "astar",
+      "rows": 2,
+      "cols": 3,
+      "starts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "goals": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "max_steps": 8,
+      "priority": [
+        1,
+        0
+      ],
+      "planning_success": true,
+      "paths": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "failed_agent": null,
+      "failure_reason": null,
+      "expanded_nodes": 7,
+      "planning_time_seconds": 0.00011350004933774471,
+      "steps": [
+        {
+          "actions": [
+            3,
+            3
+          ],
+          "observations": [
+            [
+              0.0,
+              0.5,
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.875,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.875,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            99.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 1,
+            "arrival_steps": [
+              null,
+              1
+            ],
+            "moves": [
+              1,
+              1
+            ],
+            "total_moves": 2,
+            "path_cost": 2.0,
+            "episode_rewards": [
+              -1.0,
+              99.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            3,
+            4
+          ],
+          "observations": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.75,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.75,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            0.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 2,
+            "arrival_steps": [
+              null,
+              1
+            ],
+            "moves": [
+              2,
+              1
+            ],
+            "total_moves": 3,
+            "path_cost": 3.0,
+            "episode_rewards": [
+              -2.0,
+              99.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": 0.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            1,
+            4
+          ],
+          "observations": [
+            [
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.625,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.625,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "rewards": [
+            199.0,
+            100.0
+          ],
+          "terminated": true,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "goals": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 3,
+            "arrival_steps": [
+              3,
+              1
+            ],
+            "moves": [
+              3,
+              1
+            ],
+            "total_moves": 4,
+            "path_cost": 4.0,
+            "episode_rewards": [
+              197.0,
+              199.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 100.0,
+                "team": 100.0
+              },
+              {
+                "step": 0.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 100.0
+              }
+            ],
+            "conflict_attempts": [
+              0,
+              0
+            ],
+            "vertex_conflicts": 0,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": true,
+            "truncated": false,
+            "success": true,
+            "makespan": 3,
+            "failure_reason": null
+          }
+        }
+      ],
+      "reset": {
+        "observations": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "info": {
+          "positions": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "goals": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "seed": 0,
+          "observation_version": 2,
+          "elapsed_steps": 0,
+          "arrival_steps": [
+            null,
+            null
+          ],
+          "moves": [
+            0,
+            0
+          ],
+          "total_moves": 0,
+          "path_cost": 0.0,
+          "episode_rewards": [
+            0.0,
+            0.0
+          ],
+          "reward_components": [
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            }
+          ],
+          "conflict_attempts": [
+            0,
+            0
+          ],
+          "vertex_conflicts": 0,
+          "swap_conflicts": 0,
+          "actual_collisions": 0,
+          "obstacle_attempts": [
+            0,
+            0
+          ],
+          "boundary_attempts": [
+            0,
+            0
+          ],
+          "events": {
+            "vertex_pairs": [],
+            "swap_pairs": [],
+            "rejected_agents": []
+          },
+          "terminated": false,
+          "truncated": false,
+          "success": false,
+          "makespan": null,
+          "failure_reason": null
+        }
+      },
+      "final_info": {
+        "positions": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "goals": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "seed": 0,
+        "observation_version": 2,
+        "elapsed_steps": 3,
+        "arrival_steps": [
+          3,
+          1
+        ],
+        "moves": [
+          3,
+          1
+        ],
+        "total_moves": 4,
+        "path_cost": 4.0,
+        "episode_rewards": [
+          197.0,
+          199.0
+        ],
+        "reward_components": [
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 100.0,
+            "team": 100.0
+          },
+          {
+            "step": 0.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 0.0,
+            "team": 100.0
+          }
+        ],
+        "conflict_attempts": [
+          0,
+          0
+        ],
+        "vertex_conflicts": 0,
+        "swap_conflicts": 0,
+        "actual_collisions": 0,
+        "obstacle_attempts": [
+          0,
+          0
+        ],
+        "boundary_attempts": [
+          0,
+          0
+        ],
+        "events": {
+          "vertex_pairs": [],
+          "swap_pairs": [],
+          "rejected_agents": []
+        },
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "makespan": 3,
+        "failure_reason": null
+      }
+    },
+    {
+      "name": "conflict_then_timeout",
+      "method": "script",
+      "rows": 2,
+      "cols": 3,
+      "starts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "max_steps": 2,
+      "reset": {
+        "observations": [
+          [
+            1.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "info": {
+          "positions": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "goals": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "seed": 0,
+          "observation_version": 2,
+          "elapsed_steps": 0,
+          "arrival_steps": [
+            null,
+            null
+          ],
+          "moves": [
+            0,
+            0
+          ],
+          "total_moves": 0,
+          "path_cost": 0.0,
+          "episode_rewards": [
+            0.0,
+            0.0
+          ],
+          "reward_components": [
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            },
+            {
+              "step": 0.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "conflict": 0.0,
+              "goal": 0.0,
+              "team": 0.0
+            }
+          ],
+          "conflict_attempts": [
+            0,
+            0
+          ],
+          "vertex_conflicts": 0,
+          "swap_conflicts": 0,
+          "actual_collisions": 0,
+          "obstacle_attempts": [
+            0,
+            0
+          ],
+          "boundary_attempts": [
+            0,
+            0
+          ],
+          "events": {
+            "vertex_pairs": [],
+            "swap_pairs": [],
+            "rejected_agents": []
+          },
+          "terminated": false,
+          "truncated": false,
+          "success": false,
+          "makespan": null,
+          "failure_reason": null
+        }
+      },
+      "steps": [
+        {
+          "actions": [
+            3,
+            2
+          ],
+          "observations": [
+            [
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -26.0,
+            -26.0
+          ],
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "positions": [
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 1,
+            "arrival_steps": [
+              null,
+              null
+            ],
+            "moves": [
+              0,
+              0
+            ],
+            "total_moves": 0,
+            "path_cost": 0.0,
+            "episode_rewards": [
+              -26.0,
+              -26.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": -25.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": -25.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              1,
+              1
+            ],
+            "vertex_conflicts": 1,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [
+                [
+                  0,
+                  1
+                ]
+              ],
+              "swap_pairs": [],
+              "rejected_agents": [
+                0,
+                1
+              ]
+            },
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "makespan": null,
+            "failure_reason": null
+          }
+        },
+        {
+          "actions": [
+            4,
+            4
+          ],
+          "observations": [
+            [
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "rewards": [
+            -1.0,
+            -1.0
+          ],
+          "terminated": false,
+          "truncated": true,
+          "info": {
+            "positions": [
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "goals": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "seed": 0,
+            "observation_version": 2,
+            "elapsed_steps": 2,
+            "arrival_steps": [
+              null,
+              null
+            ],
+            "moves": [
+              0,
+              0
+            ],
+            "total_moves": 0,
+            "path_cost": 0.0,
+            "episode_rewards": [
+              -27.0,
+              -27.0
+            ],
+            "reward_components": [
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              },
+              {
+                "step": -1.0,
+                "obstacle": 0.0,
+                "boundary": 0.0,
+                "conflict": 0.0,
+                "goal": 0.0,
+                "team": 0.0
+              }
+            ],
+            "conflict_attempts": [
+              1,
+              1
+            ],
+            "vertex_conflicts": 1,
+            "swap_conflicts": 0,
+            "actual_collisions": 0,
+            "obstacle_attempts": [
+              0,
+              0
+            ],
+            "boundary_attempts": [
+              0,
+              0
+            ],
+            "events": {
+              "vertex_pairs": [],
+              "swap_pairs": [],
+              "rejected_agents": []
+            },
+            "terminated": false,
+            "truncated": true,
+            "success": false,
+            "makespan": null,
+            "failure_reason": "time_limit"
+          }
+        }
+      ],
+      "final_info": {
+        "positions": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "goals": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "seed": 0,
+        "observation_version": 2,
+        "elapsed_steps": 2,
+        "arrival_steps": [
+          null,
+          null
+        ],
+        "moves": [
+          0,
+          0
+        ],
+        "total_moves": 0,
+        "path_cost": 0.0,
+        "episode_rewards": [
+          -27.0,
+          -27.0
+        ],
+        "reward_components": [
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 0.0,
+            "team": 0.0
+          },
+          {
+            "step": -1.0,
+            "obstacle": 0.0,
+            "boundary": 0.0,
+            "conflict": 0.0,
+            "goal": 0.0,
+            "team": 0.0
+          }
+        ],
+        "conflict_attempts": [
+          1,
+          1
+        ],
+        "vertex_conflicts": 1,
+        "swap_conflicts": 0,
+        "actual_collisions": 0,
+        "obstacle_attempts": [
+          0,
+          0
+        ],
+        "boundary_attempts": [
+          0,
+          0
+        ],
+        "events": {
+          "vertex_pairs": [],
+          "swap_pairs": [],
+          "rejected_agents": []
+        },
+        "terminated": false,
+        "truncated": true,
+        "success": false,
+        "makespan": null,
+        "failure_reason": "time_limit"
+      }
+    }
+  ]
+}

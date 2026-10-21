@@ -1,0 +1,41 @@
+{
+  "resource_type": "Publication / Preprint",
+  "title": "A Comparative Study of Deep Q-Networks and Traditional Algorithms for Multi-Agent Shortest-Path Search in Dynamic Graphs",
+  "creators": [
+    {
+      "type": "Person",
+      "given_name": "Madhav",
+      "family_name": "Joshi",
+      "affiliation": "Marwadi University",
+      "programme": "Artificial Intelligence & Machine Learning",
+      "contact_email": "madhav.joshi132389@marwadiuniversity.ac.in",
+      "orcid": null
+    }
+  ],
+  "description": "This study compares prioritized breadth-first search, Dijkstra and A* with solo-trained and shared-policy deep Q-networks for navigation on static and changing unit-cost grids. Ten policies from five training seeds were frozen after static 5×5 training and evaluated without learning on 120 new geometries spanning 5×5, 10×10 and 15×15 sizes, one/two/four agents and two wall probabilities. The final protocol produced 15,120 unique evaluation episodes; three fresh timing rollouts per episode were not treated as extra outcome samples. Across all conditions, replanning A* completed 642/720 episodes (89.17%), shared DQN 799/3600 (22.19%), and solo DQN 870/3600 (24.17%). All recorded first trajectories passed replay auditing, and actual collisions were zero under the common rejection rules. Success-conditioned paths, matched comparisons and descriptive variation across model seeds are reported alongside failures. The findings apply to fixed small-map-trained policies and current-map prioritized planners under this protocol; they do not establish a universal algorithm ranking or a general reinforcement-learning adaptation advantage.",
+  "notes": "Research preprint; not peer reviewed. Evaluates frozen static-small-map-trained policies under the stated protocol; results do not establish universal algorithm superiority.",
+  "keywords": [
+    "graph search",
+    "deep reinforcement learning",
+    "deep Q-network",
+    "multi-agent pathfinding",
+    "dynamic graphs",
+    "prioritized planning",
+    "policy transfer",
+    "reproducibility"
+  ],
+  "language": "English",
+  "version": "1.0",
+  "publication_date": "Use the actual first public release date",
+  "doi": "Reserve a new Zenodo DOI if this preprint has no DOI already",
+  "visibility_recommendation": "Public",
+  "license_recommendation": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "license_applied": false,
+  "main_file": "final submission/zenodo/Madhav_Joshi_Graph_Search_Preprint_v1.0.pdf",
+  "optional_editable_file": "final submission/zenodo/Madhav_Joshi_Graph_Search_Preprint_v1.0.docx",
+  "funding": null,
+  "related_identifiers": [],
+  "journal": null,
+  "conference": null,
+  "published_on_zenodo": false
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "training",
+  "episodes": 60,
+  "optimizer_updates": 178,
+  "validation_records": 6,
+  "matched_agent_tasks_per_seed": 40,
+  "source_snapshots_match": true,
+  "training_actions_replayed": true,
+  "no_test_maps_in_training": true,
+  "final_reload_matches": true
+}

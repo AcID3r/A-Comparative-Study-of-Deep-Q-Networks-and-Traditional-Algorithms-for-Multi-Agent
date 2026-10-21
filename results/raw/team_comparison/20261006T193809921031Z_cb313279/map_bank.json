@@ -1,0 +1,6157 @@
+{
+  "rows": 5,
+  "cols": 5,
+  "density_requested": 0.1,
+  "partitions": {
+    "train": [
+      {
+        "map_id": "55b748840973e82da87df8b649355b8cbade48ee1419db22b6c2a9e54e76cea3",
+        "map_seed": 4002,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      {
+        "map_id": "dbc1b315209deab3316b16950ff0f842aa88fe4d5b9bfeaf971e24b9eade4082",
+        "map_seed": 4003,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "99918f4e14a72466f629459b8fe33a8ab019da0e3b1048f30e81bc0431b97786",
+        "map_seed": 4004,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "9a933cb5110bf1b29bb72982ae4937a583baa513349c529bfc9811ffb7c8a305",
+        "map_seed": 4005,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "b7b289a3da306334edf3e75b804c0ec5eae2cca435739892959eb9ea1c2afd34",
+        "map_seed": 4006,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "d759442be1f1bd2539e3e7b3f0b41f891ceac7272de0e52c857fd3346ae7bd1e",
+        "map_seed": 4007,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "3bdc90be915c8a195b7410c663c90f497a618ce5119e9e71768c2a4def75d1cc",
+        "map_seed": 4009,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "58bc039c7a8db95e3cf85b19dab1d2a50b70f91cd0995d5dc26cf5de610e7335",
+        "map_seed": 4011,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "ced3fe32cb933ebdfe247b35d9a3f02c851eb1061df1b71fa1e31c00cb00bcc1",
+        "map_seed": 4014,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "e85910e12c01a40857c71dc12ec035e6b6ca0283aa26e00143bd9bb136f46dce",
+        "map_seed": 4015,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "9ae816a30d53039ccc705959ca7e9a6bc4d5fce40c97c04ebe2cc5c657eb6f15",
+        "map_seed": 4016,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "b46260541b72ca8328b95f6d1840a54ed21c692eaf287ce84897fdb361124a8a",
+        "map_seed": 4017,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "467b7945719b93192726cad6f985b04e501da26935132ec1283309123347f965",
+        "map_seed": 4020,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "b91e361576c66d97b5af4e7acc73b25e1c97bbb73562f46803e89fec859f6db0",
+        "map_seed": 4021,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "e52b764c9699b5056ed69cef7c45199b661311673acca7f48778d54189495bd9",
+        "map_seed": 4023,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "0cb47a9d349172d3291a7ab51fe1bd865ecfd0c3b6a3028608878f999a97d373",
+        "map_seed": 4024,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "0591b7582fcd56c1ab790a79b493e8efd2c5d860de85d2130a41dbef50babfc9",
+        "map_seed": 4025,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "235c24bba5a8eac1ac550e8ef841ebc8e709daaddb3f77a1de36893b681abbc1",
+        "map_seed": 4027,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "3f993c121959465290263e28bc9bec429d10551086093ba2195d11804b5895db",
+        "map_seed": 4029,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "448bd7c071f309b2b1483d5f88330b76cad22aee1974dbc6712bdbb0b197d439",
+        "map_seed": 4030,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "eccb3cd70ddb9b578fa9b0d5d8fabeb94ce1f37aef9434edef34b41fb11e288f",
+        "map_seed": 4032,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            4,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "5f1e8b2678f3b6627713db2620a2d416ce18921ebec1e4eca349fd6e3362731c",
+        "map_seed": 4033,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "dd4bcb3d457c6e4d7cd2a5af6752f588370c394eb88b4c9e913ede2309a7c73f",
+        "map_seed": 4034,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            4,
+            2
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "7d60183e02291f70d3bf889bc941bd025686b5b859fe6dcc17f7f81a42850a63",
+        "map_seed": 4036,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "8762f7cfe5b03305ce2f9eee51332f13fa37796bdffe20106d88a1c867f7c2f7",
+        "map_seed": 4037,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "bee48154884ebc7ceee2fb6adac0a5c2b9a34a98054a2652db23225fcd7fc605",
+        "map_seed": 4038,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "e098f535e37289229469fe052e1e585c5aebd0c073a632d84fa739f22562709d",
+        "map_seed": 4040,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "4ac83819e724be28fc2567588967d15ef88ee6577788fb947a794887d58bfd48",
+        "map_seed": 4042,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "3b2c7b2781f1c16ada45ede8ee3d0e9d9381f576bb323934fca19eae77240d78",
+        "map_seed": 4043,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "2d2366d58cff713fb9bf9006d7092e2eae1cfab8816076d7dd813264133108f2",
+        "map_seed": 4045,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "68208d3363b2b46601dd15e3a4e7a576131c6768b3c64489fa2dbb154dd1a810",
+        "map_seed": 4046,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "ab8f52dbb125bcab3f54c1b569b7eb5d6e793db5ac7eeb8186de6aaa0724efd1",
+        "map_seed": 4047,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "98fceff08e7e1ee7f87c235171cd332a054b5cd8c7351419351fd8ae7da57636",
+        "map_seed": 4048,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "3f532ab5d63ac05452986d23d32e262439a874be109555197360ebdf58e691f5",
+        "map_seed": 4049,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "d4e9c8c7eb41fca9b7920a640af605cc403cca48d10579bf7e86312d09ec9321",
+        "map_seed": 4050,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "487b6b4df9f5a05fb52bc9cfbbc065a204700484df6d3f93fc731b3596325008",
+        "map_seed": 4053,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "8e69a40649a305c0c574bd2f6a20a8bb7ed17a68e89cd36b13ab29d4d65d1981",
+        "map_seed": 4055,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "7f3af0155b41c1cf77c169d4f6dcd28262b472b831ac2f470c4649d34c091d5f",
+        "map_seed": 4056,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "15f9dbee378130439365202a564aebc04366f3f21149ad40fb9bc7dfa8845044",
+        "map_seed": 4057,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": false,
+        "initial_optimal_moves": null,
+        "team_starts": [
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          false,
+          true
+        ]
+      },
+      {
+        "map_id": "ada92c0da6b9e548d37556669b24aff1be03bbe06708c030fc910ddc7b48a9d2",
+        "map_seed": 4058,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "f214d0fc99239f5c48a5f3585137ac3dc7087a0d13148ad8edf1944a5bc5519f",
+        "map_seed": 4059,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "e5f20b9d58f3412047b2badc876eb3493520e647976e3e361aca0c40ca7d7ebc",
+        "map_seed": 4061,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "28c914d9521eb77e12cd188355ec17276626a189fdf1dca5a3fb03f548d433a4",
+        "map_seed": 4062,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "378a6c4922c1f0d87b336a514d8134a5b5e66489e8922a6c1afd9fdac028b522",
+        "map_seed": 4063,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "492d9ac35aa8d36050c433f1b71f40127e4ceb6ec4b63135479750dcdd2400df",
+        "map_seed": 4064,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "5d2cf79ffb09c043f49357b364969e54b2817587a836cdc4ff3a04969c9458e2",
+        "map_seed": 4065,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "7ac0beb9dd586ce8937d00302734b13a571aeb2fd932ce98c2011fbb6f70519f",
+        "map_seed": 4066,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "8e59d5bf8e6145ad7de59f5328303d4c3bf64b67301eaa75e401b56c8c6959cc",
+        "map_seed": 4069,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "025c41a2719b6eac12ed0402330fc0ad0545b606e649b40bc2a2907acbaac1d3",
+        "map_seed": 4071,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "c4b7bfc11c03f3995242add70671fab5707d85e3ec85e34eee68477e1d52c7e1",
+        "map_seed": 4072,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "validation": [
+      {
+        "map_id": "f718e86f5ac9cc2317ac9645d1eb94adc4e960d9cbd58e83b9ec7f7334be2689",
+        "map_seed": 5002,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "cb7c599fa01bebd965dc94302de94e78c33bc36eb893e1d266b4b95a56f4c06d",
+        "map_seed": 5004,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "1300a1b4528e293309163db3b7c4b4c3822288e14c2b4f1582cb11e7058a00b4",
+        "map_seed": 5005,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "7e8c247854ede0dc57ce0784f0f604f27e795ad3ae37b2d5204f56a019ea54b7",
+        "map_seed": 5006,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "a3386a549993e75118b2e603df39e8d9e356db65b349158a67e0f08d7c02c35b",
+        "map_seed": 5008,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "fb4e42da65b5c28b7256f45bc363ec38df92841b9b979ddd36342d3a449e6436",
+        "map_seed": 5009,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "537d844616d4adbe32d397bcb5037f52f2e798250b086819af9f7585d76a05d5",
+        "map_seed": 5010,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "771f525a8e2c006a69ded1d31847eb7419013a8b173ef02f8ec21ae8c9801d71",
+        "map_seed": 5011,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "11619b35f0ccd24b33f6190ddb2d3a96789c1d3f95cfd4014802858fefaae488",
+        "map_seed": 5012,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "6877be2bc627215b740ad2bb93c16628d7baad3d0103bb7bbf8461eba61855a3",
+        "map_seed": 5015,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "test": [
+      {
+        "map_id": "999ae25f46150d898d5b430c7de4f6f7cb115189fc1db90a490c2d68b6ba88b5",
+        "map_seed": 6002,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "9b37e67e6a4604812e01fe72dc8a3cc35694d366ad65bdf973ef962025195efe",
+        "map_seed": 6003,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "5fdc35b351510f4e8d79d1edf8691e69b92b61311ce3688da364025f4d27e817",
+        "map_seed": 6005,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "e53465c8a3abe9e35ebe514025f373344dd19ad7c383f0dd6b07715dbe1105a7",
+        "map_seed": 6006,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "38016204e59fc7056c6114f3a76e887ffe32b5e05f0de1714ef388e7f94319cd",
+        "map_seed": 6013,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "4869302466cc3f1304ca60f8c7cc9c7d96e2d7bdbf0b1552398af0b8e5a3a198",
+        "map_seed": 6015,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "72725bc32276f055e0a28467229bb3bf1f4263ec6b9694255326c01e836dd98f",
+        "map_seed": 6016,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "c3ea678613d4433ce6476174ed7c9a1530f2945e16269af1d234f2a780edb8af",
+        "map_seed": 6019,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "f63a4128ce116070668d55cb96b4faa3504018ec410dcf79838445c2957efc90",
+        "map_seed": 6020,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "c82c16bdda2b34eb6e79cd5bbcb0f3a4b53c985f010468c99c704c19c31dadec",
+        "map_seed": 6021,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "4c60c992c2847019a480c19c511ff11891e9395603c9d8e79c4c00022b1c4e64",
+        "map_seed": 6022,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "ae87053e60bd69de15e15aaa70268901170c268f1873662fac1af8e9a83a0f33",
+        "map_seed": 6023,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "0c351bbed94afe02bcbfd0db5faf712540cc146295eeab47008db5d720c09251",
+        "map_seed": 6025,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "7c91f5e0b8045f20eb297eb5721d819c7802109985b722420d4b061c9baba28a",
+        "map_seed": 6026,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "b179a5e0eb097141b4e06a2df390f6cdbb88820ba140b7956b7b68adb5b6f3b5",
+        "map_seed": 6027,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "0eb621d7c5c3c160b58e2453f7becf0352d7caacf2e834840d179687a463232b",
+        "map_seed": 6029,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "58801e4ca6e030db227bb740eab69f6f300d2670214b0cb685cba11cfa63cba2",
+        "map_seed": 6030,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "team_goals": [
+          [
+            4,
+            2
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "bc8d4284eeac648029e1a14fdf4127fbe0c39661f2c4d963a7310a9d681a23d9",
+        "map_seed": 6031,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "9eccb8f8bc86f6bec0cb3cd24aabe76781724d1b6fb9f909dc3b6f9c6f970f00",
+        "map_seed": 6033,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "team_goals": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "map_id": "6164cf5baf5a3b3b6c25328a0770aaee2ca0fd84ab89fcdfad4efedca3e467f2",
+        "map_seed": 6035,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8,
+        "team_starts": [
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "team_goals": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "individual_reachable": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    ]
+  },
+  "rejected_candidates": [
+    {
+      "partition": "train",
+      "seed": 4000,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4001,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4008,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4010,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4012,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4013,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4018,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4019,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4022,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4026,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4028,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4031,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4035,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4039,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4041,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4044,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4051,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4052,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4054,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4060,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4067,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4068,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 4070,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "validation",
+      "seed": 5000,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "validation",
+      "seed": 5001,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "validation",
+      "seed": 5003,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "validation",
+      "seed": 5007,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "validation",
+      "seed": 5013,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "validation",
+      "seed": 5014,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6000,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6001,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6004,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6007,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6008,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6009,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6010,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6011,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6012,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6014,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6017,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6018,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6024,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6028,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6032,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 6034,
+      "reason": "duplicate_geometry"
+    }
+  ],
+  "reachability_filter": "none; unreachable maps retained",
+  "excluded_ids": [
+    "002d84c62d6eda2bf7f93dce57034eab8410e372c2126868ddd90fa1d5df408f",
+    "009fd632f33af3a2a62b3e0db4e5b1c89131e436f8501d46d3694b72bb5441af",
+    "00b80174313ea98fd3fdf043d674d951814f26fc75fc770d745392f945c341a8",
+    "00ccee8737af39948d7907af75c13dbe2b77c161174fb597ab2560c1de6337dd",
+    "0286eeff2148924433ddeb6eda777b0804b750bcc47cba045a493a82ab814d02",
+    "02b84991838e3cb44e9a4d9e19a547403676fc7070a1a69adb7c34e4e244965e",
+    "03b0eaa519ee77845d47d30527fedc58d9f9b1b52b0d8ac2478ca5265809d302",
+    "056198afabca8f2a0715aa8c95e6b19bbd15f9122c6649baefef947f8655daf9",
+    "057a4b1899cfc5065c44093235497524a3af61b6a330ea4506f87fa1a7fd612a",
+    "071b83eaf8274dc18521503f5291a14f3a006a5fc00515320428da0cd353f30c",
+    "09256af39a75312a4d00f8fff7c9612e1e17adef5cd8b868c9bb9b09c0062feb",
+    "09265f8a9b774a4c6cd50ff690a48ce48acc9aed4e67d0f8bbaccb869360a890",
+    "09329dc9e994f4bf0fbb211e0cdb8399d4bee5a5a56c9a3b2e8fc1285f5844ea",
+    "093863107441efaff450fdb9c7023ed4bde2eaf0113fef70e1a2bd7435a64553",
+    "10747329c52f42578d5578b51dc9727bdc7aa4326e44c81899af786fb507f34a",
+    "1271e3b1f91b2f6fdef451118cec8aef5c57c89acb78fd41c06a76c4a2287f2c",
+    "13bafd715314e25f67263056947494261d01e9f520cb0395a3fa73a2290b950f",
+    "15659bfd950d433606dc21f4e9abd6d51fdd4aa11a0dea7279a47279bc74d7c3",
+    "19f6e0ee7ce7bc6096ca13ab1b13416c84958214ded89e6bd8ca737da5b3d156",
+    "1af16733f21984315fb6712f07130ac1abb1e9341baf19988117b588576bbfaa",
+    "1b74a5da26f65b131f880c0763d86b4d0c3785ac5aac48bb5dcccb09319781a6",
+    "1b7817eaec6cd97776430c0e1d0461a3bff02d7ccefc6b9fe408cbfe15f68069",
+    "1cfeef96d81227aa5cb69815e53fc8f10eba9c93bda4c419d97bb761b72a3736",
+    "1d725d4a77042644e0eb871db9c103024e634d21cfee2f0871afaa284b37b23a",
+    "2100f3ed839b781f4c948a76f93a20f5e2717122100c4a7cc3d03a0f5134cedf",
+    "2102008a4e31b832fba0bcf812184323fa61cae9bde7db9f3b2f44013f68fca9",
+    "22e75a6411d735538d125f817013c7b6368b9929ccd965f3d597d0f284d440db",
+    "236c3a1557b6b8bcd6279fb3a1b10012c1fced9ec0957307f57ed5513acc5e9c",
+    "2603a8e64cbef3a68c679000152cf9ec07042092df758f0a24d9dbd76b0e8f89",
+    "269aba913490554af5ab061d3eb885154d7d6f4499d788c34ea832897f02e58b",
+    "2756be43b2d5846301d3df76b7a98267b8bbb7766647a046464f3a123b9de700",
+    "2afac8d426d60e72e73b4f83ff74bf03a4bbd33c1c750d0ea1fd92cb48cf59a8",
+    "2bead673f7ec3fc0d24931ecc94bcf589dd1ed1bc0cf68a74369d4ea86f3e696",
+    "30f90088a8e85bf26de759e40fcd2db43bc1399969e4719e21cecac277b2d340",
+    "31079a76b91be0a200b0981255b96b6654960c62b3c84f5158137ca6f9737208",
+    "33fac5511a2d349f5f7b54fc397729255dcf05094461faafa023a67fbfbf56ef",
+    "3a689ecc3b1637f29d4e8a436dfbf7c72a7793eb6c1f888398c4d1e7c1f74f1a",
+    "3bbb0698bbe8d627fd1ab3a4f33fc3930b7c499a42842086ceebe38b9c386255",
+    "3e1d367dc2e06039f570d60b4aab27f115c459465a644fada3beb4b47a9e1e41",
+    "4128b61e53663078d34dfee7d5510f0e0f180a1a0885c9f8749d20e4a9795089",
+    "415264780e053fb26951bd16e85afa67d7c2617d9e8c793cda2801343e9279e6",
+    "41c6ce22e8fd9f532d5a2b361ec0bcbf071f377f50a9d2e9d370545d1492bda6",
+    "41ec8a3b27aa18c6b6c86e5ce9a218eaa062dfd05bb2292bf3f998d8ab2583cc",
+    "429baf7a27aa5be11996728c0ef8b72414d59d4a15a468b5c0ed42c44b75aa91",
+    "42a05216dfbf557162409a961e4ebc36b2ab1b1a187c4208d8a941958ab80817",
+    "42ecabeed3c933720ee1e662910a7e0594e69a7933dcdb09bc9ee1e324e67624",
+    "4414b8e0facb9a446373548d09098bcfcd9e41531eee2b8bfaaf23e36472cd65",
+    "463250a35bd192ee9ccf6adf0121d8600895bbcfe22ab989713c55290538f663",
+    "46b0c083feb251ce99e1b2338242d75f3ac0d0b617f4a8ff272a3042739206b3",
+    "48543258453ebbd334303f53459cbc18b3d8451b201ebdaf7e766a3f90c6637e",
+    "4864c4a748c3955b54e3bcc01ba753771a15da4c00bfed413316143367ce1b20",
+    "48acbfa12a540be14089b52d9505ff89daef7dab94d8ddeb90c6b486e700612b",
+    "48b0737d3a05f180a8a4621505af746bb0dfacaa680afd0a1d0c2a604363abce",
+    "4b3a01d69bba33409c804bf5d05652057345d8b25994f4517953c5cfa44bb441",
+    "4d3a5c30ebdd403f3fd40019dbd953345dd222c9220ffd6872350644dd00fbaa",
+    "4ed03af264f0c67f695434f3b0efd2ee3595fc108695baf236d9ce604fb3d5b0",
+    "4fa615d479bf92d210c28d8ab825b28d361409315c1ea1bfe28798e79c9f8d1a",
+    "51ee05797888eb863ab97e68739c841bb9f728e383461ee98bd35097b2e66907",
+    "5355df9220cd4fa413fcb8bc9242d3712276e032546e66e58c45fa9d6f101e17",
+    "543a715ef65cb40a05598a2e0bcf5a3b67a79069918e5587e0cdbf10a26836d2",
+    "56c43c12056709697200575c1724267b6a8ffd99f4709ff9c0b38b42d7fae39d",
+    "5704342a4b95877a4597aa64b06df6022d7d17a3695e82d8e247fdc40600bdd9",
+    "5b426cfcc4c5165936587057a2cbf4923dca4ae87a2edc7818bdc18958f0d3d1",
+    "5bb05276558e98ff8a1eef484bd0d2401c094ce43781df4709f172671280a88e",
+    "5c7c0f69251a08f19e83cfbad5d781b0ca7cf06528923c44a480b0afad4561f4",
+    "5cc6e6129ec480f203c3fd418a3c464c27157f071b320aa669d81ff01f8b02b2",
+    "61847f5bade647210c80eef78209bcccc59ac4943f35aa15528d3c5091e282cb",
+    "6190cb8b1b9e55827084abe61c92df6ac4a07752785f888b3e346731d1856880",
+    "6212828f61f12d1d6327e6b7ff3b926f47c50ae2338458f8889dff3d76c7dc16",
+    "628098e434488e0e64bd83b725a27c82f47a6960bd017787f284de01b26e23b9",
+    "62ca0c6a5c8af8b31fd874b9226feec4414d0ccc3aa19a32fe6821c6fef9f1bb",
+    "63d9e812beea55a909d8d2d35e34fc65306d0c418d70a69e7de87dda58ad07e6",
+    "6682f60df33e5206530bc96f7474ba68eb506efb6a58b35bc31541c64e305286",
+    "66cb100a874c241a241751a6723feffe84b00f5992462133cc53b6874c754ae2",
+    "67bfaf9f32ae6eb80ed1c7b89739c1d56c5544686b2f55d36594f15b39537632",
+    "6878c87598c6b34345e7ca7ead1b96c3c5d2c850f966b127e5ec751f2cd60946",
+    "6883adb47feb811a8d33e9c8ca2f8393350c71c5eb56ec0b029fc9e07ea82c85",
+    "6939664e902fd0ebce0aa43b80f964a116153efc3553962eb0be3bac375ee506",
+    "6a3f31731350b0cc7f017efe68236f1d8a112fb9ee22477dea00eaba0deffef9",
+    "6a973152165a816eda2a9e8774f6cbe198e636fc0538815c8ee69d41cf392355",
+    "6bfe97a6e208c92916769e9741fd985c6236e031c5a203e0c99445b7c79a62e6",
+    "72a3fb52b24bba8ed4fe8fdd12e42bd3be6cd6ccc12fa503aae6896b26bd7f65",
+    "72f5fb0161b50c58330bfe667c03e71bc5fd92ee266f2a459800b4407ef3e8cd",
+    "732355b6d6d24f3cb52495b87cd455c3d1cdd2e325cd084b15c8a9512c1c2b0b",
+    "763d221382da5cb8c6c5176521fd15eff92296e0f2b295056fb157c1922d42e6",
+    "76973e8e416863c6ab6652f7ec9ce29f1e1d17298bc71006184d04b573fb0d3a",
+    "76fcec28bba4176650a4c3ed43f22a2dabd5a40ece04d8e368563842fd06f105",
+    "777f13ae9597934f17b0a01135ea726e5a3f96e36f58eacf510b235169c1d861",
+    "78b678921eec39b495620d408b377d56f4fd3e3458e6dbe70796bb4e541f4d58",
+    "7a4a45f9fa716df1471bf7a528e372999fc1d33924cccf778af8d9134e34646a",
+    "7bb7e150eaa2aabb7f65d6c64303cbd841f92ef3f4b2cad58e02aa30d66641e8",
+    "80b9db619faa910ec62e2c77ff031d43cf01ca52b6cec3fe75bfd3238225777d",
+    "83a4d4729fd11f18ccb7ce64aab5eb85de4db8824be0351a3731b153077d1e7a",
+    "8727694aff471060d561916ffd3668c6a041f1b8f306e538db1866216a5540ad",
+    "87530f560a9ec971b33d3959c396bb68f853e87e98bda2d51de2e5bf58138179",
+    "88f171c3229a1effb0463e08fe76a03da725b3e2f65b56bde3b4190e12c76310",
+    "894d668c7778f435ab67a2e3f9e7f6cd4b32effd97908c36648c98414e89ddf7",
+    "8a0fb65bb59c6711c684274e9aa8e2a5ef0b705b92152a28d88b3e0a01982f41",
+    "8ab380567afbb106a24cf8676d2bb97117c4fec27537037bb0ef2abcffca9a4c",
+    "8b464c60a1238737a0a9080f3560da85b108f49026cd7c54bef685ad48d66c9b",
+    "8bd2d100b8a0e921f6b9afd1279832b1b582c6a162f9e3bf2952c7b7221a8682",
+    "8bde938479530a0c0f8c3b86500870f41bdf522b1d3561ea2d67d5cac452bd14",
+    "8c284ddef9ce765aa31fbb094335ed092fb02b52cbb43c9e6f2a2ab47b3e5fef",
+    "8e16aa6a417aa091af978f7c8521b61f9ad02e94cac759f3a7935adaa7609303",
+    "8ec045f65f8c3978bee8ebeff81abffece6131cae724811fa3ce8160b4c1c51d",
+    "8fb310c95cbafe924cb84059efc51fa946833a563ca774b1d07875f68f6d6961",
+    "91c9be984c2be75fcd3f6e37ec6fa476081c9d729f70a08df155df81300db7e1",
+    "9219e94a32fa7cd5284dd8f99b8a47997f4200709e2efbc00169cf8e819e25a1",
+    "925720ae1b58fc12b64e40768a0eb54135d78c0cd9af9036e3e96fdbd3120e24",
+    "9755669b8db6b15334b4d73c68b136731a455fed4ad99428a6c9e240cd2a4fa6",
+    "97fb869c0a903710d834f0685a609ee832a56300542c0139e43f0b4ed14d3561",
+    "98dedcaecf1567d8f0777adbb6a601697fd767d1813362e3727afb12ecc7a3db",
+    "9b2005454c7a7489f16bfe2518f784375790c98d66a33410509c8b376c0985c2",
+    "9d3bc382e21765d1522e3e5e96ec030ca4ab0a08056dcee2571632f582c9bddd",
+    "9da369ff0c2aded266a7f318798126e5f6ee35b48f94f82970a586907e665a59",
+    "9ec4be7707451c326cec8542bbdfede3853c4b228dafd14d25d30ae4ef268e80",
+    "9f0a03b239f4e3040ef60093d246fef5f13f1a51950862ef3f5810ec2749e320",
+    "a020721b2a82925e5ceb20b2a5488c29954287e4afa7bce57f7cda59d4665d72",
+    "a18b5a9945b92cfca02d4341510450366f1d5a3eb541e709d5cf9f4f95f568ab",
+    "a1c8af0319632fbcef194f60065af9d515fb13adf385a5572bdd111d73ef6a88",
+    "a2db2702e9793da1dbb62b2c2ad84e0760f520aebe94c03833acf7fe18488f9d",
+    "a37b01beecda30787c950583842ab55c31eda8aea394c81fe2f88a1386bf650e",
+    "a43b57f2ee577b515ff6776065d99261b8684483a246f2949b66b7b6ee3636f9",
+    "a72a53e3d7153d3050476ff7b077af20df9241a37a2d621802e673c8cc282af5",
+    "a867bb231313996cb931f0a59da1e0b87a6efa3cdf43dd570e7f487caa6a4394",
+    "a88888b6dd3236d7bab72ec610a22eb0ea0b90612075372ad63dad77e364532a",
+    "a891c16fa7896ec675e0e76299ded720dd2afa565fe76eca8326e470cd08b7e3",
+    "a9cb3fb753f6dd0ac60e0af27d2a186e0ce4099e007ccf1cd73880381e45b002",
+    "a9cba03d70f56e24f06341c17c5a30fb297d85e1b8174548f6d52758c0e6cb1f",
+    "ad0004c04b71d9a57ac2e5cb2c515935daca54c7cb1d42eb0bdea9fad16aa4b4",
+    "af01d79b16497c3f244f6e9b2fd93bacba2528174a64daad727f1b14c7d6bae8",
+    "b1914ec4ec5e86db2600aa191d0a4c91f6c129de50fdc532890d0fc0a64c1e6b",
+    "b6ebfff044ff88dc8e7081e968ff17fc363aa999d37aded3dfe4b9f623df76e8",
+    "b811fc3bfef9021b2a6c8405f30d03242dea1ba4f87a9f2ff64c869a8d7770cc",
+    "b8fbfc1184e36e7fe39fbb3889ead67cd16ee55c49a81d6137b27d8a72ec76e6",
+    "b9f18e765ee4072483df18f9207bf8b49e865c4f65d5bb98ffc879fe06414379",
+    "bb95afb80d1481dd001fbfcf7c8eeffd3d6b2ec8ea158f5e369a35680169dda0",
+    "c2b13611bc3e339eaa4fed3c8feb5bcf96c7c760798a11c672d6ac5ea9777739",
+    "c4eb2929feb1fc1dccc09773d613c8eaf499ced9a37606983ea3ddee85e559e1",
+    "c4fc4fec77946c255ad826443f81d99bd18e20efc9380b70d10fddc5bb955299",
+    "c5ad48d6f0e98e390a4c69c2a9d22168015e55b10548361ff5f29cb22acaa408",
+    "ca09f868e5867186e03646ce88fccb14ea7740ef6112e6079e89ca373b7e10d8",
+    "ca9e678370f22b9105f2f433f699976ce1226cd557f6d2821f93e551c0c34e75",
+    "caa66bdd197c1f92cf7c31636fc9f85bc2a3ae96765388c57b8ac883dc83d470",
+    "ce4bbf5285f0b3b687a7af04e696a2112193123ff705e96fd8938ca6f6f6aa17",
+    "d1f18182c7fee245c44ed703525c95f4c04b6d3d851c964eeed05d26747bc2f5",
+    "d70472cd3a8931f6dc23517c4d0c1469764c515b4ea3da12f3fdb1c9ace565e1",
+    "d88872abc24e2bc4b8c0ea017857f1ac6aa2f3378ddb7a33dbb3cf68ea72760d",
+    "d88ccce8d6d8871ed4cbeaf1b3be9243aecb55d346c211d8eda84d6f3f1aa0c6",
+    "d9c040f313a6a5fe1749b8220513201b496ee95aa6319b6fbf08664315e44a8d",
+    "df0344933ad6bbe5f4a9297dad1aac403a720583debfd083c3e3cf1b6c4a43bc",
+    "e16a189acdd8910e3423fa0b2a2b1432fdfd0e91120b43d2dd78e913702f74b0",
+    "e50b408fa9f9cff7c95a23e4971e11538477a14aef9870be1cf28946c46565e8",
+    "e6359a2e63051d417715cd89dc1f35b8aa0fb9c32d10171256e031b534e80ba5",
+    "ec3d12c09048c4e6a884d23ae7f7918a80bd8fdb0d07c2503b534e6b300aaf91",
+    "eca585e716b0d3b0075133654ef64588241a4bd61f6538924a515433e87783ce",
+    "ecbc0fde65618208e98db24811ff6cde736e72102db330863a4eab1f312f3d58",
+    "ee97b84a2da1f2ca1af6580d83fd7e9f468bac6b8e58cfb96a7c20733e2eb13f",
+    "f16898c6ab2e48cf1299593bea3060b947f1b4ae91a96bbd91cccf2dee5ae595",
+    "f2e3a34b92dfb9907581de915f11cbf7ccf4255fc36af6744ab9a31dba31a430",
+    "fb100c34e9292f4977a0a2d56ad653adf696c4d6c134879a40334cf4ac6b12fa"
+  ],
+  "excluded_bank_sha256": "f2f581f956dfc524a5d2b30e2144f6c0680e800694cca501d7816c02f5d9b7cd"
+}

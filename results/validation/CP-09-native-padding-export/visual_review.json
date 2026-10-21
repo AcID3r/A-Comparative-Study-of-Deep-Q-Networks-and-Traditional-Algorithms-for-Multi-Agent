@@ -1,0 +1,69 @@
+{
+  "docx_sha256": "baf2e053877109b28b6592bfe84f24da53c9127dc227a32577063b6362c03426",
+  "pdf_sha256": "ff33d3604a71232a6a1e0714e99ac45f3a3987df33b8b2e6de2fd9ce8ad04b72",
+  "pages": [
+    {
+      "page": 1,
+      "characters": 4885,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "characters": 5107,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "characters": 4016,
+      "images": 1
+    },
+    {
+      "page": 4,
+      "characters": 5312,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "characters": 4295,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "characters": 2041,
+      "images": 2
+    },
+    {
+      "page": 7,
+      "characters": 3303,
+      "images": 1
+    },
+    {
+      "page": 8,
+      "characters": 2382,
+      "images": 2
+    },
+    {
+      "page": 9,
+      "characters": 4389,
+      "images": 1
+    },
+    {
+      "page": 10,
+      "characters": 5248,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "characters": 1043,
+      "images": 0
+    }
+  ],
+  "page_count": 11,
+  "text_outside_page": 0,
+  "images_outside_page": 0,
+  "required_sections_and_main_rates_present": true,
+  "native_word_render": true,
+  "review_directory": "paper/word_native_pages/ff33d3604a71",
+  "visual_review": "All 11 pages inspected. Most numeric wrapping fixed; Table X long totals still wrap; acceptance withheld.",
+  "review_kind": "Native Word export"
+}

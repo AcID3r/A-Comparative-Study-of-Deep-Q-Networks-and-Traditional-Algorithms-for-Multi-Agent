@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-07",
+  "checkpoint": "CP-09 partial",
+  "native_word_page_review_pending": true,
+  "source_files": {
+    "README.md": "7fa461b79bb2d69f7ff7a23d6ea97e9a48ea8ce81532af84d4e9d82acfe1c10f",
+    "task.md": "e04c49b2feb1f4300cc23be9895ded8a0d8291c860cdf3526a1f7233aa71bc06",
+    "prd.md": "c259adc4c0671fe5044b19ba909519912ad2f9499a53511021ece9308f1d9a74",
+    "tdd.md": "38fd9ecf3b884fc477b2773b6977c1c4fd40aa1b712bf02d7ea1a358393833f3",
+    "implementationstrategy.md": "de7e880c6e71e2715cdb7844e74c09030a5197d8508de939108290a241c6d640",
+    "everythingtoknow.md": "00abab85bf6237b1c0bdb13120189378375c5bd7f62245ed364b104d4cb21c87",
+    "AGENTS.md": "f8877ffd7af09b229066236f6daf462a5d1e32a02ef9e358e7adb87ae83861fd",
+    "requirements.txt": "aaae5720434be0f18f6a6745418a56e17a41a8599344b6e761d3410c791234f5",
+    "paper/build_word.py": "ced5867f6daed944d05a533adf47bf1d22ab3907753d0027d5f55a66643b6203",
+    "paper/word_figures.py": "a214dfaa6b88a788410398d5f2e187b45d89f9f2ecbe2c1d1e1f991037af9529",
+    "paper/check_word.py": "e26083995a23b174f46c5fcb34e17c528c980723a5ce34af86cae3f59dd01367",
+    "paper/render_word.py": "258af32058425e55655a97e9815b40856595e052c073ca800084711c12bfca9b",
+    "paper/preview_word.py": "89f438f50f12277b0ad02eea65c9183726cdcd1b13b96d7c6898d76d7bf0bbdc",
+    "paper/review_word.py": "741d14b9e6690179820eedc26acd5b9f997133af525772c2b994927a1804abfc",
+    "paper/WORD_REVIEW.md": "430b920237b459497f374c623bc239a3d562784aa07961adda65b329bdc0e980",
+    "test_word_manuscript.py": "8c4a80ff8ea2dc838025d004dd49ced02c3e940f13e5bbbe15aa5a502725b653",
+    "results/validation/archive_cp09.py": "099a2c25396628213623faff2a35bb415282224c2554aab012e27aaeef4bdc72",
+    "results/validation/CP-09.md": "dc35be3107eb14bd7d43efb2f9942ac9a4b8311fbc6bd8562ebb71fadf3a3d5d"
+  },
+  "artifacts": {
+    "paper/Graph_Search_Research_Paper.docx": "d043eef4ac289eee5e7e6c732964256a1f19fb1d20649d9576fce9f4b6a6402d",
+    "paper/Graph_Search_Research_Paper_preview.pdf": "7037fb9b94cc8e6a63a7c8df7f03bd1bc12ab1c1108c8fc39e0991a8526fae43",
+    "paper/word_provenance.json": "16ec698bd041d6e7a31ad6943768bf013330497a093d01b0495d8427d9289503",
+    "paper/word_reference_profile.json": "cf14a018c93bba14e5f9507fa44377aff40900b922e52f4e098bdb4d72b75c43",
+    "paper/word_native_render.json": "16f47633d3da4e2e8c2753236af44430d1945bb2760972d5c7fb6b4ab5cabd6b",
+    "paper/word_preview_provenance.json": "0d2306450d8dc925e1a5a3f4af81eed143b3f2364ca070f1d4263c339f5fb841",
+    "results/validation/CP-09-checks.json": "ce8ec0233bd506361128bd8feb67bfab3ffd16e261c0f3be38c6461bb364b66a",
+    "results/validation/CP-09-preview-pages.json": "837aae6b33a6187d9f0f578e052170698d0c9353103f9c4ea27e6ffd11e74547",
+    "results/validation/CP-09-tests.json": "d82c766117d2b22ce1aa20e72bb98796fe2631e1ad3f85777443b7e70b10110d",
+    "results/validation/CP-09-tests-final.log": "b3723e0371c33fe4f0b8dc60d155b5158f74584d3921caa66085ea75bb9984a6",
+    "results/validation/CP-09-focused-tests.log": "df92ba10e96680ea6f494e4e2c721c72fc8c00fa9dae4bb8b46146d8c1f55674"
+  },
+  "final_seal_matches": true,
+  "final_csv_unchanged": true,
+  "analysis_unchanged": true,
+  "original_qenn_unchanged": true,
+  "document_links_match": true
+}

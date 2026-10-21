@@ -1,0 +1,153 @@
+{
+  "manuscript_sha256": "f8d49cdb4ceeb312ec82266aefe524dd6bcd7f5525f387ddf9537d85fd34b956",
+  "pdf_sha256": "51be8d834ae6151f0f80f1f42d3216f42aeec8ac414271766d8ad2bd2b33ccc7",
+  "latex_source_sha256": "0fc35131c9d8169f40efbb9a27244888d21d6153e8bad9accfab5f9d0e015bf0",
+  "latex_compilation": "not run: no local TeX engine; PDF rendered with ReportLab",
+  "analysis_sha256": "3ab8d3ef54cd9dd9e641f26e078c57d886a933f0e8617ebd3389a121c6292ba5",
+  "references": 9,
+  "figure_count": 7,
+  "numeric_claims_and_tables_match": true,
+  "required_sections_present": true,
+  "qenn_unchanged": true,
+  "page_count": 17,
+  "pages": [
+    {
+      "page": 1,
+      "characters": 4060,
+      "images": 0,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 2,
+      "characters": 3849,
+      "images": 0,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 3,
+      "characters": 2801,
+      "images": 2,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 4,
+      "characters": 4101,
+      "images": 1,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 5,
+      "characters": 4521,
+      "images": 0,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 6,
+      "characters": 2018,
+      "images": 0,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 7,
+      "characters": 1701,
+      "images": 0,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 8,
+      "characters": 732,
+      "images": 1,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 9,
+      "characters": 150,
+      "images": 1,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 10,
+      "characters": 1017,
+      "images": 0,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 11,
+      "characters": 1566,
+      "images": 1,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 12,
+      "characters": 1571,
+      "images": 1,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 13,
+      "characters": 1487,
+      "images": 1,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 14,
+      "characters": 1101,
+      "images": 0,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 15,
+      "characters": 3212,
+      "images": 1,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 16,
+      "characters": 4562,
+      "images": 0,
+      "width": 595.2756,
+      "height": 841.8898
+    },
+    {
+      "page": 17,
+      "characters": 1982,
+      "images": 0,
+      "width": 595.2756,
+      "height": 841.8898
+    }
+  ],
+  "text_outside_page": 0,
+  "rendered_review_pages": 17,
+  "visual_review": "completed: agent inspected all-page overview and critical full-size equation/table/result/discussion/reference pages; all seven figures inspected",
+  "review_dependencies": {
+    "pdfplumber": "0.11.10",
+    "pypdfium2": "5.10.1"
+  },
+  "author_metadata": {
+    "name": "Madhav Joshi",
+    "affiliation": "Marwadi University",
+    "confirmed_by_user_on": "2026-10-07",
+    "email": null,
+    "additional_authors": [],
+    "note": "Name and university explicitly confirmed by user. No unconfirmed contact address or coauthor is added."
+  },
+  "visual_review_date": "2026-10-07",
+  "reviewer_type": "agent scientific/layout self-review",
+  "table_count": 9,
+  "caption_regression_fixed": true
+}

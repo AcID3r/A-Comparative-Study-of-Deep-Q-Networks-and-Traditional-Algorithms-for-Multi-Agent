@@ -1,0 +1,71 @@
+{
+  "docx_sha256": "c77ec6f2fa852cf55588fdb138c4e64c3187589644d43da058bf42ec49626349",
+  "pdf_sha256": "e0e7a8e6b0e9e08613c61828303b71afae52060412b499ab6a67617695be0823",
+  "pages": [
+    {
+      "page": 1,
+      "characters": 4885,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "characters": 5107,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "characters": 4016,
+      "images": 1
+    },
+    {
+      "page": 4,
+      "characters": 5312,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "characters": 4295,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "characters": 2041,
+      "images": 2
+    },
+    {
+      "page": 7,
+      "characters": 3303,
+      "images": 1
+    },
+    {
+      "page": 8,
+      "characters": 2382,
+      "images": 2
+    },
+    {
+      "page": 9,
+      "characters": 4491,
+      "images": 1
+    },
+    {
+      "page": 10,
+      "characters": 5146,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "characters": 1043,
+      "images": 0
+    }
+  ],
+  "page_count": 11,
+  "text_outside_page": 0,
+  "images_outside_page": 0,
+  "required_sections_and_main_rates_present": true,
+  "native_word_render": true,
+  "review_directory": "paper/word_native_pages/e0e7a8e6b0e9",
+  "visual_review": "Completed: all 11 native pages inspected individually; numeric values, tables, figures, equations, captions, columns and references readable.",
+  "review_kind": "Native Word export",
+  "review_date": "2026-10-07",
+  "checkpoint_complete": true
+}

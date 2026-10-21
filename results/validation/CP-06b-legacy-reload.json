@@ -1,0 +1,35 @@
+{
+  "five_legacy_models_match": true,
+  "results": [
+    {
+      "seed": 0,
+      "version": 1,
+      "moves": 12,
+      "arrival": 12
+    },
+    {
+      "seed": 1,
+      "version": 1,
+      "moves": 8,
+      "arrival": 9
+    },
+    {
+      "seed": 2,
+      "version": 1,
+      "moves": 12,
+      "arrival": 15
+    },
+    {
+      "seed": 3,
+      "version": 1,
+      "moves": 8,
+      "arrival": 14
+    },
+    {
+      "seed": 4,
+      "version": 1,
+      "moves": 12,
+      "arrival": 14
+    }
+  ]
+}

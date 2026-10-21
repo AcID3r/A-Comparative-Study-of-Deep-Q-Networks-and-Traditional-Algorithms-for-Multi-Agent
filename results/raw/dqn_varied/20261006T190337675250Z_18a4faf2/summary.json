@@ -1,0 +1,52 @@
+[
+  {
+    "seed": 0,
+    "episodes": 2000,
+    "environment_steps": 62947,
+    "optimizer_updates": 15673,
+    "training_time_seconds": 99.43267990136519,
+    "validation_successes": 9,
+    "validation_episodes": 10,
+    "reload_matches": true
+  },
+  {
+    "seed": 1,
+    "episodes": 2000,
+    "environment_steps": 53070,
+    "optimizer_updates": 13204,
+    "training_time_seconds": 116.68114340142347,
+    "validation_successes": 9,
+    "validation_episodes": 10,
+    "reload_matches": true
+  },
+  {
+    "seed": 2,
+    "episodes": 2000,
+    "environment_steps": 68774,
+    "optimizer_updates": 17130,
+    "training_time_seconds": 79.32624429970747,
+    "validation_successes": 9,
+    "validation_episodes": 10,
+    "reload_matches": true
+  },
+  {
+    "seed": 3,
+    "episodes": 2000,
+    "environment_steps": 59779,
+    "optimizer_updates": 14881,
+    "training_time_seconds": 63.043352799722925,
+    "validation_successes": 9,
+    "validation_episodes": 10,
+    "reload_matches": true
+  },
+  {
+    "seed": 4,
+    "episodes": 2000,
+    "environment_steps": 56545,
+    "optimizer_updates": 14073,
+    "training_time_seconds": 45.39868799946271,
+    "validation_successes": 10,
+    "validation_episodes": 10,
+    "reload_matches": true
+  }
+]

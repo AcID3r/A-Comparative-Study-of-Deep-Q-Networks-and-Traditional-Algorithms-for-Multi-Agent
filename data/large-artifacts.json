@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "path": "results/raw/dynamic_team/20261006T201424719291Z_678fc290/trajectories.jsonl",
+      "bytes": 61793586,
+      "sha256": "0ec98be6accae94a748ca2585b56c30b040118d3c7d6435cf6adaae87da842e0"
+    },
+    {
+      "path": "results/raw/final_transfer/20261006T212837810546Z_40b3d4c4/trajectories.jsonl",
+      "bytes": 1181331839,
+      "sha256": "ea42a20a438a23a7e7596666252e5adb864272d27d52802cef95a69037ac63dd"
+    },
+    {
+      "path": "results/validation/protocol_pilot/20261006T210712802711Z_2c64fadb/trajectories.jsonl",
+      "bytes": 116277435,
+      "sha256": "6335dab16cebadd01a0202578cd176387c4beecbfb75d170d926122f5a9c527f"
+    }
+  ],
+  "distribution": "dist/graph-search-large-data.zip; upload as a separate release asset",
+  "measured_sources_unchanged": true
+}

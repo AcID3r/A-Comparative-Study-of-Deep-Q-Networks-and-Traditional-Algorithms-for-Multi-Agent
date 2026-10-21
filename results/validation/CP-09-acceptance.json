@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-07",
+  "checkpoint": "CP-09 complete",
+  "docx_sha256": "c77ec6f2fa852cf55588fdb138c4e64c3187589644d43da058bf42ec49626349",
+  "native_pdf_sha256": "e0e7a8e6b0e9e08613c61828303b71afae52060412b499ab6a67617695be0823",
+  "native_pages": 11,
+  "manual_visual_review": "Completed: all 11 native pages inspected individually; numeric values, tables, figures, equations, captions, columns and references readable.",
+  "structural_checks_passed": true,
+  "focused_tests": 3,
+  "focused_test_seconds": 10.98,
+  "previous_full_suite_tests": 142,
+  "final_seal_matches": true,
+  "raw_results_unchanged": true,
+  "analysis_unchanged": true,
+  "original_qenn_unchanged": true,
+  "venue_acceptance_claimed": false,
+  "page_flow_note": "Table V caption/header at end of page 7; repeated header and complete body continue in the next column."
+}

@@ -1,0 +1,25 @@
+{
+  "test_methods": 133,
+  "pilot_episodes": 1512,
+  "pilot_steps": 63386,
+  "summary_groups": 648,
+  "matched_pair_counts": [
+    360,
+    72,
+    72,
+    72
+  ],
+  "excluded_geometries": 280,
+  "source_files": 44,
+  "local_links_checked": 27,
+  "sealed_sources_match": true,
+  "final_maps_generated": false,
+  "qenn_unchanged": true,
+  "artifact_sha256": {
+    "results\\validation\\protocol_pilot\\20261006T210712802711Z_2c64fadb\\raw_results.csv": "767b9c42917dac37f5dd8c3a2ff73ccb2328ed2de095d83777d160d575df87ed",
+    "results\\validation\\protocol_pilot\\20261006T210712802711Z_2c64fadb\\trajectories.jsonl": "6335dab16cebadd01a0202578cd176387c4beecbfb75d170d926122f5a9c527f",
+    "results\\validation\\protocol_pilot\\20261006T210712802711Z_2c64fadb\\config.json": "2afc2e975a2ec207f2b09b743edb066cff95032ec8ae925034ff1ef62b1a129d",
+    "results\\validation\\protocol_pilot\\20261006T210712802711Z_2c64fadb\\map_bank.json": "c32e43abdfc7494ad39686e8e4fa4b646c880d8d997a592febe549113ef90461",
+    "results\\validation\\CP-07a-audit.json": "616f1d423ad085e15f60a773c1719c12adf316a9d7bbb9f090812c93ecd6bc0f"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "docx_sha256": "d043eef4ac289eee5e7e6c732964256a1f19fb1d20649d9576fce9f4b6a6402d",
+  "pdf_sha256": "c52f365eff093b5765ea00ff06fbd57f015dc5a71529d1a5d4f4cb14b98525b8",
+  "pages": [
+    {
+      "page": 1,
+      "characters": 4885,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "characters": 4945,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "characters": 4026,
+      "images": 1
+    },
+    {
+      "page": 4,
+      "characters": 5205,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "characters": 3876,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "characters": 1778,
+      "images": 1
+    },
+    {
+      "page": 7,
+      "characters": 1788,
+      "images": 2
+    },
+    {
+      "page": 8,
+      "characters": 3184,
+      "images": 1
+    },
+    {
+      "page": 9,
+      "characters": 2688,
+      "images": 1
+    },
+    {
+      "page": 10,
+      "characters": 4673,
+      "images": 1
+    },
+    {
+      "page": 11,
+      "characters": 5004,
+      "images": 0
+    }
+  ],
+  "page_count": 11,
+  "text_outside_page": 0,
+  "images_outside_page": 0,
+  "required_sections_and_main_rates_present": true,
+  "native_word_render": true,
+  "review_directory": "paper/word_native_pages/c52f365eff09",
+  "visual_review": "pending inspection",
+  "review_kind": "Native Word export"
+}

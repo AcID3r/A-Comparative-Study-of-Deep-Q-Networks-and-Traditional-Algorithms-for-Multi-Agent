@@ -1,0 +1,14 @@
+{
+  "episodes": 15120,
+  "steps_replayed": 652244,
+  "scenarios": 120,
+  "strata": 12,
+  "empty_schedules": 0,
+  "all_decisions_replayed": true,
+  "geometry_exclusions_checked": true,
+  "active_event_prefixes_match": true,
+  "source_and_models_match": true,
+  "actual_collisions": 0,
+  "timing_repeats": 3,
+  "phase": "final"
+}

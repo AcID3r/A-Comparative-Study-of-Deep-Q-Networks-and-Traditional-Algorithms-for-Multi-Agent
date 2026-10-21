@@ -1,0 +1,7 @@
+{
+  "episodes": 168,
+  "test_maps": 2,
+  "methods_per_scenario": 21,
+  "no_online_training": true,
+  "models_unchanged": true
+}

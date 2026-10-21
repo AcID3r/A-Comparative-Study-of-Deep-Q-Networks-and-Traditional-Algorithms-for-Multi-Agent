@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-07",
+  "status": "Manual Zenodo preprint PDF preparation complete",
+  "native_word_pagination_verified": false,
+  "source_files": {
+    "docs/task.md": "d9075162e31efa4ebdd0747365afb48188e154ab761789560ef9cd0babdcf856",
+    "docs/prd.md": "d854e8f506520fbfa295987011c6d26c613b6555af4b1e8bbb526393ac0eb696",
+    "docs/tdd.md": "d14b9976e8ab62cc36038752995e0d2a0948fbce89653ef6cc68cd28763788e9",
+    "docs/implementationstrategy.md": "17187ee5957a9eb4dd57add22c94c2c45724c4c47c13e43097ea94e51f80e716",
+    "docs/everythingtoknow.md": "1d3ccaf4c5d31a1d69d962a64298ef0b756f2a095e4b4b4f1717391eb23be582",
+    "docs/ZENODO_UPLOAD.md": "b565c36a784484aa9648e7ec5984d5bbcc49a72d9d4017312bde28d89e3e3e04",
+    "docs/zenodo_metadata.json": "52d1860ef2ac28a344ad8e27262eb875cb567f4e156ebdfd8a9c859946a739ca",
+    "paper/preview_word.py": "9e0f3028c402440ae3bd08ae93573b3ed4ff15e6787c408cef0d218306920d51",
+    "scripts/check_zenodo_submission.py": "e3d3b19ffc10efdf102a418c5ef369d81b1616a037b8bc8029deeb5207381831"
+  },
+  "artifacts": {
+    "results/validation/zenodo-submission-checks.json": "d8ff909745dddf902f523e3cbca77013e6f72c551311f91b40ff091077197294",
+    "results/validation/zenodo-preprint-provenance.json": "b47108466053236e8da66fe62a1ca090b2cae91d4d160ad3027106f0a16eb841",
+    "results/validation/zenodo-word-render.json": "1d5d07c659853bd06711e01fce7d1d9c4fe1116da3c99ae01697b44de2825a3d",
+    "results/validation/zenodo-paper-tests.log": "6714d7db54e7e9bed13cca2ac97b922101472de64f29d6b84ff2b9e85eea0496",
+    "final submission/zenodo/Madhav_Joshi_Graph_Search_Preprint_v1.0.pdf": "a47bd6e234feac75dd89ac1f3432593fb9e4319a1c05fc7069638aea5a0cb97a",
+    "final submission/zenodo/Madhav_Joshi_Graph_Search_Preprint_v1.0.docx": "2ed55513c9b13ad3553755c7e388d8f848b98b6752e0c9cf96e67282bab95ab0"
+  },
+  "visual_review": "Completed: all 12 publication PDF pages inspected individually; author block, tables, figures, numbered equations, captions and references readable.",
+  "page_images": {
+    "page_01.png": "012e71e952c65a94401636b246596dbb7b96837da6ec0cf36852ce3c9bd22563",
+    "page_02.png": "fcee8abeb8eef02f3ede5f8e7dda1ad5a056d035b8b6238371ac7be16f66f7cb",
+    "page_03.png": "28f97b96d78922c07491c27dc7eb29dd1faabebcda4f9b33fd9820be8b680eab",
+    "page_04.png": "bf6f7d40ef40684c7e09b89f6ccf944edf6f062a50318dcfa7f7ba834b65ac71",
+    "page_05.png": "2387a62b0895aeaa01c56b6765fe3a16132461baf7c60628c81b83e6c9a196d4",
+    "page_06.png": "0be4e44738b3b0d98e8d4b106512d221b2e32eb96604fc16f0c9702ea4a071da",
+    "page_07.png": "d253f8b9f1d979791bc010892d4e91ca07c60bbf32e19878e5c3864b44eb521c",
+    "page_08.png": "24e7d50cdf45103ce5d90ebab580b0631f59856d12b64311de3990e619b9a76e",
+    "page_09.png": "6b85089ef4b8996731943351e8aa09336b9652213088710398c81a401c82e924",
+    "page_10.png": "78b586756d8d1995766fbe9ad294a4285ed98e1a0d043d41589724dc574181bb",
+    "page_11.png": "0d33f9eb92483c7cd4e62cafcddb522b569e3034d7839b6943157ef554f4c0bc",
+    "page_12.png": "98e92efaf74d92a3624556a866898051951061bd4eefb73e3e48169ab670626c"
+  }
+}

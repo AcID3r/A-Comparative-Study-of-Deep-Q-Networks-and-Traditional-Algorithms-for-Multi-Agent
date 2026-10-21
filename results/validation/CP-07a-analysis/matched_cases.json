@@ -1,0 +1,34 @@
+[
+  {
+    "left": "shared",
+    "right": "solo",
+    "pairs": 360,
+    "both_successful": 93,
+    "mean_success_difference": -0.041666666666666664,
+    "mean_makespan_difference_both_successful": -0.45161290322580644
+  },
+  {
+    "left": "bfs",
+    "right": "bfs_frozen",
+    "pairs": 72,
+    "both_successful": 58,
+    "mean_success_difference": 0.05555555555555555,
+    "mean_makespan_difference_both_successful": -1.2241379310344827
+  },
+  {
+    "left": "dijkstra",
+    "right": "dijkstra_frozen",
+    "pairs": 72,
+    "both_successful": 58,
+    "mean_success_difference": 0.05555555555555555,
+    "mean_makespan_difference_both_successful": -1.2241379310344827
+  },
+  {
+    "left": "astar",
+    "right": "astar_frozen",
+    "pairs": 72,
+    "both_successful": 58,
+    "mean_success_difference": 0.05555555555555555,
+    "mean_makespan_difference_both_successful": -1.2241379310344827
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "training_episode_rows": 20,
+  "seeds": 1,
+  "plots_generated": true,
+  "test_maps_used": false
+}

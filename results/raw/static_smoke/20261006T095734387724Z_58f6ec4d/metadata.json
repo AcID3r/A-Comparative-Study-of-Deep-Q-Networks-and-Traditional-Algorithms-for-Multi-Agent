@@ -1,0 +1,26 @@
+{
+  "run_id": "20261006T095734387724Z_58f6ec4d",
+  "purpose": "static_single_agent_smoke",
+  "created_at_utc": "2026-10-06T09:57:34.387724+00:00",
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+  "logical_cpus": 8,
+  "dependencies": "Python standard library only",
+  "source_sha256": {
+    "algorithms/__init__.py": "d32625e59dfe243ef4fe5acae2dd538880f4304b5ddfd4c5e9ec6657ba8c40a5",
+    "algorithms/astar.py": "66988247d06fcb70063d842fa40ae2349948995e8eb577e883dfd3b28e262c78",
+    "algorithms/bfs.py": "fdc988d2147d4692dc1a13968f58d9538983017da7a00da17db56aa16420a358",
+    "algorithms/dijkstra.py": "f8c382bf21b539338d9fa720633e09048778a48bbf481a3650e8da713770bc4a",
+    "algorithms/search_result.py": "b5431199d5e8c56d1ad54ba00cc048dfa9255f083c5fcbb5ea041bdcb8b04525",
+    "environments/grid_graph.py": "1696176bcff69c4f2a852ea48aaf36b0aaae3463933e146646a329a0af7d83ed",
+    "evaluation/visualize.py": "e2d057893141765752ad70fc03588b2c9006362b6074be6f8208e26200fefd76",
+    "experiments/run_static.py": "2181d5c4b88e7bacd08ecfcf398830dcf018166b7d0bb5b5cf3d11eb4a9474da"
+  },
+  "timing": "perf_counter seconds: validation, setup, search and path reconstruction; excludes reporting and I/O",
+  "expansions": "non-stale nodes processed, including goal; not discovered nodes",
+  "density_denominator": "all grid cells; endpoints protected; requested density is Bernoulli probability",
+  "map_filtering": "none; unreachable scenarios retained",
+  "comparison_limit": "single run per algorithm per scenario, fixed order; no performance conclusions"
+}

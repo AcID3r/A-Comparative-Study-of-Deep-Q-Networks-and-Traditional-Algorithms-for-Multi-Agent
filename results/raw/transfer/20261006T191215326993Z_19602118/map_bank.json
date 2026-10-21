@@ -1,0 +1,5154 @@
+{
+  "rows": 5,
+  "cols": 5,
+  "density_requested": 0.15,
+  "partitions": {
+    "train": [
+      {
+        "map_id": "6939664e902fd0ebce0aa43b80f964a116153efc3553962eb0be3bac375ee506",
+        "map_seed": 1000,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "b8fbfc1184e36e7fe39fbb3889ead67cd16ee55c49a81d6137b27d8a72ec76e6",
+        "map_seed": 1001,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "f16898c6ab2e48cf1299593bea3060b947f1b4ae91a96bbd91cccf2dee5ae595",
+        "map_seed": 1002,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "8727694aff471060d561916ffd3668c6a041f1b8f306e538db1866216a5540ad",
+        "map_seed": 1003,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "1b74a5da26f65b131f880c0763d86b4d0c3785ac5aac48bb5dcccb09319781a6",
+        "map_seed": 1004,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "09265f8a9b774a4c6cd50ff690a48ce48acc9aed4e67d0f8bbaccb869360a890",
+        "map_seed": 1005,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "72f5fb0161b50c58330bfe667c03e71bc5fd92ee266f2a459800b4407ef3e8cd",
+        "map_seed": 1006,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "6883adb47feb811a8d33e9c8ca2f8393350c71c5eb56ec0b029fc9e07ea82c85",
+        "map_seed": 1007,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "d1f18182c7fee245c44ed703525c95f4c04b6d3d851c964eeed05d26747bc2f5",
+        "map_seed": 1008,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "4128b61e53663078d34dfee7d5510f0e0f180a1a0885c9f8749d20e4a9795089",
+        "map_seed": 1009,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a88888b6dd3236d7bab72ec610a22eb0ea0b90612075372ad63dad77e364532a",
+        "map_seed": 1010,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "41c6ce22e8fd9f532d5a2b361ec0bcbf071f377f50a9d2e9d370545d1492bda6",
+        "map_seed": 1011,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "15659bfd950d433606dc21f4e9abd6d51fdd4aa11a0dea7279a47279bc74d7c3",
+        "map_seed": 1012,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "3bbb0698bbe8d627fd1ab3a4f33fc3930b7c499a42842086ceebe38b9c386255",
+        "map_seed": 1013,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "9d3bc382e21765d1522e3e5e96ec030ca4ab0a08056dcee2571632f582c9bddd",
+        "map_seed": 1014,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "7a4a45f9fa716df1471bf7a528e372999fc1d33924cccf778af8d9134e34646a",
+        "map_seed": 1015,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "87530f560a9ec971b33d3959c396bb68f853e87e98bda2d51de2e5bf58138179",
+        "map_seed": 1016,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "ec3d12c09048c4e6a884d23ae7f7918a80bd8fdb0d07c2503b534e6b300aaf91",
+        "map_seed": 1017,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": false,
+        "initial_optimal_moves": null
+      },
+      {
+        "map_id": "62ca0c6a5c8af8b31fd874b9226feec4414d0ccc3aa19a32fe6821c6fef9f1bb",
+        "map_seed": 1018,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "009fd632f33af3a2a62b3e0db4e5b1c89131e436f8501d46d3694b72bb5441af",
+        "map_seed": 1019,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "894d668c7778f435ab67a2e3f9e7f6cd4b32effd97908c36648c98414e89ddf7",
+        "map_seed": 1020,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "ecbc0fde65618208e98db24811ff6cde736e72102db330863a4eab1f312f3d58",
+        "map_seed": 1021,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "0286eeff2148924433ddeb6eda777b0804b750bcc47cba045a493a82ab814d02",
+        "map_seed": 1022,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "628098e434488e0e64bd83b725a27c82f47a6960bd017787f284de01b26e23b9",
+        "map_seed": 1023,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "09329dc9e994f4bf0fbb211e0cdb8399d4bee5a5a56c9a3b2e8fc1285f5844ea",
+        "map_seed": 1024,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a867bb231313996cb931f0a59da1e0b87a6efa3cdf43dd570e7f487caa6a4394",
+        "map_seed": 1025,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "1d725d4a77042644e0eb871db9c103024e634d21cfee2f0871afaa284b37b23a",
+        "map_seed": 1026,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "4414b8e0facb9a446373548d09098bcfcd9e41531eee2b8bfaaf23e36472cd65",
+        "map_seed": 1027,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "236c3a1557b6b8bcd6279fb3a1b10012c1fced9ec0957307f57ed5513acc5e9c",
+        "map_seed": 1028,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "6682f60df33e5206530bc96f7474ba68eb506efb6a58b35bc31541c64e305286",
+        "map_seed": 1030,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "ca09f868e5867186e03646ce88fccb14ea7740ef6112e6079e89ca373b7e10d8",
+        "map_seed": 1031,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "72a3fb52b24bba8ed4fe8fdd12e42bd3be6cd6ccc12fa503aae6896b26bd7f65",
+        "map_seed": 1032,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "4ed03af264f0c67f695434f3b0efd2ee3595fc108695baf236d9ce604fb3d5b0",
+        "map_seed": 1033,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "6190cb8b1b9e55827084abe61c92df6ac4a07752785f888b3e346731d1856880",
+        "map_seed": 1034,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "6a973152165a816eda2a9e8774f6cbe198e636fc0538815c8ee69d41cf392355",
+        "map_seed": 1035,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "10747329c52f42578d5578b51dc9727bdc7aa4326e44c81899af786fb507f34a",
+        "map_seed": 1036,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "00ccee8737af39948d7907af75c13dbe2b77c161174fb597ab2560c1de6337dd",
+        "map_seed": 1037,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "48543258453ebbd334303f53459cbc18b3d8451b201ebdaf7e766a3f90c6637e",
+        "map_seed": 1038,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "41ec8a3b27aa18c6b6c86e5ce9a218eaa062dfd05bb2292bf3f998d8ab2583cc",
+        "map_seed": 1039,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "c2b13611bc3e339eaa4fed3c8feb5bcf96c7c760798a11c672d6ac5ea9777739",
+        "map_seed": 1040,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "8ab380567afbb106a24cf8676d2bb97117c4fec27537037bb0ef2abcffca9a4c",
+        "map_seed": 1041,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "42a05216dfbf557162409a961e4ebc36b2ab1b1a187c4208d8a941958ab80817",
+        "map_seed": 1042,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "c4eb2929feb1fc1dccc09773d613c8eaf499ced9a37606983ea3ddee85e559e1",
+        "map_seed": 1043,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "1b7817eaec6cd97776430c0e1d0461a3bff02d7ccefc6b9fe408cbfe15f68069",
+        "map_seed": 1044,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "af01d79b16497c3f244f6e9b2fd93bacba2528174a64daad727f1b14c7d6bae8",
+        "map_seed": 1045,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "5bb05276558e98ff8a1eef484bd0d2401c094ce43781df4709f172671280a88e",
+        "map_seed": 1046,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "6bfe97a6e208c92916769e9741fd985c6236e031c5a203e0c99445b7c79a62e6",
+        "map_seed": 1047,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "88f171c3229a1effb0463e08fe76a03da725b3e2f65b56bde3b4190e12c76310",
+        "map_seed": 1048,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a37b01beecda30787c950583842ab55c31eda8aea394c81fe2f88a1386bf650e",
+        "map_seed": 1049,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "057a4b1899cfc5065c44093235497524a3af61b6a330ea4506f87fa1a7fd612a",
+        "map_seed": 1050,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "76fcec28bba4176650a4c3ed43f22a2dabd5a40ece04d8e368563842fd06f105",
+        "map_seed": 1051,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "d88872abc24e2bc4b8c0ea017857f1ac6aa2f3378ddb7a33dbb3cf68ea72760d",
+        "map_seed": 1052,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "5704342a4b95877a4597aa64b06df6022d7d17a3695e82d8e247fdc40600bdd9",
+        "map_seed": 1053,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a43b57f2ee577b515ff6776065d99261b8684483a246f2949b66b7b6ee3636f9",
+        "map_seed": 1054,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "9219e94a32fa7cd5284dd8f99b8a47997f4200709e2efbc00169cf8e819e25a1",
+        "map_seed": 1055,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "03b0eaa519ee77845d47d30527fedc58d9f9b1b52b0d8ac2478ca5265809d302",
+        "map_seed": 1056,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "8a0fb65bb59c6711c684274e9aa8e2a5ef0b705b92152a28d88b3e0a01982f41",
+        "map_seed": 1057,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "e50b408fa9f9cff7c95a23e4971e11538477a14aef9870be1cf28946c46565e8",
+        "map_seed": 1058,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "6a3f31731350b0cc7f017efe68236f1d8a112fb9ee22477dea00eaba0deffef9",
+        "map_seed": 1059,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "4d3a5c30ebdd403f3fd40019dbd953345dd222c9220ffd6872350644dd00fbaa",
+        "map_seed": 1060,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "83a4d4729fd11f18ccb7ce64aab5eb85de4db8824be0351a3731b153077d1e7a",
+        "map_seed": 1061,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "269aba913490554af5ab061d3eb885154d7d6f4499d788c34ea832897f02e58b",
+        "map_seed": 1062,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": false,
+        "initial_optimal_moves": null
+      },
+      {
+        "map_id": "80b9db619faa910ec62e2c77ff031d43cf01ca52b6cec3fe75bfd3238225777d",
+        "map_seed": 1064,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": false,
+        "initial_optimal_moves": null
+      },
+      {
+        "map_id": "d70472cd3a8931f6dc23517c4d0c1469764c515b4ea3da12f3fdb1c9ace565e1",
+        "map_seed": 1065,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "48acbfa12a540be14089b52d9505ff89daef7dab94d8ddeb90c6b486e700612b",
+        "map_seed": 1066,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "5b426cfcc4c5165936587057a2cbf4923dca4ae87a2edc7818bdc18958f0d3d1",
+        "map_seed": 1067,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "8bd2d100b8a0e921f6b9afd1279832b1b582c6a162f9e3bf2952c7b7221a8682",
+        "map_seed": 1069,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a1c8af0319632fbcef194f60065af9d515fb13adf385a5572bdd111d73ef6a88",
+        "map_seed": 1070,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "c5ad48d6f0e98e390a4c69c2a9d22168015e55b10548361ff5f29cb22acaa408",
+        "map_seed": 1071,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "415264780e053fb26951bd16e85afa67d7c2617d9e8c793cda2801343e9279e6",
+        "map_seed": 1072,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "9da369ff0c2aded266a7f318798126e5f6ee35b48f94f82970a586907e665a59",
+        "map_seed": 1073,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a9cba03d70f56e24f06341c17c5a30fb297d85e1b8174548f6d52758c0e6cb1f",
+        "map_seed": 1074,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "67bfaf9f32ae6eb80ed1c7b89739c1d56c5544686b2f55d36594f15b39537632",
+        "map_seed": 1075,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "9b2005454c7a7489f16bfe2518f784375790c98d66a33410509c8b376c0985c2",
+        "map_seed": 1076,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "76973e8e416863c6ab6652f7ec9ce29f1e1d17298bc71006184d04b573fb0d3a",
+        "map_seed": 1077,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "1cfeef96d81227aa5cb69815e53fc8f10eba9c93bda4c419d97bb761b72a3736",
+        "map_seed": 1078,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "1af16733f21984315fb6712f07130ac1abb1e9341baf19988117b588576bbfaa",
+        "map_seed": 1080,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "b6ebfff044ff88dc8e7081e968ff17fc363aa999d37aded3dfe4b9f623df76e8",
+        "map_seed": 1081,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "2100f3ed839b781f4c948a76f93a20f5e2717122100c4a7cc3d03a0f5134cedf",
+        "map_seed": 1082,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "8bde938479530a0c0f8c3b86500870f41bdf522b1d3561ea2d67d5cac452bd14",
+        "map_seed": 1083,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": false,
+        "initial_optimal_moves": null
+      },
+      {
+        "map_id": "ca9e678370f22b9105f2f433f699976ce1226cd557f6d2821f93e551c0c34e75",
+        "map_seed": 1084,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "429baf7a27aa5be11996728c0ef8b72414d59d4a15a468b5c0ed42c44b75aa91",
+        "map_seed": 1085,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "463250a35bd192ee9ccf6adf0121d8600895bbcfe22ab989713c55290538f663",
+        "map_seed": 1086,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "fb100c34e9292f4977a0a2d56ad653adf696c4d6c134879a40334cf4ac6b12fa",
+        "map_seed": 1087,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "56c43c12056709697200575c1724267b6a8ffd99f4709ff9c0b38b42d7fae39d",
+        "map_seed": 1088,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "d88ccce8d6d8871ed4cbeaf1b3be9243aecb55d346c211d8eda84d6f3f1aa0c6",
+        "map_seed": 1089,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "e16a189acdd8910e3423fa0b2a2b1432fdfd0e91120b43d2dd78e913702f74b0",
+        "map_seed": 1090,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a891c16fa7896ec675e0e76299ded720dd2afa565fe76eca8326e470cd08b7e3",
+        "map_seed": 1091,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "78b678921eec39b495620d408b377d56f4fd3e3458e6dbe70796bb4e541f4d58",
+        "map_seed": 1092,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a18b5a9945b92cfca02d4341510450366f1d5a3eb541e709d5cf9f4f95f568ab",
+        "map_seed": 1093,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "3e1d367dc2e06039f570d60b4aab27f115c459465a644fada3beb4b47a9e1e41",
+        "map_seed": 1094,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "763d221382da5cb8c6c5176521fd15eff92296e0f2b295056fb157c1922d42e6",
+        "map_seed": 1095,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "00b80174313ea98fd3fdf043d674d951814f26fc75fc770d745392f945c341a8",
+        "map_seed": 1096,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "4b3a01d69bba33409c804bf5d05652057345d8b25994f4517953c5cfa44bb441",
+        "map_seed": 1097,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "8c284ddef9ce765aa31fbb094335ed092fb02b52cbb43c9e6f2a2ab47b3e5fef",
+        "map_seed": 1098,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "e6359a2e63051d417715cd89dc1f35b8aa0fb9c32d10171256e031b534e80ba5",
+        "map_seed": 1099,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "8b464c60a1238737a0a9080f3560da85b108f49026cd7c54bef685ad48d66c9b",
+        "map_seed": 1100,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "056198afabca8f2a0715aa8c95e6b19bbd15f9122c6649baefef947f8655daf9",
+        "map_seed": 1101,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "19f6e0ee7ce7bc6096ca13ab1b13416c84958214ded89e6bd8ca737da5b3d156",
+        "map_seed": 1102,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "b9f18e765ee4072483df18f9207bf8b49e865c4f65d5bb98ffc879fe06414379",
+        "map_seed": 1103,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      }
+    ],
+    "validation": [
+      {
+        "map_id": "ee97b84a2da1f2ca1af6580d83fd7e9f468bac6b8e58cfb96a7c20733e2eb13f",
+        "map_seed": 2000,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "63d9e812beea55a909d8d2d35e34fc65306d0c418d70a69e7de87dda58ad07e6",
+        "map_seed": 2001,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "2603a8e64cbef3a68c679000152cf9ec07042092df758f0a24d9dbd76b0e8f89",
+        "map_seed": 2002,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "61847f5bade647210c80eef78209bcccc59ac4943f35aa15528d3c5091e282cb",
+        "map_seed": 2003,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "5cc6e6129ec480f203c3fd418a3c464c27157f071b320aa669d81ff01f8b02b2",
+        "map_seed": 2004,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a72a53e3d7153d3050476ff7b077af20df9241a37a2d621802e673c8cc282af5",
+        "map_seed": 2005,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "6878c87598c6b34345e7ca7ead1b96c3c5d2c850f966b127e5ec751f2cd60946",
+        "map_seed": 2006,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "f2e3a34b92dfb9907581de915f11cbf7ccf4255fc36af6744ab9a31dba31a430",
+        "map_seed": 2007,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "093863107441efaff450fdb9c7023ed4bde2eaf0113fef70e1a2bd7435a64553",
+        "map_seed": 2008,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "925720ae1b58fc12b64e40768a0eb54135d78c0cd9af9036e3e96fdbd3120e24",
+        "map_seed": 2009,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      }
+    ],
+    "test": [
+      {
+        "map_id": "2afac8d426d60e72e73b4f83ff74bf03a4bbd33c1c750d0ea1fd92cb48cf59a8",
+        "map_seed": 3000,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "9f0a03b239f4e3040ef60093d246fef5f13f1a51950862ef3f5810ec2749e320",
+        "map_seed": 3001,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "b1914ec4ec5e86db2600aa191d0a4c91f6c129de50fdc532890d0fc0a64c1e6b",
+        "map_seed": 3002,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "09256af39a75312a4d00f8fff7c9612e1e17adef5cd8b868c9bb9b09c0062feb",
+        "map_seed": 3003,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "caa66bdd197c1f92cf7c31636fc9f85bc2a3ae96765388c57b8ac883dc83d470",
+        "map_seed": 3004,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "9755669b8db6b15334b4d73c68b136731a455fed4ad99428a6c9e240cd2a4fa6",
+        "map_seed": 3006,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "33fac5511a2d349f5f7b54fc397729255dcf05094461faafa023a67fbfbf56ef",
+        "map_seed": 3007,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "22e75a6411d735538d125f817013c7b6368b9929ccd965f3d597d0f284d440db",
+        "map_seed": 3008,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "df0344933ad6bbe5f4a9297dad1aac403a720583debfd083c3e3cf1b6c4a43bc",
+        "map_seed": 3009,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "002d84c62d6eda2bf7f93dce57034eab8410e372c2126868ddd90fa1d5df408f",
+        "map_seed": 3010,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "13bafd715314e25f67263056947494261d01e9f520cb0395a3fa73a2290b950f",
+        "map_seed": 3011,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "8ec045f65f8c3978bee8ebeff81abffece6131cae724811fa3ce8160b4c1c51d",
+        "map_seed": 3012,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "5355df9220cd4fa413fcb8bc9242d3712276e032546e66e58c45fa9d6f101e17",
+        "map_seed": 3013,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "ad0004c04b71d9a57ac2e5cb2c515935daca54c7cb1d42eb0bdea9fad16aa4b4",
+        "map_seed": 3014,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "4864c4a748c3955b54e3bcc01ba753771a15da4c00bfed413316143367ce1b20",
+        "map_seed": 3015,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a2db2702e9793da1dbb62b2c2ad84e0760f520aebe94c03833acf7fe18488f9d",
+        "map_seed": 3016,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "ce4bbf5285f0b3b687a7af04e696a2112193123ff705e96fd8938ca6f6f6aa17",
+        "map_seed": 3017,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "5c7c0f69251a08f19e83cfbad5d781b0ca7cf06528923c44a480b0afad4561f4",
+        "map_seed": 3018,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "8e16aa6a417aa091af978f7c8521b61f9ad02e94cac759f3a7935adaa7609303",
+        "map_seed": 3019,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "91c9be984c2be75fcd3f6e37ec6fa476081c9d729f70a08df155df81300db7e1",
+        "map_seed": 3020,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "42ecabeed3c933720ee1e662910a7e0594e69a7933dcdb09bc9ee1e324e67624",
+        "map_seed": 3021,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "eca585e716b0d3b0075133654ef64588241a4bd61f6538924a515433e87783ce",
+        "map_seed": 3023,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "732355b6d6d24f3cb52495b87cd455c3d1cdd2e325cd084b15c8a9512c1c2b0b",
+        "map_seed": 3024,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": false,
+        "initial_optimal_moves": null
+      },
+      {
+        "map_id": "2102008a4e31b832fba0bcf812184323fa61cae9bde7db9f3b2f44013f68fca9",
+        "map_seed": 3025,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "98dedcaecf1567d8f0777adbb6a601697fd767d1813362e3727afb12ecc7a3db",
+        "map_seed": 3026,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "2bead673f7ec3fc0d24931ecc94bcf589dd1ed1bc0cf68a74369d4ea86f3e696",
+        "map_seed": 3027,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "02b84991838e3cb44e9a4d9e19a547403676fc7070a1a69adb7c34e4e244965e",
+        "map_seed": 3029,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "46b0c083feb251ce99e1b2338242d75f3ac0d0b617f4a8ff272a3042739206b3",
+        "map_seed": 3030,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "6212828f61f12d1d6327e6b7ff3b926f47c50ae2338458f8889dff3d76c7dc16",
+        "map_seed": 3031,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a9cb3fb753f6dd0ac60e0af27d2a186e0ce4099e007ccf1cd73880381e45b002",
+        "map_seed": 3032,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "2756be43b2d5846301d3df76b7a98267b8bbb7766647a046464f3a123b9de700",
+        "map_seed": 3033,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "7bb7e150eaa2aabb7f65d6c64303cbd841f92ef3f4b2cad58e02aa30d66641e8",
+        "map_seed": 3034,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "a020721b2a82925e5ceb20b2a5488c29954287e4afa7bce57f7cda59d4665d72",
+        "map_seed": 3035,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "48b0737d3a05f180a8a4621505af746bb0dfacaa680afd0a1d0c2a604363abce",
+        "map_seed": 3036,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "3a689ecc3b1637f29d4e8a436dfbf7c72a7793eb6c1f888398c4d1e7c1f74f1a",
+        "map_seed": 3037,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "51ee05797888eb863ab97e68739c841bb9f728e383461ee98bd35097b2e66907",
+        "map_seed": 3038,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "30f90088a8e85bf26de759e40fcd2db43bc1399969e4719e21cecac277b2d340",
+        "map_seed": 3039,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "8fb310c95cbafe924cb84059efc51fa946833a563ca774b1d07875f68f6d6961",
+        "map_seed": 3040,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "bb95afb80d1481dd001fbfcf7c8eeffd3d6b2ec8ea158f5e369a35680169dda0",
+        "map_seed": 3041,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "071b83eaf8274dc18521503f5291a14f3a006a5fc00515320428da0cd353f30c",
+        "map_seed": 3042,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            4
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "31079a76b91be0a200b0981255b96b6654960c62b3c84f5158137ca6f9737208",
+        "map_seed": 3043,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "66cb100a874c241a241751a6723feffe84b00f5992462133cc53b6874c754ae2",
+        "map_seed": 3044,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "4fa615d479bf92d210c28d8ab825b28d361409315c1ea1bfe28798e79c9f8d1a",
+        "map_seed": 3045,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "543a715ef65cb40a05598a2e0bcf5a3b67a79069918e5587e0cdbf10a26836d2",
+        "map_seed": 3046,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "d9c040f313a6a5fe1749b8220513201b496ee95aa6319b6fbf08664315e44a8d",
+        "map_seed": 3047,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "c4fc4fec77946c255ad826443f81d99bd18e20efc9380b70d10fddc5bb955299",
+        "map_seed": 3048,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "777f13ae9597934f17b0a01135ea726e5a3f96e36f58eacf510b235169c1d861",
+        "map_seed": 3049,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "9ec4be7707451c326cec8542bbdfede3853c4b228dafd14d25d30ae4ef268e80",
+        "map_seed": 3050,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "b811fc3bfef9021b2a6c8405f30d03242dea1ba4f87a9f2ff64c869a8d7770cc",
+        "map_seed": 3051,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      },
+      {
+        "map_id": "1271e3b1f91b2f6fdef451118cec8aef5c57c89acb78fd41c06a76c4a2287f2c",
+        "map_seed": 3052,
+        "rows": 5,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          4
+        ],
+        "initial_reachable": true,
+        "initial_optimal_moves": 8
+      }
+    ]
+  },
+  "rejected_candidates": [
+    {
+      "partition": "train",
+      "seed": 1029,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 1063,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 1068,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "train",
+      "seed": 1079,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 3005,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 3022,
+      "reason": "duplicate_geometry"
+    },
+    {
+      "partition": "test",
+      "seed": 3028,
+      "reason": "duplicate_geometry"
+    }
+  ],
+  "reachability_filter": "none; unreachable maps retained"
+}

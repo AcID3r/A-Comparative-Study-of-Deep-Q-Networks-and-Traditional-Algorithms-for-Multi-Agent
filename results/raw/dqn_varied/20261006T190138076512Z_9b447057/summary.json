@@ -1,0 +1,12 @@
+[
+  {
+    "seed": 0,
+    "episodes": 20,
+    "environment_steps": 934,
+    "optimizer_updates": 170,
+    "training_time_seconds": 0.8394343002000824,
+    "validation_successes": 0,
+    "validation_episodes": 10,
+    "reload_matches": true
+  }
+]

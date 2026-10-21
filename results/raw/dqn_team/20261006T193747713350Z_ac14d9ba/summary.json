@@ -1,0 +1,30 @@
+[
+  {
+    "mode": "solo",
+    "seed": 0,
+    "cycles": 20,
+    "episodes": 40,
+    "agent_tasks": 40,
+    "transitions": 803,
+    "joint_ticks": 803,
+    "updates": 69,
+    "training_seconds": 0.4469840999227017,
+    "validation_successes": 1,
+    "validation_cases": 10,
+    "reload_matches": true
+  },
+  {
+    "mode": "shared",
+    "seed": 0,
+    "cycles": 20,
+    "episodes": 20,
+    "agent_tasks": 40,
+    "transitions": 1122,
+    "joint_ticks": 561,
+    "updates": 109,
+    "training_seconds": 0.5163361000595614,
+    "validation_successes": 0,
+    "validation_cases": 10,
+    "reload_matches": true
+  }
+]

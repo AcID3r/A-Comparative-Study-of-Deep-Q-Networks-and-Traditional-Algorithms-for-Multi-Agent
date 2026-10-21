@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-07",
+  "full_command": "python -m unittest discover -v *> results/validation/CP-09-tests-final.log",
+  "full_tests": 142,
+  "full_duration_seconds": 20.457,
+  "full_result": "OK",
+  "full_exit_code": 0,
+  "focused_command": "python -m unittest test_word_manuscript -v *> results/validation/CP-09-focused-tests.log",
+  "focused_tests": 3,
+  "focused_duration_seconds": 3.609,
+  "focused_result": "OK",
+  "focused_exit_code": 0,
+  "initial_full_tests": 141,
+  "initial_full_duration_seconds": 16.331,
+  "native_word_render_passed": false,
+  "checkpoint_complete": false,
+  "note": "Correctness evidence, separate from measured research data. Latest focused tests cover preview label/bounds corrections after the full suite."
+}

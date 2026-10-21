@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "purpose": "static_single_agent_smoke",
+  "grid_sizes": [[5, 5], [10, 10], [15, 15]],
+  "obstacle_densities": [0.1, 0.2],
+  "seeds": [0, 1, 2, 3, 4],
+  "algorithms": ["bfs", "dijkstra", "astar"]
+}

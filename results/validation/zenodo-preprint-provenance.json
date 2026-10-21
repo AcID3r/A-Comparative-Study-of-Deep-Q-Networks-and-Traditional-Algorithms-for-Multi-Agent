@@ -1,0 +1,9 @@
+{
+  "source_sha256": "2ed55513c9b13ad3553755c7e388d8f848b98b6752e0c9cf96e67282bab95ab0",
+  "pdf_sha256": "a47bd6e234feac75dd89ac1f3432593fb9e4319a1c05fc7069638aea5a0cb97a",
+  "renderer": "DOCX-based ReportLab publication PDF",
+  "native_word_pagination_verified": false,
+  "body_blocks": 144,
+  "opening_blocks": 7,
+  "equations": 2
+}

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+venv/
+
+# Local environments and packaging outputs
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+~$*.docx
+
+# Large immutable traces: retained locally, distributed in a verified data bundle.
+/results/raw/final_transfer/20261006T212837810546Z_40b3d4c4/trajectories.jsonl
+/results/validation/protocol_pilot/20261006T210712802711Z_2c64fadb/trajectories.jsonl
+/results/raw/dynamic_team/20261006T201424719291Z_678fc290/trajectories.jsonl

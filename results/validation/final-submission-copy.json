@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-07",
+  "copies_match_accepted_files": true,
+  "files": {
+    "Graph_Search_Research_Paper.docx": {
+      "path": "final submission/Graph_Search_Research_Paper.docx",
+      "sha256": "c77ec6f2fa852cf55588fdb138c4e64c3187589644d43da058bf42ec49626349",
+      "bytes": 841106
+    },
+    "Graph_Search_Research_Paper.pdf": {
+      "path": "final submission/Graph_Search_Research_Paper.pdf",
+      "sha256": "e0e7a8e6b0e9e08613c61828303b71afae52060412b499ab6a67617695be0823",
+      "bytes": 910443
+    }
+  }
+}

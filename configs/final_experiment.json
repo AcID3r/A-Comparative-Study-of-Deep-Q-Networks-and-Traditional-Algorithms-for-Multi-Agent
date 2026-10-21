@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "training_run": "results/raw/dqn_team/20261006T193829020826Z_42837111",
+  "sizes": [5, 10, 15],
+  "densities": [0.1, 0.2],
+  "arrangements": ["uniform", "crossing"],
+  "agent_counts": [1, 2, 4],
+  "conditions": ["static", "dynamic"],
+  "seeds": [0, 1, 2, 3, 4],
+  "horizons": {"5": 30, "10": 60, "15": 90},
+  "add_tick": 2,
+  "remove_tick": 8,
+  "pilot_maps_per_stratum": 1,
+  "final_maps_per_stratum": 10,
+  "pilot_first_seed": 100000,
+  "final_first_seed": 200000,
+  "candidate_stride": 10000,
+  "timing_repeats": 3,
+  "methods": ["bfs", "dijkstra", "astar", "bfs_frozen", "dijkstra_frozen", "astar_frozen", "solo", "shared", "untrained"]
+}

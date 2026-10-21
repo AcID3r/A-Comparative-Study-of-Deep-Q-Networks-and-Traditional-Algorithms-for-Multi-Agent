@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-07",
+  "docx_sha256": "2ed55513c9b13ad3553755c7e388d8f848b98b6752e0c9cf96e67282bab95ab0",
+  "pdf_sha256": "a47bd6e234feac75dd89ac1f3432593fb9e4319a1c05fc7069638aea5a0cb97a",
+  "audited_scientific_text_unchanged": true,
+  "all_ten_tables_unchanged": true,
+  "seven_figure_hashes_unchanged": true,
+  "equations_and_reference_links_unchanged": true,
+  "user_supplied_author_details": [
+    "Madhav Joshi",
+    "Artificial Intelligence & Machine Learning",
+    "Marwadi University",
+    "madhav.joshi132389@marwadiuniversity.ac.in"
+  ],
+  "pdf_renderer": "DOCX-based ReportLab publication PDF",
+  "native_word_pagination_verified": false,
+  "pages": [
+    {
+      "page": 1,
+      "characters": 4556,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "characters": 4586,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "characters": 3199,
+      "images": 3
+    },
+    {
+      "page": 4,
+      "characters": 4774,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "characters": 4265,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "characters": 2289,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "characters": 325,
+      "images": 2
+    },
+    {
+      "page": 8,
+      "characters": 2139,
+      "images": 1
+    },
+    {
+      "page": 9,
+      "characters": 2640,
+      "images": 1
+    },
+    {
+      "page": 10,
+      "characters": 2142,
+      "images": 2
+    },
+    {
+      "page": 11,
+      "characters": 4798,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "characters": 4541,
+      "images": 0
+    }
+  ],
+  "page_count": 12,
+  "text_outside_page": 0,
+  "images_outside_page": 0,
+  "review_directory": "results/validation/zenodo-pages/a47bd6e234fe",
+  "visual_review": "Completed: all 12 publication PDF pages inspected individually; author block, tables, figures, numbered equations, captions and references readable.",
+  "ready_for_manual_preprint_deposit": true,
+  "published_on_zenodo": false
+}

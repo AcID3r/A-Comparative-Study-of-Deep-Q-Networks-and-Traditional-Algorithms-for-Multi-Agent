@@ -1,0 +1,8 @@
+{
+  "episodes": 1512,
+  "scenarios": 12,
+  "phase": "pilot",
+  "timing_repeats": 1,
+  "no_online_training": true,
+  "models_unchanged": true
+}

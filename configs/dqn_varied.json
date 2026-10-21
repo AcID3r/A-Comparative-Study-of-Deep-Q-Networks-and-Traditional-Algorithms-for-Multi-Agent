@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "purpose": "random_map_development",
+  "map_spec": {"rows": 5, "cols": 5, "density": 0.15, "max_steps": 50},
+  "partitions": {"train": [1000, 100], "validation": [2000, 10], "test": [3000, 50]},
+  "seeds": [0, 1, 2, 3, 4],
+  "episodes": 2000,
+  "batch_size": 64,
+  "replay_capacity": 50000,
+  "warmup_steps": 256,
+  "train_every_steps": 4,
+  "epsilon_initial": 1.0,
+  "epsilon_final": 0.05,
+  "epsilon_decay_episodes": 1200,
+  "evaluate_every_episodes": 100,
+  "rolling_window": 100,
+  "network": {"hidden_sizes": [128, 128], "learning_rate": 0.001, "gamma": 0.99, "target_update_steps": 500, "gradient_clip": 10.0},
+  "fixed_run": "results/raw/dqn_fixed/20261006T103855437859Z_d455330a"
+}

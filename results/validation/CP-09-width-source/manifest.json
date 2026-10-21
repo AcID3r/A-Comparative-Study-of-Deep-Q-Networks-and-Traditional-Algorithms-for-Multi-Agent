@@ -1,0 +1,32 @@
+{
+  "checkpoint": "CP-09 partial",
+  "native_revised_review_pending": true,
+  "focused_tests": 3,
+  "elapsed_seconds": 10.98,
+  "final_seal_matches": true,
+  "original_qenn_unchanged": true,
+  "document_links_match": true,
+  "sources": {
+    "README.md": "5e0e5000c878920550c529c8dd212c004c032a7952dbfa899695ae296f44e6bf",
+    "task.md": "b56d64885ebf5897dbf839da8f19002d868301ea079219d471d9e8b48b19cc05",
+    "prd.md": "7930a964e63093642fa30424ff8eb4aacf68b53754ba945a2ce0ff2c9685501f",
+    "tdd.md": "4a0874a9a6af88918a0de4240383089f95e5cdef53228822014effc98374c3c5",
+    "implementationstrategy.md": "ba4cd2bfd24611fd1d6317b3ddaeb5d28ab2191f1c243a23b0ee0521d93d59be",
+    "everythingtoknow.md": "fd5387c710994139b41cda846f52b427975f84cbe7d1bd598fbfc76db8656064",
+    "paper/WORD_REVIEW.md": "72a84453a64b180ada269ebd16fd04fef888ce1104f87933781270ed6dcf4d18",
+    "results/validation/CP-09.md": "3db5fa33392bf50cd3367fb71451ff0416754321ecfa198dd068f6981f08ed2b",
+    "paper/build_word.py": "46e932a694cdcf40dcf0aeee5257ae9de24eb1607543bd38be93baece18d55dc",
+    "test_word_manuscript.py": "24c2b98f8a631696098fa607197850e052b3476e05aa53b04e65aea6e6771cdf",
+    "results/validation/archive_cp09_widths.py": "c8fa0570c726cb8ee767dd9fef5230e8572308512cf9d38ee8a7a2c02f6a24b2"
+  },
+  "artifacts": {
+    "paper/Graph_Search_Research_Paper.docx": "c77ec6f2fa852cf55588fdb138c4e64c3187589644d43da058bf42ec49626349",
+    "paper/word_provenance.json": "19477e31683868b190f1b8d7c88178f70bd4dd0e68a2d769c4e10907ea207e36",
+    "paper/word_native_render.json": "14f990714ba7478bdc61bb2eba15b0ffc0144ffbe18627a10fbc5dcfb62ed60f",
+    "results/validation/CP-09-checks.json": "8ed2b2bc91b3359c6d775bc251da64d486e3ffa803874a884bcaa8286fef3658",
+    "results/validation/CP-09-native-pages.json": "9e51ce9ba4be98ff6c30d970ba35e3630729b2dc1d1da3679a34cfaf1a592f7f",
+    "results/validation/CP-09-preview-pages.json": "5ab3018534ea7050c311b37c944535619a8b66eca76bb41f2ca6af9e703973f5",
+    "paper/Graph_Search_Research_Paper_preview.pdf": "310ae3f7d1766dd4b9791da9e92db32b592a76925c849219e65a6af5ba65d670",
+    "results/validation/CP-09-width-tests.log": "e638f39dde0edb12d6364b7188e2fa301c7e8d7bd5fc3e4bb3a2ff212ee198ea"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "purpose": "static_team_development",
+  "map_spec": {
+    "rows": 5,
+    "cols": 5,
+    "density": 0.1,
+    "max_steps": 30
+  },
+  "partitions": {
+    "train": [
+      4000,
+      50
+    ],
+    "validation": [
+      5000,
+      10
+    ],
+    "test": [
+      6000,
+      20
+    ]
+  },
+  "excluded_bank": "results/raw/dqn_varied/20261006T190337675250Z_18a4faf2/map_bank.json",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "cycles": 1000,
+  "batch_size": 64,
+  "replay_capacity": 50000,
+  "warmup_transitions": 256,
+  "train_every_transitions": 8,
+  "epsilon_initial": 1.0,
+  "epsilon_final": 0.05,
+  "epsilon_decay_cycles": 600,
+  "evaluate_every_cycles": 250,
+  "network": {
+    "hidden_sizes": [
+      128,
+      128
+    ],
+    "learning_rate": 0.001,
+    "gamma": 0.99,
+    "target_update_steps": 500,
+    "gradient_clip": 10.0
+  }
+}

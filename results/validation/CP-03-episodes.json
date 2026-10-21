@@ -1,0 +1,1056 @@
+{
+  "purpose": "CP-03 scripted correctness demonstration",
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "observation_version": 1,
+  "observation_features": [
+    "position_row",
+    "position_col",
+    "goal_delta_row",
+    "goal_delta_col",
+    "wall_up",
+    "wall_down",
+    "wall_left",
+    "wall_right",
+    "boundary_up",
+    "boundary_down",
+    "boundary_left",
+    "boundary_right",
+    "remaining_time"
+  ],
+  "source_sha256": {
+    "environments/single_agent_env.py": "346d83ff2ebcc82367aae334c1209f91c60f36ef539078b18bc0a535637b7597",
+    "environments/grid_graph.py": "1696176bcff69c4f2a852ea48aaf36b0aaae3463933e146646a329a0af7d83ed",
+    "algorithms/bfs.py": "fdc988d2147d4692dc1a13968f58d9538983017da7a00da17db56aa16420a358",
+    "algorithms/search_result.py": "b5431199d5e8c56d1ad54ba00cc048dfa9255f083c5fcbb5ea041bdcb8b04525",
+    "experiments/run_episode.py": "057e4c2b19311f346078dbcf4319a7d0c92b5da787ec12694282639611c38aa9"
+  },
+  "cases": [
+    {
+      "name": "baseline_route",
+      "map": {
+        "rows": 3,
+        "cols": 5,
+        "obstacles": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          0,
+          4
+        ],
+        "max_steps": 8
+      },
+      "initial_observation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "reset_info": {
+        "position": [
+          0,
+          0
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          0,
+          4
+        ],
+        "seed": 42,
+        "observation_version": 1,
+        "elapsed_steps": 0,
+        "moves": 0,
+        "path_cost": 0.0,
+        "episode_reward": 0.0,
+        "arrival_step": null,
+        "obstacle_attempts": 0,
+        "boundary_attempts": 0,
+        "terminated": false,
+        "truncated": false,
+        "success": false,
+        "failure_reason": null,
+        "event": "reset",
+        "action": null,
+        "requested_position": [
+          0,
+          0
+        ],
+        "executed_move": false,
+        "reward_components": {
+          "step": 0.0,
+          "obstacle": 0.0,
+          "boundary": 0.0,
+          "goal": 0.0
+        }
+      },
+      "transitions": [
+        {
+          "action": "DOWN",
+          "observation": [
+            0.5,
+            0.0,
+            -0.5,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.875
+          ],
+          "reward": -1.0,
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "position": [
+              1,
+              0
+            ],
+            "start": [
+              0,
+              0
+            ],
+            "goal": [
+              0,
+              4
+            ],
+            "seed": 42,
+            "observation_version": 1,
+            "elapsed_steps": 1,
+            "moves": 1,
+            "path_cost": 1.0,
+            "episode_reward": -1.0,
+            "arrival_step": null,
+            "obstacle_attempts": 0,
+            "boundary_attempts": 0,
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "failure_reason": null,
+            "event": "move",
+            "action": "DOWN",
+            "requested_position": [
+              1,
+              0
+            ],
+            "executed_move": true,
+            "reward_components": {
+              "step": -1.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "goal": 0.0
+            }
+          }
+        },
+        {
+          "action": "DOWN",
+          "observation": [
+            1.0,
+            0.0,
+            -1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.75
+          ],
+          "reward": -1.0,
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "position": [
+              2,
+              0
+            ],
+            "start": [
+              0,
+              0
+            ],
+            "goal": [
+              0,
+              4
+            ],
+            "seed": 42,
+            "observation_version": 1,
+            "elapsed_steps": 2,
+            "moves": 2,
+            "path_cost": 2.0,
+            "episode_reward": -2.0,
+            "arrival_step": null,
+            "obstacle_attempts": 0,
+            "boundary_attempts": 0,
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "failure_reason": null,
+            "event": "move",
+            "action": "DOWN",
+            "requested_position": [
+              2,
+              0
+            ],
+            "executed_move": true,
+            "reward_components": {
+              "step": -1.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "goal": 0.0
+            }
+          }
+        },
+        {
+          "action": "RIGHT",
+          "observation": [
+            1.0,
+            0.25,
+            -1.0,
+            0.75,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.625
+          ],
+          "reward": -1.0,
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "position": [
+              2,
+              1
+            ],
+            "start": [
+              0,
+              0
+            ],
+            "goal": [
+              0,
+              4
+            ],
+            "seed": 42,
+            "observation_version": 1,
+            "elapsed_steps": 3,
+            "moves": 3,
+            "path_cost": 3.0,
+            "episode_reward": -3.0,
+            "arrival_step": null,
+            "obstacle_attempts": 0,
+            "boundary_attempts": 0,
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "failure_reason": null,
+            "event": "move",
+            "action": "RIGHT",
+            "requested_position": [
+              2,
+              1
+            ],
+            "executed_move": true,
+            "reward_components": {
+              "step": -1.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "goal": 0.0
+            }
+          }
+        },
+        {
+          "action": "RIGHT",
+          "observation": [
+            1.0,
+            0.5,
+            -1.0,
+            0.5,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "reward": -1.0,
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "position": [
+              2,
+              2
+            ],
+            "start": [
+              0,
+              0
+            ],
+            "goal": [
+              0,
+              4
+            ],
+            "seed": 42,
+            "observation_version": 1,
+            "elapsed_steps": 4,
+            "moves": 4,
+            "path_cost": 4.0,
+            "episode_reward": -4.0,
+            "arrival_step": null,
+            "obstacle_attempts": 0,
+            "boundary_attempts": 0,
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "failure_reason": null,
+            "event": "move",
+            "action": "RIGHT",
+            "requested_position": [
+              2,
+              2
+            ],
+            "executed_move": true,
+            "reward_components": {
+              "step": -1.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "goal": 0.0
+            }
+          }
+        },
+        {
+          "action": "RIGHT",
+          "observation": [
+            1.0,
+            0.75,
+            -1.0,
+            0.25,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.375
+          ],
+          "reward": -1.0,
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "position": [
+              2,
+              3
+            ],
+            "start": [
+              0,
+              0
+            ],
+            "goal": [
+              0,
+              4
+            ],
+            "seed": 42,
+            "observation_version": 1,
+            "elapsed_steps": 5,
+            "moves": 5,
+            "path_cost": 5.0,
+            "episode_reward": -5.0,
+            "arrival_step": null,
+            "obstacle_attempts": 0,
+            "boundary_attempts": 0,
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "failure_reason": null,
+            "event": "move",
+            "action": "RIGHT",
+            "requested_position": [
+              2,
+              3
+            ],
+            "executed_move": true,
+            "reward_components": {
+              "step": -1.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "goal": 0.0
+            }
+          }
+        },
+        {
+          "action": "UP",
+          "observation": [
+            0.5,
+            0.75,
+            -0.5,
+            0.25,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.25
+          ],
+          "reward": -1.0,
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "position": [
+              1,
+              3
+            ],
+            "start": [
+              0,
+              0
+            ],
+            "goal": [
+              0,
+              4
+            ],
+            "seed": 42,
+            "observation_version": 1,
+            "elapsed_steps": 6,
+            "moves": 6,
+            "path_cost": 6.0,
+            "episode_reward": -6.0,
+            "arrival_step": null,
+            "obstacle_attempts": 0,
+            "boundary_attempts": 0,
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "failure_reason": null,
+            "event": "move",
+            "action": "UP",
+            "requested_position": [
+              1,
+              3
+            ],
+            "executed_move": true,
+            "reward_components": {
+              "step": -1.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "goal": 0.0
+            }
+          }
+        },
+        {
+          "action": "UP",
+          "observation": [
+            0.0,
+            0.75,
+            0.0,
+            0.25,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.125
+          ],
+          "reward": -1.0,
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "position": [
+              0,
+              3
+            ],
+            "start": [
+              0,
+              0
+            ],
+            "goal": [
+              0,
+              4
+            ],
+            "seed": 42,
+            "observation_version": 1,
+            "elapsed_steps": 7,
+            "moves": 7,
+            "path_cost": 7.0,
+            "episode_reward": -7.0,
+            "arrival_step": null,
+            "obstacle_attempts": 0,
+            "boundary_attempts": 0,
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "failure_reason": null,
+            "event": "move",
+            "action": "UP",
+            "requested_position": [
+              0,
+              3
+            ],
+            "executed_move": true,
+            "reward_components": {
+              "step": -1.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "goal": 0.0
+            }
+          }
+        },
+        {
+          "action": "RIGHT",
+          "observation": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "reward": 99.0,
+          "terminated": true,
+          "truncated": false,
+          "info": {
+            "position": [
+              0,
+              4
+            ],
+            "start": [
+              0,
+              0
+            ],
+            "goal": [
+              0,
+              4
+            ],
+            "seed": 42,
+            "observation_version": 1,
+            "elapsed_steps": 8,
+            "moves": 8,
+            "path_cost": 8.0,
+            "episode_reward": 92.0,
+            "arrival_step": 8,
+            "obstacle_attempts": 0,
+            "boundary_attempts": 0,
+            "terminated": true,
+            "truncated": false,
+            "success": true,
+            "failure_reason": null,
+            "event": "goal",
+            "action": "RIGHT",
+            "requested_position": [
+              0,
+              4
+            ],
+            "executed_move": true,
+            "reward_components": {
+              "step": -1.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "goal": 100.0
+            }
+          }
+        }
+      ],
+      "final_info": {
+        "position": [
+          0,
+          4
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          0,
+          4
+        ],
+        "seed": 42,
+        "observation_version": 1,
+        "elapsed_steps": 8,
+        "moves": 8,
+        "path_cost": 8.0,
+        "episode_reward": 92.0,
+        "arrival_step": 8,
+        "obstacle_attempts": 0,
+        "boundary_attempts": 0,
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "failure_reason": null,
+        "event": "goal",
+        "action": "RIGHT",
+        "requested_position": [
+          0,
+          4
+        ],
+        "executed_move": true,
+        "reward_components": {
+          "step": -1.0,
+          "obstacle": 0.0,
+          "boundary": 0.0,
+          "goal": 100.0
+        }
+      }
+    },
+    {
+      "name": "rejected_moves_and_timeout",
+      "map": {
+        "rows": 3,
+        "cols": 3,
+        "obstacles": [
+          [
+            0,
+            1
+          ]
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          2,
+          2
+        ],
+        "max_steps": 3
+      },
+      "initial_observation": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "reset_info": {
+        "position": [
+          0,
+          0
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          2,
+          2
+        ],
+        "seed": 42,
+        "observation_version": 1,
+        "elapsed_steps": 0,
+        "moves": 0,
+        "path_cost": 0.0,
+        "episode_reward": 0.0,
+        "arrival_step": null,
+        "obstacle_attempts": 0,
+        "boundary_attempts": 0,
+        "terminated": false,
+        "truncated": false,
+        "success": false,
+        "failure_reason": null,
+        "event": "reset",
+        "action": null,
+        "requested_position": [
+          0,
+          0
+        ],
+        "executed_move": false,
+        "reward_components": {
+          "step": 0.0,
+          "obstacle": 0.0,
+          "boundary": 0.0,
+          "goal": 0.0
+        }
+      },
+      "transitions": [
+        {
+          "action": "UP",
+          "observation": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.6666666666666666
+          ],
+          "reward": -6.0,
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "position": [
+              0,
+              0
+            ],
+            "start": [
+              0,
+              0
+            ],
+            "goal": [
+              2,
+              2
+            ],
+            "seed": 42,
+            "observation_version": 1,
+            "elapsed_steps": 1,
+            "moves": 0,
+            "path_cost": 0.0,
+            "episode_reward": -6.0,
+            "arrival_step": null,
+            "obstacle_attempts": 0,
+            "boundary_attempts": 1,
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "failure_reason": null,
+            "event": "boundary",
+            "action": "UP",
+            "requested_position": [
+              -1,
+              0
+            ],
+            "executed_move": false,
+            "reward_components": {
+              "step": -1.0,
+              "obstacle": 0.0,
+              "boundary": -5.0,
+              "goal": 0.0
+            }
+          }
+        },
+        {
+          "action": "RIGHT",
+          "observation": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.3333333333333333
+          ],
+          "reward": -11.0,
+          "terminated": false,
+          "truncated": false,
+          "info": {
+            "position": [
+              0,
+              0
+            ],
+            "start": [
+              0,
+              0
+            ],
+            "goal": [
+              2,
+              2
+            ],
+            "seed": 42,
+            "observation_version": 1,
+            "elapsed_steps": 2,
+            "moves": 0,
+            "path_cost": 0.0,
+            "episode_reward": -17.0,
+            "arrival_step": null,
+            "obstacle_attempts": 1,
+            "boundary_attempts": 1,
+            "terminated": false,
+            "truncated": false,
+            "success": false,
+            "failure_reason": null,
+            "event": "obstacle",
+            "action": "RIGHT",
+            "requested_position": [
+              0,
+              1
+            ],
+            "executed_move": false,
+            "reward_components": {
+              "step": -1.0,
+              "obstacle": -10.0,
+              "boundary": 0.0,
+              "goal": 0.0
+            }
+          }
+        },
+        {
+          "action": "WAIT",
+          "observation": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "reward": -1.0,
+          "terminated": false,
+          "truncated": true,
+          "info": {
+            "position": [
+              0,
+              0
+            ],
+            "start": [
+              0,
+              0
+            ],
+            "goal": [
+              2,
+              2
+            ],
+            "seed": 42,
+            "observation_version": 1,
+            "elapsed_steps": 3,
+            "moves": 0,
+            "path_cost": 0.0,
+            "episode_reward": -18.0,
+            "arrival_step": null,
+            "obstacle_attempts": 1,
+            "boundary_attempts": 1,
+            "terminated": false,
+            "truncated": true,
+            "success": false,
+            "failure_reason": "time_limit",
+            "event": "wait",
+            "action": "WAIT",
+            "requested_position": [
+              0,
+              0
+            ],
+            "executed_move": false,
+            "reward_components": {
+              "step": -1.0,
+              "obstacle": 0.0,
+              "boundary": 0.0,
+              "goal": 0.0
+            }
+          }
+        }
+      ],
+      "final_info": {
+        "position": [
+          0,
+          0
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          2,
+          2
+        ],
+        "seed": 42,
+        "observation_version": 1,
+        "elapsed_steps": 3,
+        "moves": 0,
+        "path_cost": 0.0,
+        "episode_reward": -18.0,
+        "arrival_step": null,
+        "obstacle_attempts": 1,
+        "boundary_attempts": 1,
+        "terminated": false,
+        "truncated": true,
+        "success": false,
+        "failure_reason": "time_limit",
+        "event": "wait",
+        "action": "WAIT",
+        "requested_position": [
+          0,
+          0
+        ],
+        "executed_move": false,
+        "reward_components": {
+          "step": -1.0,
+          "obstacle": 0.0,
+          "boundary": 0.0,
+          "goal": 0.0
+        }
+      }
+    },
+    {
+      "name": "already_at_goal",
+      "map": {
+        "rows": 1,
+        "cols": 1,
+        "obstacles": [],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          0,
+          0
+        ],
+        "max_steps": 100
+      },
+      "initial_observation": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "reset_info": {
+        "position": [
+          0,
+          0
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          0,
+          0
+        ],
+        "seed": 42,
+        "observation_version": 1,
+        "elapsed_steps": 0,
+        "moves": 0,
+        "path_cost": 0.0,
+        "episode_reward": 0.0,
+        "arrival_step": 0,
+        "obstacle_attempts": 0,
+        "boundary_attempts": 0,
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "failure_reason": null,
+        "event": "already_at_goal",
+        "action": null,
+        "requested_position": [
+          0,
+          0
+        ],
+        "executed_move": false,
+        "reward_components": {
+          "step": 0.0,
+          "obstacle": 0.0,
+          "boundary": 0.0,
+          "goal": 0.0
+        }
+      },
+      "transitions": [],
+      "final_info": {
+        "position": [
+          0,
+          0
+        ],
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          0,
+          0
+        ],
+        "seed": 42,
+        "observation_version": 1,
+        "elapsed_steps": 0,
+        "moves": 0,
+        "path_cost": 0.0,
+        "episode_reward": 0.0,
+        "arrival_step": 0,
+        "obstacle_attempts": 0,
+        "boundary_attempts": 0,
+        "terminated": true,
+        "truncated": false,
+        "success": true,
+        "failure_reason": null,
+        "event": "already_at_goal",
+        "action": null,
+        "requested_position": [
+          0,
+          0
+        ],
+        "executed_move": false,
+        "reward_components": {
+          "step": 0.0,
+          "obstacle": 0.0,
+          "boundary": 0.0,
+          "goal": 0.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,740 @@
+A Comparative Study of Deep Q-Networks and Traditional Algorithms for Multi-
+Agent Shortest-Path Search in Dynamic Graphs
+Madhav Joshi
+Marwadi University
+Abstract—This study compares prioritized breadth-first search, Dijkstra and A* with solo-trained and shared-
+policy deep Q-networks for navigation on static and changing unit-cost grids. Ten policies from five training seeds
+were frozen after static 5×5 training and evaluated without learning on 120 new geometries spanning 5×5, 10×10
+and 15×15 sizes, one/two/four agents and two wall probabilities. The final protocol produced 15,120 unique
+evaluation episodes; three fresh timing rollouts per episode were not treated as extra outcome samples. Across all
+conditions, replanning A* completed 642/720 episodes (89.17%), shared DQN 799/3600 (22.19%), and solo DQN
+870/3600 (24.17%). All recorded first trajectories passed replay auditing, and actual collisions were zero under the
+common rejection rules. Success-conditioned paths, matched comparisons and descriptive variation across model
+seeds are reported alongside failures. The findings apply to fixed small-map-trained policies and current-map
+prioritized planners under this protocol; they do not establish a universal algorithm ranking or a general
+reinforcement-learning adaptation advantage.
+Index Terms—graph search; deep Q-network; multi-agent pathfinding; dynamic grid; policy transfer.
+The study contributes (1) a tested environment
+I. Introduction
+with simultaneous proposals, absorbing goals and
+Graph search supplies routes for software agents explicit dynamic snapshots; (2) a frozen, geometry-
+and mobile robots. Breadth-first search (BFS) finds disjoint comparison retaining unsuccessful cases and
+minimum-edge paths in unweighted graphs [1], five model seeds; and (3) an audited analysis of
+Dijkstra's algorithm addresses minimum-length graph transfer, path quality, conflict attempts and runtime.
+paths [2], and A* directs search with a heuristic The novelty is the controlled experiment and
+estimate [3]. These foundations solve an individual reproducible implementation, not a new MAPF or
+graph-search problem; using them for several reinforcement-learning algorithm.
+simultaneous agents additionally requires temporal
+Before final collection we recorded four
+coordination. Multi-agent pathfinding (MAPF) has
+hypotheses. H1 predicts shorter static paths from A*
+applications in automated warehouses and robotics,
+than DQN. H2 predicts faster completion after obstacle
+but collision and goal-occupancy assumptions differ
+changes from DQN than fixed precomputed routes,
+between studies [6].
+with replanning also evaluated. H3 predicts lower
+Reinforcement learning offers a different success and more conflict attempts with more agents.
+approach: a policy is learned before deployment and H4 predicts stronger success from shared training than
+then reused to choose actions. DQN provides a neural independent use of a solo-trained policy. Each is
+approximation to action values [4]. A reusable policy assessed descriptively on matched cases; contrary
+might react to a changed neighborhood without evidence is retained.
+running a fresh graph search, although that does not
+establish optimal paths, reliable generalization or a II. Related Work
+computational advantage over replanning. The present
+A. Classical shortest-path algorithms
+study tests these possibilities with a deliberately small
+BFS uses graph-distance levels [1]. Dijkstra
+method.
+searches minimum-length paths [2], while A* adds
+We compare fixed-priority space-time BFS,
+heuristic guidance [3]. In our unit-cost grid, Manhattan
+Dijkstra and A* with compact DQNs trained on static
+distance is the heuristic. These single-agent
+5×5 maps. A solo-trained policy is deployed
+foundations do not make the entire fixed-priority team
+independently for each agent; a shared-policy model is
+planner optimal. Our team searches add a time
+trained with two simultaneous agents. Both are tested
+coordinate, wait actions and reservations, following
+without further learning on fresh 5×5, 10×10 and
+the cooperative-search principle [5].
+15×15 grids, one/two/four agents, and static or
+B. Deep reinforcement learning and DQN
+scheduled-changing obstacles. Frozen classical routes
+and untrained networks are controls. Our question is Mnih et al. demonstrated learned control through
+how these particular trained policies transfer, rather neural action values [4]. Our implementation uses the
+than whether reinforcement learning universally DQN ideas of experience replay and a target network,
+replaces classical search. The planners receive the full with a small multilayer perceptron receiving a vector
+current graph and DQNs receive local features, so the of navigation features. It differs from pixel-based Atari
+comparison includes an information-access difference. control in architecture, rewards and simulator
+assumptions. We examine trained policies' failures as remains at its goal, continuing to occupy that vertex.
+well as successes. The global state includes positions, goals, the current
+graph and elapsed time; a policy receives only its
+C. Reinforcement learning on graphs
+feature observation. The local observation is generally
+Dai and Khalil et al. combine reinforcement
+partially observable, so we do not assert that its vector
+learning with graph embeddings for combinatorial
+is a Markov state.
+optimization [9]. That work concerns objectives such
+All actions are proposed simultaneously. A
+as vertex cover, graph cuts and traveling-salesman
+moving proposal into an obstacle or outside the grid
+solutions. Our DQN uses no graph embedding and
+fails. Moving proposals sharing a destination and
+chooses local navigation actions. Consequently, graph-
+opposite edge swaps are rejected. Rejection then
+optimization results cannot be imported as evidence
+propagates until a move cannot enter a cell whose
+for collision-safe pathfinding here.
+occupant now stays. Following a cell vacated in the
+D. Multi-agent pathfinding
+same tick and cycles longer than two are permitted.
+Silver's cooperative search uses space-time routes This centralized movement referee enforces collision
+and reservations [5]. Stern et al. clarify MAPF variants safety for every method, without supplying extra
+and evaluation conventions [6]. Learned MAPF information to the learned policies. Rejected-agent
+methods can be substantially richer than our baseline: attempts and actual collisions are distinct.
+PRIMAL combines reinforcement and expert imitation
+Wall changes prepare before the corresponding
+learning [7], and Li et al. communicate local features
+action observation. At tick 2 a safe free cell is added to
+through graph neural networks trained by expert
+the obstacle set, then removed at tick 8. All eight
+imitation [8]. We use neither expert demonstrations
+candidate team endpoints are protected, and the added
+nor communication. Their results therefore motivate
+cell is initially at Manhattan distance at least 2 from all
+future work rather than provide performance numbers
+four starts. No agent can occupy it after only one
+comparable to our maps.
+move. Events are deterministic and shared across
+TABLE I methods and nested team sizes, but completion stops
+Representative Prior Work and Its Difference from This Study subsequent events. Empty schedules remain in the
+Source Problem/method Setting Difference from
+denominator if no eligible cell exists. The route-
+this experiment dependent perturbation need not obstruct every
+Dijkstra [2], Hart Minimum-cost Known graphs No learned selected method's path.
+et al. [3] graph search simultaneous-
+agent policy Our primary objective is feasible team completion
+Mnih et al. [4] DQN control Atari Different within horizon H. We then report makespan T = max_i
+observation/actio T_i, sum of first-arrival times sum_i T_i, executed
+n domain
+movement count L, conflict attempts and
+Silver [5] Cooperative Game navigation Includes richer
+space-time search cooperative
+computational time. A single weighted objective is not
+search variants minimized by all implementations: prioritized planners
+Stern et al. [6] MAPF Grid MAPF Our custom maps minimize each agent's arrival turns in fixed order, and
+terminology/benc are not their DQN optimizes a shaped return. This distinction
+hmarks benchmark
+prevents a misleading claim of a shared global
+Sartoretti et al. [7] RL with imitation Decentralized Our small DQN
+MAPF lacks imitation
+optimality target.
+learning
+Li et al. [8] GNN feature Multi-robot Our agents do not IV. Methodology
+communication planning communicate
+A. Environment and observations
+Dai/Khalil et al. RL with graph Combinatorial Different
+[9] embeddings graph tasks objective and The v2 observation has 17 normalized features:
+representation current row/column (2), signed goal displacement (2),
+The selected experimental gap is a transparent
+neighboring wall flags (4), neighboring boundary flags
+comparison of small static-trained local DQNs and
+(4), remaining time (1), and adjacent other-agent
+simple classical replanning under matched graph
+occupancy flags (4). Coordinates and goal
+changes. This is not a claim that such comparisons
+displacements are normalized by each grid's
+have never been studied.
+row/column span. Policy inputs contain these features
+only, with no future schedule, full graph or diagnostic
+III. Problem Formulation
+counters. All final one-agent cases also use this v2
+At action tick t the environment has a unit-cost team interface; earlier 13-feature development results
+grid graph G_t = (V_t, E_t). Free cells are vertices and are not pooled into final comparisons.
+orthogonal free-cell adjacency defines movement
+The observation/action/reward loop is illustrated in
+edges. There are n agents, with positions p_t^i, distinct
+Fig. 1. After joint movement, a fresh next observation
+starts s^i and distinct goals g^i. Each may move up,
+includes any event prepared for the next action tick.
+down, left or right, or wait. Upon first arrival an agent
+Reset restores the original graph, positions and event C. Models and training
+history.
+The network is 17–128–128–5, with ReLU hidden
+activations. Adam uses learning rate .001, discount
+.99, batch 64, replay capacity 50,000, warm-up 256
+transitions, an update every eight transitions, target
+copying every 500 optimizer updates, and gradient
+clipping at norm 10. Epsilon falls linearly from 1 to
+.05 over 600 cycles. Five training seeds (0–4) are
+retained.
+Models train on 50 static 5×5 geometries at .10
+wall probability; ten validation geometries are
+observed without best-checkpoint selection. Each
+seed/mode uses 1,000 cycles. A solo cycle consists of
+two one-agent tasks; a shared cycle consists of one
+two-agent task. Both assign 2,000 agent tasks per seed.
+They do not match realized transitions, updates or
+reward timing: solo team bonuses arrive with
+individual completion, while shared bonuses wait for
+the last agent. These differences are reported as
+limitations of H4's causal interpretation. Training
+geometry generation also kept the two opposite corner
+cells free, before sampling team endpoints from all
+free cells; final wall sampling covers every cell. Solo
+training has zero other-agent occupancy features,
+whereas shared training encounters nearby teammates.
+Matching vector formats therefore does not match the
+full observation distribution at deployment.
+Final weights are retained for every seed. During
+Fig. 1. Shared-policy evaluation loop: current graph and positions
+evaluation epsilon is zero, gradients and learning are
+produce local observations; frozen DQN weights propose actions;
+disabled, and weights/update counters are checked for
+the movement referee resolves conflicts, then returns named
+rewards and the next observation. preservation. There is no online obstacle-change
+adaptation through training. An untrained v2 network
+B. Rewards and finite-horizon learning
+for each seed is a diagnostic control. Parameter sharing
+An active agent receives a -1 turn cost; additional
+does not give agents explicit communication or a
+penalties are -10 for an obstacle attempt, -5 for a
+centralized critic.
+boundary attempt, and -25 for a rejected conflict
+D. Classical methods and controls
+attempt. First goal arrival awards +100 once. Team
+completion awards +100 once to every agent, BFS uses a FIFO queue; Dijkstra and A* use
+including agents that arrived earlier. Finished agents stable heaps. Space-time states are (cell, tick), with
+incur no turn cost. Reset-at-goal gives no free unit turn costs including waits. Reservations forbid
+completion bonus. Named components are logged occupied vertices, opposite edges and permanent
+separately. The reward is therefore the sum of earlier-agent goals. Priority is agent index. Plans use
+applicable components, not mutually exclusive event the current graph and remaining horizon, and are
+labels in a table. recomputed after graph changes or execution
+deviations. A failed complete plan leads to joint
+The online network estimates Q(o,a;theta). For
+waiting until a relevant change or timeout, rather than
+replay samples the target is
+immediate episode removal. This decoupled planner is
+𝑦 = 𝑟 + 𝛾(1 − 𝑑) 𝑚𝑎𝑥 𝑄(𝑜′,𝑎′; 𝜃⁻) (1)
+𝑎′ not complete or globally team-optimal. The same
+where d is team termination or finite-horizon space-time planner is used for one-agent final cases,
+truncation. The loss is including wait states. Its runtime is therefore not the
+ℒ(𝜃) = 1∑𝐵 [𝑦ⱼ − 𝑄(𝑜ⱼ,𝑎ⱼ; 𝜃)]² (2) runtime of an optimized spatial-only static shortest-
+𝐵 𝑗=1 path implementation, even though successful static
+Both endings mask the bootstrap because there is one-agent paths can be checked against the exact
+no continuation beyond this task's allowed horizon. spatial BFS distance.
+Shared replay retains arrived-agent forced-WAIT
+Frozen variants compute their routes only on the
+transitions until the team ends, preserving their
+initial graph. Each agent advances its route cursor only
+delayed team bonuses.
+when the next route cell is executed; blocked
+movements are retried. Resulting delays may or independent map replications. Matched shared-
+invalidate original temporal reservations, although the versus-solo comparisons preserve map, agent count,
+common referee still rejects conflicts. Frozen routes condition and seed. Classical paired comparisons have
+are controls, not the main comparison for a changing no training seed. Learned-to-classical pairs reuse a
+graph. classical reference for each model seed, without
+pretending the reference has independently trained
+V. Experimental Setup replicas. Completion comparisons use jointly
+A. Frozen evaluation design successful cases and state their denominator.
+The protocol was fixed before generating final For H2 we separately record whether an addition
+cases. There are three grid sizes (5, 10, 15), two wall was observed. Successful exposed completion steps
+probabilities (.10, .20), two endpoint arrangements are T - 2 + 1; a failure does not acquire a made-up
+(uniform, crossing), three nested agent counts (1, 2, 4) completion time. Both-exposed paired comparisons
+and two conditions (static, dynamic). Horizons are 30, also report success differences. Conditioning on
+60 and 90 turns by size. Ten final geometries per exposure or joint success can change the sampled
+size/density/arrangement yield 120 geometries. Six difficulty, so such comparisons alone do not establish
+classical variants and fifteen policy/seed pairs yield 21 an adaptation advantage.
+runs per agent/condition case: 15,120 unique episodes. C. Hardware, timing and validation
+Each final episode has three fresh deterministic timing
+Execution uses a local Windows 11 CPU system,
+rollouts, 45,360 rollouts total. Only repeat zero
+Python 3.12.6, PyTorch 2.11.0, NumPy 1.26.4 and
+contributes an outcome/trajectory.
+Matplotlib 3.10.0, with eight logical CPUs reported by
+Wall sampling includes every cell. Endpoints are the environment and one PyTorch thread. Exact
+sampled from free cells with RNG seed map_seed + processor/platform strings are archived in run
+70000. Uniform sampling draws eight distinct cells, metadata; no unsupported hardware model or GPU is
+four starts followed by four goals. Crossing sampling assumed. Repeated planning, action-selection and
+draws four free left-edge starts ordered top-to-bottom complete-episode timers are stored separately.
+and four free right-edge goals ordered bottom-to-top. Training timers come from the saved training logs.
+The first one/two pairs form the smaller-team tasks. Method order is fixed and there is no timing warm-up;
+Crossing is a traffic proxy and also changes route machine load and logging overhead limit speed claims.
+length; it does not guarantee high congestion. Initial Recorded training seconds sum timed episode loops,
+deterministic BFS-route overlap pairs are recorded including optimizer work; they exclude validation,
+descriptively. setup and checkpoint saving and are not an end-to-end
+Final seed intervals start at 200000 and advance by training-job wall time. Expanded classical states count
+10000 per stratum in size/density/arrangement order. processed space-time nodes, including popped goals
+Duplicate geometries, too few free cells or too few free and excluding stale heap entries, summed over initial
+boundary endpoints for crossing are rejected and planning and replans. The corresponding metric is not
+logged. Unreachable tasks are retained. Final geometry defined for neural action selection.
+excludes all recorded development and pilot Correctness tests cover known/weighted shortest
+geometries, with 280 exclusions fixed in the seal. paths, simultaneous collision resolution, goal
+Requested probability and realized density are distinct. absorption, dynamic visibility, failed plans, model
+Pilot runs validate software and are excluded from all versions, replay targets and metric denominators. The
+final research tables. saved final audit regenerates scenarios and re-executes
+B. Metrics and analysis every first-trajectory policy/planner decision, checking
+observations, rewards, plans, metrics, hashes and
+Success requires all agents to arrive within the
+common active-event prefixes. Timing repetitions are
+horizon. Failures remain in success denominators;
+checked for identical non-time outcomes during
+completed makespan and arrival sum are missing on
+collection; the audit validates repetition counts and
+failures. Path and completion means use successful
+finite nonnegative timers, rather than claiming to
+episodes and report sample counts. The exact relative
+reproduce machine elapsed times exactly. A recorded
+movement gap (L-L*)/L* is computed only for
+success is never substituted for this evidence.
+successful static one-agent episodes with positive
+reference distance. Independent shortest paths give a
+VI. Results
+team lower bound, not a global feasible optimum.
+A. Collection, validation and sample denominators
+Dynamic/team gaps are left missing with reasons
+rather than fabricated. The sealed experiment completed 15,120 unique
+episodes and 45,360 fresh timed rollouts on 120
+Learned results report seed rates and their sample
+geometries. The saved audit replayed 652,244 first-
+standard deviation on shared maps. These are
+trajectory steps with zero actual collisions. Empty
+descriptive model variability, not confidence intervals
+dynamic schedules numbered 0; any such cases TABLE III
+remained in the denominator. Outcomes count only the Final outcomes by environment condition and agent count.
+first rollout per case; policy seeds reuse the same
+Method Cond AgentSuccesses / Success Successful Mean
+scenario sets. Each classical variant contributes 720 ition s episodes (%) makespan attempts
+episodes, while each policy type contributes 3,600 astar dyna 1 113/120 94.17 12.283 0.000
+across five models. These unequal totals represent mic
+equivalent matched scenarios, not extra distinct astar dyna 2 111/120 92.50 13.144 0.000
+mic
+geometries for DQN.
+astar dyna 4 97/120 80.83 15.134 0.000
+Initially unreachable individual tasks occurred on mic
+7, 9, and 16 of the 120 geometries for the nested one-, astar static 1 113/120 94.17 10.991 0.000
+two-, and four-agent sets respectively. Such cases astar static 2 111/120 92.50 12.072 0.000
+remain failures when they cannot be completed; astar static 4 97/120 80.83 14.289 0.000
+reachability alone does not establish full team astar_ dyna 1 113/120 94.17 15.363 0.000
+frozen mic
+feasibility. Generation rejected 18 candidates
+astar_ dyna 2 102/120 85.00 16.000 7.100
+according to the predeclared geometry/free-endpoint
+frozen mic
+rules, with reasons recorded in the bank.
+astar_ dyna 4 76/120 63.33 16.750 26.642
+B. Success, agent scaling and map-size transfer frozen mic
+astar_ static 1 113/120 94.17 10.991 0.000
+Table II summarizes all evaluated conditions,
+frozen
+including frozen and untrained controls. Classical rows
+astar_ static 2 111/120 92.50 12.072 0.000
+have no training-seed standard deviation. Learned seed frozen
+standard deviations describe five frozen models on the astar_ static 4 97/120 80.83 14.289 0.000
+frozen
+same maps; they are not confidence intervals.
+bfs dyna 1 113/120 94.17 12.336 0.000
+Successful moves/makespan can favor a method that
+mic
+finishes only easy cases, so Table II must be read with
+bfs dyna 2 111/120 92.50 13.180 0.000
+its success denominators. mic
+TABLE II bfs dyna 4 98/120 81.67 15.133 0.000
+mic
+Overall final outcomes; path/time means use successful episodes.
+bfs static 1 113/120 94.17 10.991 0.000
+Method Successes / SuccesSeed Successfu Successful Mean
+bfs static 2 111/120 92.50 12.072 0.000
+episodes s (%) SD l moves makespan attempt
+(pp) s bfs static 4 98/120 81.67 14.265 0.000
+astar 642/720 89.17 n/a 24.433 12.902 0.000 bfs_frozen dyna 1 113/120 94.17 15.496 0.000
+mic
+astar_ 612/720 85.00 n/a 22.882 14.067 5.624
+frozen bfs_frozen dyna 2 103/120 85.83 16.097 6.833
+mic
+bfs 644/720 89.44 n/a 24.646 12.919 0.000
+bfs_frozen dyna 4 75/120 62.50 16.880 28.908
+bfs_ 613/720 85.14 n/a 23.021 14.119 5.957
+mic
+frozen
+bfs_frozen static 1 113/120 94.17 10.991 0.000
+dijkstra 644/720 89.44 n/a 24.646 12.919 0.000
+bfs_frozen static 2 111/120 92.50 12.072 0.000
+dijkstra_ 613/720 85.14 n/a 23.021 14.119 5.957
+frozen bfs_frozen static 4 98/120 81.67 14.265 0.000
+shared 799/3600 22.19 5.173 11.436 9.947 4.522 dijkstra dyna 1 113/120 94.17 12.336 0.000
+mic
+solo 870/3600 24.17 3.082 12.875 10.775 11.723
+dijkstra dyna 2 111/120 92.50 13.180 0.000
+untrained 15/3600 0.42 0.481 3.200 12.667 7.612
+mic
+BFS completed 644/720 episodes and Dijkstra
+dijkstra dyna 4 98/120 81.67 15.133 0.000
+completed 644/720; A* completed 642/720. Equal- mic
+cost BFS and Dijkstra use equivalent arrival-time dijkstra static 1 113/120 94.17 10.991 0.000
+objectives here. Any difference from A* team dijkstra static 2 111/120 92.50 12.072 0.000
+outcomes does not contradict admissible single-agent dijkstra static 4 98/120 81.67 14.265 0.000
+A*: fixed priorities and route choices can change later- dijkstra_ dyna 1 113/120 94.17 15.496 0.000
+agent feasibility. This experiment does not isolate tie- frozen mic
+breaking as a causal factor. dijkstra_ dyna 2 103/120 85.83 16.097 6.833
+frozen mic
+Table III separates static and dynamic agent-count dijkstra_ dyna 4 75/120 62.50 16.880 28.908
+conditions. The full 648-stratum supplement preserves frozen mic
+density, grid size, endpoint arrangement and agent dijkstra_ static 1 113/120 94.17 10.991 0.000
+frozen
+count together. Fig. 2 displays success and Fig. 3
+dijkstra_ static 2 111/120 92.50 12.072 0.000
+completed makespan; methods with no successes have
+frozen
+missing completion means.
+dijkstra_ static 4 98/120 81.67 14.265 0.000
+frozen
+Method Cond AgentSuccesses / Success Successful Mean
+ition s episodes (%) makespan attempts
+shared dyna 1 242/600 40.33 10.831 0.000
+mic
+shared dyna 2 126/600 21.00 9.849 1.482
+mic
+shared dyna 4 37/600 6.17 11.027 12.287
+mic
+shared static 1 238/600 39.67 9.647 0.000
+shared static 2 120/600 20.00 8.625 1.503
+shared static 4 36/600 6.00 9.639 11.860
+solo dyna 1 254/600 42.33 10.106 0.000
+mic
+solo dyna 2 155/600 25.83 12.316 5.243
+mic
+solo dyna 4 31/600 5.17 17.774 29.948
+mic
+solo static 1 249/600 41.50 8.839 0.000
+solo static 2 149/600 24.83 10.832 5.343
+solo static 4 32/600 5.33 16.625 29.802
+untrained dyna 1 6/600 1.00 14.667 0.000
+mic
+untrained dyna 2 1/600 0.17 12.000 4.043
+mic
+untrained dyna 4 0/600 0.00 n/a 18.910
+mic
+untrained static 1 7/600 1.17 11.143 0.000
+untrained static 2 1/600 0.17 12.000 4.142
+untrained static 4 0/600 0.00 n/a 18.575
+Fig. 3. Successful-episode makespan by agent count. These curves
+condition on different successful subsets and do not alone show
+paired superiority.
+TABLE IV
+Map-size transfer, pooled across agent counts and endpoint
+arrangements.
+Method Conditi Grid Successes / episodes Success Seed SD
+on side (%) (pp)
+astar dynamic 10 110/120 91.67 n/a
+astar dynamic 15 114/120 95.00 n/a
+astar dynamic 5 97/120 80.83 n/a
+astar static 10 110/120 91.67 n/a
+astar static 15 114/120 95.00 n/a
+astar static 5 97/120 80.83 n/a
+bfs dynamic 10 110/120 91.67 n/a
+bfs dynamic 15 114/120 95.00 n/a
+bfs dynamic 5 98/120 81.67 n/a
+bfs static 10 110/120 91.67 n/a
+bfs static 15 114/120 95.00 n/a
+bfs static 5 98/120 81.67 n/a
+dijkstra dynamic 10 110/120 91.67 n/a
+dijkstra dynamic 15 114/120 95.00 n/a
+dijkstra dynamic 5 98/120 81.67 n/a
+dijkstra static 10 110/120 91.67 n/a
+dijkstra static 15 114/120 95.00 n/a
+dijkstra static 5 98/120 81.67 n/a
+shared dynamic 10 125/600 20.83 5.621
+Fig. 2. Success by agent count. Error bars for solo/shared show
+shared dynamic 15 94/600 15.67 7.250
+sample standard deviation across five model seeds; all failed
+episodes remain in denominators.
+shared dynamic 5 186/600 31.00 6.163
+Method Conditi Grid Successes / episodes Success Seed SD Policy Agents Pairs Joint Move Policy shorter / ties
+on side (%) (pp) minus A* success difference / A* shorter
+shared static 10 122/600 20.33 5.224 solo 1 600 249 1.462 0 / 233 / 16
+shared static 15 91/600 15.17 8.258 solo 2 600 149 2.940 0 / 132 / 17
+shared static 5 181/600 30.17 5.786 solo 4 600 32 5.188 0 / 22 / 10
+solo dynamic 10 134/600 22.33 3.970 shared 1 600 238 2.185 0 / 218 / 20
+solo dynamic 15 120/600 20.00 7.862 shared 2 600 120 1.283 1 / 107 / 12
+solo dynamic 5 186/600 31.00 2.236 shared 4 600 36 0.889 0 / 26 / 10
+solo static 10 134/600 22.33 3.302 The exact single-agent relative movement gap is
+solo static 15 113/600 18.83 7.919 additionally reported in Table VI. Its denominator is
+solo static 5 183/600 30.50 1.918 the exact spatial BFS distance, and its mean includes
+only successful static single-agent episodes. An absent
+gap for a failed episode is not treated as zero. Multi-
+agent and dynamic gaps remain undefined rather than
+using a misleading global optimum.
+TABLE VI
+Static single-agent exact relative movement gaps, (L - L*) / L*.
+Method Successes / episodes Mean exact movement gap
+astar 113/120 0.000
+astar_frozen 113/120 0.000
+bfs 113/120 0.000
+bfs_frozen 113/120 0.000
+dijkstra 113/120 0.000
+dijkstra_frozen 113/120 0.000
+shared 238/600 0.306
+solo 249/600 0.307
+untrained 7/600 0.000
+For H2, Table VII restricts pairs to episodes in
+which both methods observed the scheduled addition.
+A positive completion-step difference means slower
+learned completion, and a negative success difference
+means lower learned success in that exposed subset.
+Both-exposed cases and jointly successful cases have
+different denominators; neither excludes failed
+episodes from the reported paired success difference.
+Replanning controls remain the main fair classical
+methods.
+TABLE VII
+Learned-policy minus frozen A* under dynamic addition exposure.
+Fig. 4. Executed movement count by grid size among successful Policy minus AgenBoth Joint Success Post-addition
+frozen A* ts exposed success difference step difference
+episodes. Success rates and matched comparisons are required to
+pairs (pp)
+interpret these conditional averages.
+solo 1 600 254 -51.833 -1.374
+C. Matched static paths and dynamic completion
+solo 2 600 155 -59.167 0.723
+For H1, Table V compares each learned run with solo 4 600 30 -58.167 4.333
+A* on exactly the same static task. Only jointly shared 1 600 242 -53.833 -0.636
+successful pairs contribute path differences; the same shared 2 600 121 -64.000 -0.669
+deterministic A* reference is reused for each learned shared 4 600 33 -57.167 0.212
+seed. A positive movement difference means the D. Attempts, shared training and computational
+learned policy used more moves. Team A* is measurements
+prioritized arrival-time search, not a globally optimal
+Fig. 5 reports rejected-agent attempts per episode,
+movement reference.
+including failures. These attempts indicate conflicting
+TABLE V proposals; they are not realized physical collisions.
+Learned-policy minus A* static movements on jointly successful Actual collisions were zero for every method because
+pairs. the common environment rejected unsafe proposals.
+Policy Agents Pairs Joint Move Policy shorter / ties
+minus A* success difference / A* shorter
+TABLE IX
+Actual CPU training totals across five seeds per mode.
+Mode Tasks Episodes Transitions Updates Recorded
+seconds
+solo 10000 10000 81770 10064 52.112
+shared 10000 5000 121408 15020 80.586
+Fig. 5. Conflict attempts by requested wall probability, averaged
+over all episodes. These are rejected-agent counts per turn
+summed over a trip; actual collision count is zero.
+Table VIII pairs shared and solo policies using
+identical scenario and seed keys. Positive success
+differences favor shared training; path differences
+include only jointly successful pairs. Additional per- Fig. 6. Training return per assigned task, trailing 100-cycle
+stratum paired differences are included in the machine- averages, for the frozen final solo/shared models. Curves are
+readable analysis. historical training data and do not select test checkpoints.
+TABLE VIII
+Table X uses per-case means from three fresh
+timing rollouts, averaged across static and dynamic
+Shared-policy minus solo-policy matched effects.
+cases. Planning, action-selection and complete-episode
+Cond Agen Pairs Joint Shared minus Paired seed Move
+ition ts success solo success (pp) SD (pp) difference
+timers are separate; expanded space-time states sum
+static 1 600 184 -1.833 11.356 -0.370
+over planning calls per episode and are missing for
+static 2 600 89 -4.833 6.882 -1.258
+neural policies. Different success/horizon behavior
+static 4 600 14 0.667 2.528 -3.714
+changes how many decisions occur, so per-episode
+dyna 1 600 190 -2.000 11.205 -0.274
+totals cannot establish a universal computational
+mic ranking. Fig. 7 combines planning and selection only
+dyna 2 600 95 -4.833 7.715 -0.147 and retains those limitations.
+mic
+TABLE X
+dyna 4 600 13 1.000 3.084 -2.769
+mic Repeated timing means in milliseconds and mean expanded states
+per episode.
+Table IX separates recorded training budgets from
+inference. Task assignments were matched, while Method Agents Cases Planning Selection Total Expanded
+ms ms ms states
+actual optimizer updates, transitions and reward timing
+astar 1 240 3.826 0.224 6.965 166.050
+were not. Fig. 6 shows exploratory training returns
+astar 2 240 9.775 0.362 14.861 678.654
+from the original frozen-model training run; the curves
+astar 4 240 19.145 0.488 28.457 1362.312
+are practice data, not final test results.
+astar_frozen 1 240 1.868 0.128 5.271 87.775
+astar_frozen 2 240 4.711 0.187 10.423 357.075
+Method Agents Cases Planning Selection Total Expanded The unpaired successful movement means are
+ms ms ms states 24.433 for A*, 12.875 for solo and 11.436 for shared.
+astar_frozen 4 240 10.213 0.300 21.854 728.633 These smaller learned-policy averages do not establish
+bfs 1 240 16.854 0.264 20.471 1066.158 shorter routes: the methods complete different subsets
+bfs 2 240 31.516 0.383 36.641 2242.467 of tasks. Table V instead holds the task fixed and
+bfs 4 240 64.762 0.528 74.107 4518.108 retains only joint successes, where 6 of the six mean
+bfs_frozen 1 240 8.832 0.129 12.409 600.392 learned-minus-A* static movement differences are
+bfs_frozen 2 240 17.938 0.190 23.633 1261.025 positive in this final experiment. Most successful
+bfs_frozen 4 240 37.946 0.339 49.870 2554.758 single-agent learned paths tie the exact distance, while
+dijkstra 1 240 17.851 0.243 21.212 1066.158 occasional long detours increase the mean gap; the
+dijkstra 2 240 33.985 0.373 39.118 2242.467 failures remain visible in Table VI.
+dijkstra 4 240 70.675 0.517 79.841 4518.108
+A. Hypothesis assessment
+dijkstra_ 1 240 10.208 0.138 13.733 600.392
+frozen H1 receives directional support in 6 of six joint-
+dijkstra_ 2 240 19.996 0.201 25.809 1261.025 success contrasts where learned mean movements
+frozen
+exceed A*. The learned-minus-A* mean movement
+dijkstra_ 4 240 41.336 0.311 53.417 2554.758
+frozen
+differences for solo with one/two/four agents are
+1.462, 2.940, 5.188; shared differences are 2.185,
+shared 1 1200 0.000 23.195 33.474 n/a
+1.283, 0.889. Table V separates shorter paths and ties.
+shared 2 1200 0.000 46.158 63.238 n/a
+A strict statement that A* always gives shorter paths is
+shared 4 1200 0.000 96.614 123.251 n/a
+not justified by ties or any opposite-direction pairs.
+solo 1 1200 0.000 22.335 32.220 n/a
+Static single-agent gaps have an exact reference; multi-
+solo 2 1200 0.000 43.423 59.408 n/a
+agent prioritized paths do not. Joint-success
+solo 4 1200 0.000 94.625 121.429 n/a
+conditioning and failures must remain visible when
+untrained 1 1200 0.000 35.191 50.452 n/a
+interpreting this conditional support for H1.
+untrained 2 1200 0.000 69.653 90.214 n/a
+untrained 4 1200 0.000 131.137 158.751 n/a H2 is not established as a general advantage. In 3
+of six contrasts the learned policy has lower joint-
+success post-addition completion time, while in 6 it
+has lower exposed-pair success than frozen A*.
+Learned-minus-frozen-A* completion differences for
+solo are -1.374, 0.723, 4.333; shared differences are -
+0.636, -0.669, 0.212. Table VII reports exposed-pair
+success as well. No online training occurred; reacting
+through a fixed policy is not learned adaptation during
+testing. Frozen routes can wait until tick 8 removal,
+while replanners seek another route. Mild changes and
+exposure/joint-success selection prevent a broad
+adaptation superiority claim.
+H3 is not a uniform law for every method. Across
+the 20 main-method adjacent agent-count/condition
+comparisons, 20 show lower success and 8 show
+increased attempts. Classical reservations can keep
+Fig. 7. Planning plus action-selection time per episode, with three attempted conflicts at zero, while adding an
+fresh rollouts per unique case. Fixed method order, different unreachable or blocked-goal task can reduce team
+completion lengths and logging overhead limit runtime claims.
+success independently of learned coordination. Nested
+endpoints match the board but add tasks; they do not
+VII. Discussion
+isolate congestion from feasibility.
+Replanning A* succeeded on 89.17% of its
+H4 shows shared-policy success advantages in 2 of
+evaluated cases. Shared and solo DQN reached
+six agent-count/condition summaries, disadvantages in
+22.19% and 24.17% respectively. These averages
+4, and ties in 0. The six paired seed-level differences
+combine conditions and should not replace the
+and sample standard deviations are in Table VIII, with
+stratified tables. The main research question is
+72 finer contrasts in the supplement. Thus any support
+answered for these implementations: the results
+is condition-specific; there is no significance test or
+quantify the reliability and path/timing tradeoffs of
+claim of consistent superiority from pooled averages
+static-small-map-trained policies against current-map
+alone. Shared replay, delayed team bonuses and
+prioritized search. They are not a statement about the
+differing realized training updates all vary together.
+best attainable DQN, all reinforcement learning, or all
+MAPF planners.
+B. Mechanisms and interpretation full team solvability is not established by an exact
+solver.
+Current-map planners can search around newly
+blocked cells and reserve time-space for other agents; Prioritized planning is incomplete and not globally
+the learned policy can only choose from its compact optimal, with fixed priority and tie-breaking. Reward
+current observation. The latter can alias different objectives differ from arrival-time search; waits and
+hidden situations and has no recurrent memory. executed movement costs are distinct. Solo/shared
+Distribution shift also includes larger coordinate spans, training matches assigned tasks but not
+longer routes and crossing endpoints. These are transition/update counts or reward timing. Path means
+plausible explanations for observed patterns, not condition on success, and matched completion means
+isolated causal mechanisms proved by ablations. condition on joint success/exposure. Descriptive seed
+Parameter sharing by itself does not prove cooperation standard deviations are not confidence intervals. No
+or explicit information exchange. universal speed ranking follows from timers with fixed
+ordering, no warm-up and shared-machine/logging
+The four-agent initial route-overlap proxy
+effects.
+averages 2.233 intersecting route pairs for uniform
+endpoints and 5.317 for crossing endpoints. A route The local experiment archive is provided; no
+intersection has no time dimension and is not an actual public repository, independent third-party
+collision. The endpoint arrangement therefore reproduction, external peer review or publication
+describes task structure rather than certifying a strict acceptance is claimed.
+congestion ordering. Requested wall probabilities
+likewise differ from realized fractions recorded in each IX. Conclusion
+geometry. The study completed a frozen comparison of
+C. Reproducibility and practical scope classical prioritized search and DQN policy transfer
+across matched static/dynamic grids. Replanning A*,
+Run metadata, scenario banks, schedules, raw
+shared DQN and solo DQN achieved overall success
+CSV, first trajectories, timer repetitions, model hashes
+rates of 89.17%, 22.19% and 24.17% respectively on
+and source snapshots are archived. Analysis
+their matched scenario sets. The results and paired
+tables/figures are generated from immutable measured
+tables answer the research question for the declared
+outputs, and the manuscript provenance record maps
+models and environments, with unsuccessful episodes
+text sections and tables to those files. Replaying first
+retained. They do not justify a universal DQN
+trajectories checks decisions and environment
+advantage, learned collision-safety claim, or global
+behavior; it does not reproduce wall-clock timers
+multi-agent path optimum.
+exactly. Independent external reproduction and
+evaluation on public warehouse benchmarks would Current-map prioritized A* completed a larger
+strengthen this controlled local study. fraction of matched tasks than both frozen learned
+policy types under this protocol. Shared two-agent
+VIII. Limitations training did not improve pooled success over
+independent deployment of the solo-trained policy.
+This study uses small synthetic unit-cost grids, at
+most four agents and simplified synchronous moves; The evidence supports evaluating reliability
+no real hardware validation is performed. Dynamic together with conditional path quality, separate
+graphs contain only one safely scheduled training/inference budgets and explicit information
+addition/removal, not moving obstacles, changing access. Future work should add an information-
+costs or repeated adversarial changes. Some methods matched baseline, multiple training sizes, recurrent or
+finish before exposure and some changes leave routes communicating policies, graph neural networks, expert
+unaffected. Classical algorithms receive more map imitation, stronger complete MAPF baselines and
+information than policies. A shared movement referee public warehouse tasks. PPO, QMIX and actor-critic
+enforces zero actual collisions, so safety cannot be methods are candidates for future comparisons, not
+attributed to the learned networks. methods evaluated here.
+Training is restricted to static 5×5 maps and a References
+fixed budget with no final-test tuning. The observation
+[1] MIT OpenCourseWare. Lecture 9: Breadth-First Search. 6.006
+is partially observable and the model has no memory, Introduction to Algorithms, Spring 2020, 2020. Primary source.
+communication, demonstrations or graph embeddings.
+[2] E. W. Dijkstra. A note on two problems in connexion with
+There are only five trained seeds and ten final
+graphs. Numerische Mathematik, 1, 269–271, 1959.
+geometries per size/density/arrangement stratum. 10.1007/BF01386390.
+Geometry rejection for boundary endpoint availability
+[3] P. E. Hart, N. J. Nilsson, and B. Raphael. A Formal Basis for
+biases crossing cases, and route distance varies with the Heuristic Determination of Minimum Cost Paths. IEEE
+the arrangement. Unreachable tasks are retained but Transactions on Systems Science and Cybernetics, 4(2), 100–107,
+1968. 10.1109/TSSC.1968.300136.
+[4] V. Mnih et al. Human-level control through deep reinforcement
+learning. Nature, 518, 529–533, 2015. 10.1038/nature14236.
+[5] D. Silver. Cooperative Pathfinding. Proceedings of AIIDE,
+1(1), 117–122, 2005. 10.1609/aiide.v1i1.18726.
+[6] R. Stern et al. Multi-Agent Pathfinding: Definitions, Variants,
+and Benchmarks. Proceedings of the Twelfth International
+Symposium on Combinatorial Search, 10(1), 151–158, 2019.
+10.1609/socs.v10i1.18510.
+[7] G. Sartoretti, J. Kerr, Y. Shi, G. Wagner, T. K. S. Kumar, S.
+Koenig, and H. Choset. PRIMAL: Pathfinding via Reinforcement
+and Imitation Multi-Agent Learning. arXiv:1809.03531v3, revised
+February 2019, 2019. 10.48550/arXiv.1809.03531.
+[8] Q. Li, F. Gama, A. Ribeiro, and A. Prorok. Graph Neural
+Networks for Decentralized Multi-Robot Path Planning.
+arXiv:1912.06095, 2019. 10.48550/arXiv.1912.06095.
+[9] H. Dai, E. B. Khalil, Y. Zhang, B. Dilkina, and L. Song.
+Learning Combinatorial Optimization Algorithms over Graphs.
+Advances in Neural Information Processing Systems 30, 2017.
+Primary source.

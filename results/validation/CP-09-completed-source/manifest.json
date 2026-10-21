@@ -1,0 +1,56 @@
+{
+  "acceptance": {
+    "date": "2026-10-07",
+    "checkpoint": "CP-09 complete",
+    "docx_sha256": "c77ec6f2fa852cf55588fdb138c4e64c3187589644d43da058bf42ec49626349",
+    "native_pdf_sha256": "e0e7a8e6b0e9e08613c61828303b71afae52060412b499ab6a67617695be0823",
+    "native_pages": 11,
+    "manual_visual_review": "Completed: all 11 native pages inspected individually; numeric values, tables, figures, equations, captions, columns and references readable.",
+    "structural_checks_passed": true,
+    "focused_tests": 3,
+    "focused_test_seconds": 10.98,
+    "previous_full_suite_tests": 142,
+    "final_seal_matches": true,
+    "raw_results_unchanged": true,
+    "analysis_unchanged": true,
+    "original_qenn_unchanged": true,
+    "venue_acceptance_claimed": false,
+    "page_flow_note": "Table V caption/header at end of page 7; repeated header and complete body continue in the next column."
+  },
+  "sources": {
+    "README.md": "3d22a6fae65aec71c5e69368813ebe47da126c424ea58f595a4ed5a7fc379abf",
+    "task.md": "b61a5f917adf3cecb2b6fc9d596a8b44a766da51c507cca9864cebc61b9a2ebf",
+    "prd.md": "8cdedd8b2a837612f47bf27c76660c27c7882a76a72225fff4677d003b6e1a66",
+    "tdd.md": "71132e412985e318b92e850f9b53b545ffe2b395f489c052d5beeac3b2b10bed",
+    "implementationstrategy.md": "63a5b252d31aa71d47f6b72a015d6c52d39601f8f1da38c3784d8bdae59ebaa9",
+    "everythingtoknow.md": "aee18b5ca54b2da1aaaddf5a54d128a306d57971c96b31e35d581fab97e29988",
+    "paper/WORD_REVIEW.md": "b005147a7ff4a6bc26b7764455618f3f42f48f18e9061b1273dd55675ae6b50e",
+    "results/validation/CP-09.md": "ee71f7f10fa126c3369b36b9bba507c005b42288ee14ea0685f13d490fa345c8",
+    "paper/build_word.py": "46e932a694cdcf40dcf0aeee5257ae9de24eb1607543bd38be93baece18d55dc",
+    "test_word_manuscript.py": "24c2b98f8a631696098fa607197850e052b3476e05aa53b04e65aea6e6771cdf",
+    "results/validation/accept_cp09.py": "18edf116af02443c1773a418cce9853523c5d1681f683bb1bcefabfe6bbc0e9e"
+  },
+  "artifacts": {
+    "paper/Graph_Search_Research_Paper.docx": "c77ec6f2fa852cf55588fdb138c4e64c3187589644d43da058bf42ec49626349",
+    "paper/Graph_Search_Research_Paper.pdf": "e0e7a8e6b0e9e08613c61828303b71afae52060412b499ab6a67617695be0823",
+    "paper/word_provenance.json": "19477e31683868b190f1b8d7c88178f70bd4dd0e68a2d769c4e10907ea207e36",
+    "paper/word_native_render.json": "051cd4630acada94b5aa84affee4a56935ad33c769eb20dc52f06e39e472c9f7",
+    "results/validation/CP-09-checks.json": "4b10f9566afc6e33ee18ee036601a43203e59a8bdd90366f3efb6e79fed78175",
+    "results/validation/CP-09-native-pages.json": "ea60e461555135ef5b24ad086969855d970e32767638d2b61e775074240f57e7",
+    "results/validation/CP-09-acceptance.json": "118a700532ca0091eb51c75205fe72bd48f2a0800c6d2fdff2272275d1bacb3c",
+    "results/validation/CP-09-width-tests.log": "e638f39dde0edb12d6364b7188e2fa301c7e8d7bd5fc3e4bb3a2ff212ee198ea"
+  },
+  "rendered_pages": {
+    "page_01.png": "0270ac888809adb5aaa5b006ac71ac9ccc7eb66f3377c4a566c0ac90ee855257",
+    "page_02.png": "ebc2398a456e40f114f49df5105df4596532a6a4440a70f5c620343e9aeb9913",
+    "page_03.png": "1339fc03350db273e52bb6d6f404622d50700ef48cf746e535f1da4617a41d4b",
+    "page_04.png": "61930194eff1e1ab532e7b29f87de6ac6c9fd5a794c06dbf699534271b0b0d58",
+    "page_05.png": "5cdcbeab84038910cc14f2c8aa0a1f61d92bc00000454cf66aa67f282c3cc9ac",
+    "page_06.png": "60d64690a2431d100b6a6b06124fb9b301f226d92a8d4b5789fbee2710ede23e",
+    "page_07.png": "dc51c8dba0763a5c34f7b0f60f561954763b012344d0c3b3aa43b461ed87d26a",
+    "page_08.png": "0ca88468f319ffab15aa9808a47af18caf0fee52fb843c0a6dc8eaf7184021a5",
+    "page_09.png": "c93012807dbd8296e166f8faace199c9840ec4fe56ea0d9d9021a06280b88490",
+    "page_10.png": "de22e8e83138911f746618285de642640edf7dae31d36bdb27868203de57cf51",
+    "page_11.png": "4ca6e06ca997abf77079b433e1d529f3f56ed11318468ffbec60c3f4c92adcb9"
+  }
+}

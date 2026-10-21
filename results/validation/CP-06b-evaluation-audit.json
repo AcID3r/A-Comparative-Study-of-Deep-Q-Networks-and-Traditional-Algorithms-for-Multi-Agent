@@ -1,0 +1,9 @@
+{
+  "kind": "evaluation",
+  "episodes": 720,
+  "test_maps": 20,
+  "all_decisions_replayed": true,
+  "source_snapshots_match": true,
+  "model_digests_match": true,
+  "actual_collisions": 0
+}

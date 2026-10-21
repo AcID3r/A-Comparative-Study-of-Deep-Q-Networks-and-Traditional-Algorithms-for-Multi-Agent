@@ -1,0 +1,17 @@
+{
+  "kind": "training",
+  "episodes": 20,
+  "optimizer_updates": 170,
+  "validation_records": 3,
+  "seed_results": [
+    {
+      "seed": 0,
+      "validation_successes": 0,
+      "validation_episodes": 10
+    }
+  ],
+  "splits_disjoint": true,
+  "no_test_maps_in_training": true,
+  "reload_matches": true,
+  "source_snapshots_match": true
+}

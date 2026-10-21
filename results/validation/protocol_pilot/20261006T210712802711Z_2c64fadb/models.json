@@ -1,0 +1,62 @@
+[
+  {
+    "method": "solo",
+    "seed": 0,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\solo_seed_0.pt",
+    "sha256": "325a0fc2d33ae84f5bee33a5204e7270d502dcd6ecf0c3a58a65f472b574ff49"
+  },
+  {
+    "method": "solo",
+    "seed": 1,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\solo_seed_1.pt",
+    "sha256": "f8b57b708f35fca84e4079e26e0c98862c4cc99a46fea8759c4bd43a5adeada7"
+  },
+  {
+    "method": "solo",
+    "seed": 2,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\solo_seed_2.pt",
+    "sha256": "2563aaebfa09aa453f845f35c797dddd8330d9ca265197f55108a7344edf577f"
+  },
+  {
+    "method": "solo",
+    "seed": 3,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\solo_seed_3.pt",
+    "sha256": "5fbd05d1ba0592e67741e28c65761b59630bda83353ca5c29bfcfe6cc7fc87cc"
+  },
+  {
+    "method": "solo",
+    "seed": 4,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\solo_seed_4.pt",
+    "sha256": "a5a7d2839faf142932c750b2c81fb5353a0a9f65024dd9037301590f48cb27d5"
+  },
+  {
+    "method": "shared",
+    "seed": 0,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\shared_seed_0.pt",
+    "sha256": "8989021056e60a368fdf150cdac23e900facf31b3b5b76735c09a466e5554ab7"
+  },
+  {
+    "method": "shared",
+    "seed": 1,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\shared_seed_1.pt",
+    "sha256": "89d3a0a68a6e879aaee1dd7827bb3276a1a8488f45adf25ec26344f9ab71031b"
+  },
+  {
+    "method": "shared",
+    "seed": 2,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\shared_seed_2.pt",
+    "sha256": "ed4350dcb726491815b5992776ac54f1858cffce3090f8c57a4116faec596c49"
+  },
+  {
+    "method": "shared",
+    "seed": 3,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\shared_seed_3.pt",
+    "sha256": "8e91e10d94b6996c3396f78f31b157a76de78805a80075ec4c25e8dd0b577176"
+  },
+  {
+    "method": "shared",
+    "seed": 4,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\shared_seed_4.pt",
+    "sha256": "8e3ba6d01d5a1ac858cfd63c11cc8cd46e2a45862939b45d41f3decd23726f80"
+  }
+]

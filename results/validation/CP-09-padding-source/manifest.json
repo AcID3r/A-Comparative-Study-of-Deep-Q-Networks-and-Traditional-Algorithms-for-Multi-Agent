@@ -1,0 +1,31 @@
+{
+  "checkpoint": "CP-09 partial",
+  "native_revised_review_pending": true,
+  "focused_tests": 3,
+  "elapsed_seconds": 9.418,
+  "final_seal_matches": true,
+  "original_qenn_unchanged": true,
+  "document_links_match": true,
+  "sources": {
+    "README.md": "22e8dfcef44a317d0b1cac16eda811e98d03ef9ea534b8b9cf197341a108482e",
+    "task.md": "03c2a75bf8b37ad6590bd3c63301be95d2a30f89e743e7dd8c4742933c81d4cd",
+    "prd.md": "01990b79b75f37e8c28ef82ba287a826fd217365717559f7ccb8337c66f47e84",
+    "tdd.md": "8ef97aa5c750539d37426f5a2096fd3f22f3fa2bcb6471223ca78cda246ce0d1",
+    "implementationstrategy.md": "ae3a4a13e209bfefa6eeefc82e373a8c395560df05a994f1d254485842b90cb4",
+    "everythingtoknow.md": "7b35cfb4209b55ef017c3e4945f141bdaf74d4ef3438113b631c8d74c796360e",
+    "paper/WORD_REVIEW.md": "dc00d9d10a42bfc1f4c51af2d987c237178c64e3a2331942cadc9fd5fafde488",
+    "results/validation/CP-09.md": "3f51218cf6fcd64b51e579ed05444856803bf93a69cdec13a65f3c5e4ccff34c",
+    "paper/build_word.py": "ce2876f9d0ab1af486b5c93e786014282f896fd1f2c8a9742a632c99829f3411",
+    "results/validation/archive_cp09_padding.py": "cc1cac5bbe29e76ffd9a5bdcdce7c201c12674e6959f23a54c1e3eb52b6f2187"
+  },
+  "artifacts": {
+    "paper/Graph_Search_Research_Paper.docx": "baf2e053877109b28b6592bfe84f24da53c9127dc227a32577063b6362c03426",
+    "paper/word_provenance.json": "8837b786e2a2ff2fab32bb01d4b82866dd91e59ecc4f4ea84293b180f4164c16",
+    "paper/word_native_render.json": "b893606213eea9ee1afe7525ca5a1f5d48d0dc76d55559b44bb5412092b6d493",
+    "results/validation/CP-09-checks.json": "7ba148c87a7544d47fbf3f7e2235558f9f9cbb959f8f4cfcce69058c8f8870c8",
+    "results/validation/CP-09-native-pages.json": "f36cc194eafb36e4ba3d016b17633f117efb88407dcb3cc27e9c30fa5ca7515a",
+    "results/validation/CP-09-preview-pages.json": "541a65cf8bb20c1b2b4fac5cb50c46abb4208967beb98d5fb72ca87d7967e793",
+    "paper/Graph_Search_Research_Paper_preview.pdf": "ea88175952198af02b650d51a7817dd3ab3a3d4e7efa5b6dd460b39dde6575db",
+    "results/validation/CP-09-padding-tests.log": "5494652d9bab0e25e83f010e8a32574246cb06c1fbfa36538abb6311bd261e1b"
+  }
+}

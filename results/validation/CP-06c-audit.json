@@ -1,0 +1,11 @@
+{
+  "episodes": 1680,
+  "steps_replayed": 32194,
+  "test_maps": 20,
+  "empty_schedules": 0,
+  "all_decisions_replayed": true,
+  "identical_active_event_prefixes": true,
+  "source_snapshots_match": true,
+  "model_digests_match": true,
+  "actual_collisions": 0
+}

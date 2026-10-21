@@ -1,0 +1,22 @@
+{
+  "dqn_fixed/0": {
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_fixed\\20261006T103855437859Z_d455330a\\models\\seed_0.pt",
+    "sha256": "47227865dba7d4a041c04dd155d1a7534f83de6c4ba32ba13595dd6ae854c733"
+  },
+  "dqn_fixed/1": {
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_fixed\\20261006T103855437859Z_d455330a\\models\\seed_1.pt",
+    "sha256": "0cc2b4f457a7adbc25f9390423aca7adfedfae3112dd8d80d54b4aff4bb59bc8"
+  },
+  "dqn_fixed/2": {
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_fixed\\20261006T103855437859Z_d455330a\\models\\seed_2.pt",
+    "sha256": "a423e911057d4c3bb909dee0df5f27918953edd1a1e2d289cf9e4d70068f3ed8"
+  },
+  "dqn_fixed/3": {
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_fixed\\20261006T103855437859Z_d455330a\\models\\seed_3.pt",
+    "sha256": "9b2c34c093095db070ff8c280ca0227b890a816bd671aa286c94735bf1090191"
+  },
+  "dqn_fixed/4": {
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_fixed\\20261006T103855437859Z_d455330a\\models\\seed_4.pt",
+    "sha256": "9486e6518cd7d4d77c4f32c0d8ca657514dab9aaf4b107913e090e4572ac6d60"
+  }
+}

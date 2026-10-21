@@ -1,0 +1,11 @@
+{
+  "kind": "evaluation",
+  "episodes": 1900,
+  "test_maps": 50,
+  "methods_per_map_condition": 19,
+  "splits_disjoint": true,
+  "source_snapshots_match": true,
+  "all_actions_replayed": true,
+  "identical_realized_schedules": true,
+  "model_digests_match": true
+}

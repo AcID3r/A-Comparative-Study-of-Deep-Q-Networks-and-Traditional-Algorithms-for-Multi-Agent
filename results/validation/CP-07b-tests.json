@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-07",
+  "command": "python -m unittest discover -v",
+  "exit_code": 0,
+  "tests_run": 139,
+  "duration_seconds": 30.522,
+  "result": "OK",
+  "evidence": "Observed process output: Ran 139 tests in 30.522s; OK. Includes real temporary training/evaluation/replay and manuscript PDF checks.",
+  "scope": "Correctness evidence; not research measurements. Final collection finished before tests began."
+}

@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "purpose": "dynamic_team_transfer",
+  "training_run": "results/raw/dqn_team/20261006T193829020826Z_42837111",
+  "add_tick": 2,
+  "remove_tick": 8
+}

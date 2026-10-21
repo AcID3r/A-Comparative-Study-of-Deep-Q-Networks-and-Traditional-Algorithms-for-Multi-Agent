@@ -1,0 +1,8 @@
+{
+  "episodes": 15120,
+  "scenarios": 120,
+  "phase": "final",
+  "timing_repeats": 3,
+  "no_online_training": true,
+  "models_unchanged": true
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-07",
+  "command": "python -m unittest discover -v *> results/validation/CP-08-tests.log",
+  "exit_code": 0,
+  "tests_run": 139,
+  "duration_seconds": 16.539,
+  "result": "OK",
+  "log": "results/validation/CP-08-tests.log",
+  "caption_regression_command": "python -m unittest test_manuscript_tools -v",
+  "caption_regression_tests": 2,
+  "caption_regression_duration_seconds": 0.920,
+  "caption_regression_result": "OK",
+  "scope": "Correctness evidence, separate from research measurements. Captured PowerShell stderr formatting is retained in the log."
+}

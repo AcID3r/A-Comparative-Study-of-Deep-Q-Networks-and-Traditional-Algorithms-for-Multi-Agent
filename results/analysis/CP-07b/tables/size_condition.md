@@ -1,0 +1,32 @@
+| Method | Condition | Grid side | Successes / episodes | Success (%) | Seed SD (pp) |
+|---|---|---|---|---|---|
+| astar | dynamic | 10 | 110/120 | 91.67 | n/a |
+| astar | dynamic | 15 | 114/120 | 95.00 | n/a |
+| astar | dynamic | 5 | 97/120 | 80.83 | n/a |
+| astar | static | 10 | 110/120 | 91.67 | n/a |
+| astar | static | 15 | 114/120 | 95.00 | n/a |
+| astar | static | 5 | 97/120 | 80.83 | n/a |
+| bfs | dynamic | 10 | 110/120 | 91.67 | n/a |
+| bfs | dynamic | 15 | 114/120 | 95.00 | n/a |
+| bfs | dynamic | 5 | 98/120 | 81.67 | n/a |
+| bfs | static | 10 | 110/120 | 91.67 | n/a |
+| bfs | static | 15 | 114/120 | 95.00 | n/a |
+| bfs | static | 5 | 98/120 | 81.67 | n/a |
+| dijkstra | dynamic | 10 | 110/120 | 91.67 | n/a |
+| dijkstra | dynamic | 15 | 114/120 | 95.00 | n/a |
+| dijkstra | dynamic | 5 | 98/120 | 81.67 | n/a |
+| dijkstra | static | 10 | 110/120 | 91.67 | n/a |
+| dijkstra | static | 15 | 114/120 | 95.00 | n/a |
+| dijkstra | static | 5 | 98/120 | 81.67 | n/a |
+| shared | dynamic | 10 | 125/600 | 20.83 | 5.621 |
+| shared | dynamic | 15 | 94/600 | 15.67 | 7.250 |
+| shared | dynamic | 5 | 186/600 | 31.00 | 6.163 |
+| shared | static | 10 | 122/600 | 20.33 | 5.224 |
+| shared | static | 15 | 91/600 | 15.17 | 8.258 |
+| shared | static | 5 | 181/600 | 30.17 | 5.786 |
+| solo | dynamic | 10 | 134/600 | 22.33 | 3.970 |
+| solo | dynamic | 15 | 120/600 | 20.00 | 7.862 |
+| solo | dynamic | 5 | 186/600 | 31.00 | 2.236 |
+| solo | static | 10 | 134/600 | 22.33 | 3.302 |
+| solo | static | 15 | 113/600 | 18.83 | 7.919 |
+| solo | static | 5 | 183/600 | 30.50 | 1.918 |

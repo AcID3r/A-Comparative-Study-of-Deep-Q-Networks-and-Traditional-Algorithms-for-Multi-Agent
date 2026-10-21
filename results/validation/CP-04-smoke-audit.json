@@ -1,0 +1,19 @@
+{
+  "run_directory": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_fixed\\20261006T103833572164Z_df572107",
+  "training_episode_rows": 20,
+  "optimizer_update_rows": 164,
+  "evaluation_rows": 5,
+  "seed_results": [
+    {
+      "seed": 0,
+      "success": false,
+      "moves": 0,
+      "arrival_step": null,
+      "episode_reward": -50.0
+    }
+  ],
+  "source_hashes_match": true,
+  "checkpoint_trajectories_match": true,
+  "reward_and_counter_checks_passed": true,
+  "scope": "same fixed training map; no generalization claim"
+}

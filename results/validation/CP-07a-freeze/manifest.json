@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "config": {
+    "schema_version": 1,
+    "training_run": "results/raw/dqn_team/20261006T193829020826Z_42837111",
+    "sizes": [
+      5,
+      10,
+      15
+    ],
+    "densities": [
+      0.1,
+      0.2
+    ],
+    "arrangements": [
+      "uniform",
+      "crossing"
+    ],
+    "agent_counts": [
+      1,
+      2,
+      4
+    ],
+    "conditions": [
+      "static",
+      "dynamic"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "horizons": {
+      "5": 30,
+      "10": 60,
+      "15": 90
+    },
+    "add_tick": 2,
+    "remove_tick": 8,
+    "pilot_maps_per_stratum": 1,
+    "final_maps_per_stratum": 10,
+    "pilot_first_seed": 100000,
+    "final_first_seed": 200000,
+    "candidate_stride": 10000,
+    "timing_repeats": 3,
+    "methods": [
+      "bfs",
+      "dijkstra",
+      "astar",
+      "bfs_frozen",
+      "dijkstra_frozen",
+      "astar_frozen",
+      "solo",
+      "shared",
+      "untrained"
+    ]
+  },
+  "source_sha256": {
+    "algorithms/astar.py": "66988247d06fcb70063d842fa40ae2349948995e8eb577e883dfd3b28e262c78",
+    "algorithms/bfs.py": "fdc988d2147d4692dc1a13968f58d9538983017da7a00da17db56aa16420a358",
+    "algorithms/dijkstra.py": "f8c382bf21b539338d9fa720633e09048778a48bbf481a3650e8da713770bc4a",
+    "algorithms/dqn.py": "b6522971fc2a32c1a350ec5de7ed3116786befc58d479cf726c5212f8a42a8b3",
+    "algorithms/prioritized.py": "a79f30be69852114d390075bcaaa49d440af659455882c199be08f082afeb9f9",
+    "algorithms/search_result.py": "b5431199d5e8c56d1ad54ba00cc048dfa9255f083c5fcbb5ea041bdcb8b04525",
+    "algorithms/__init__.py": "d32625e59dfe243ef4fe5acae2dd538880f4304b5ddfd4c5e9ec6657ba8c40a5",
+    "environments/dynamic_env.py": "da44afa7cfb5c4fce85ddb16343197880402f9096a7a599bcd80c44364724cd3",
+    "environments/dynamic_team_env.py": "33794ae07e6b01eb783364480a57cc550190b4005dc6e02fb1929300d6a5ef33",
+    "environments/grid_graph.py": "1696176bcff69c4f2a852ea48aaf36b0aaae3463933e146646a329a0af7d83ed",
+    "environments/multi_agent_env.py": "586e3419c20b967eee77f52de2657b4d603899bd6411ea4225ea0c8b1ce6aa63",
+    "environments/random_maps.py": "fe7bd14a4d61fdc4d07ecd78a38ebccf9789d68d185e68efcc70473a569b252c",
+    "environments/single_agent_env.py": "346d83ff2ebcc82367aae334c1209f91c60f36ef539078b18bc0a535637b7597",
+    "environments/__init__.py": "f95c1118d02c2ccc47c0f498ad0249d5ec4af6578893f74c718390f97da4dfe0",
+    "evaluation/audit_dqn_run.py": "fc5a50d981b3fb0aec478b40988960568ff8d7577c7f2bf7005b0136d05888c0",
+    "evaluation/audit_dynamic_team.py": "2dc9743e813361d0c76e94cce1bab6cf887ed0a59e0fbdfbda9b9ccffcfcd2b5",
+    "evaluation/audit_final.py": "1ace9ecdef9ec6cba9d4c1975c4fd0ca1ddbc992a847aa9a51b3189e9024c8b9",
+    "evaluation/audit_team_episode.py": "900367606a9fd904187063354091ca226f24129e2cc82f19f4217e03a97f01c0",
+    "evaluation/audit_team_run.py": "2754fe7567dd122dca3f46869390ea9148b0b6ea58194d032e85071d73baa400",
+    "evaluation/audit_varied.py": "356b286a0b19e71137bf43085637fdd0bd06a5b6a953f019b1811cbde1be48d6",
+    "evaluation/dynamic_team_protocol.py": "5a6213cfa1b425dc4de3d238f2fd6ea60005de2a12cce6d2d6b628ebf857e5bc",
+    "evaluation/evaluate_dqn.py": "08157ea3eb9d54578b69316e7f118f46c3e928ae53463a5577bb12bc638207f6",
+    "evaluation/final_protocol.py": "bf40140de46a79768e203b40baadda82c49f1b38a37ada183a76008f2a075f9e",
+    "evaluation/navigation.py": "682e1b1484a56e768e1972aa96c31b74bb231e2a04fff394844af803d0736deb",
+    "evaluation/plot_learning.py": "d8760d870311f06db0b85ce524ebd88f19258818e5f5ea57c18ef08704d373a4",
+    "evaluation/summarize_dynamic_team.py": "11b1fdec5ad945d413650315637ede16ac34e65a41663aa71f162c9ee6417644",
+    "evaluation/summarize_final.py": "975bd9acab18485d40c237f4da4da99446179515400b5bc762c593a3aa8d4bd9",
+    "evaluation/summarize_team.py": "c7cc913b42a4c857b840c6c946941d6e028055f96265866b9c8e934d59e64487",
+    "evaluation/summarize_transfer.py": "94435a5a4417ca6e78cec2fdfbceab9dc3f8135d8d7ddd425c9a5098a246ccc9",
+    "evaluation/team_protocol.py": "200cd4277d0f3820573795b6fe81aae2a4b5305fa032fe8fa49aa66a2786663e",
+    "evaluation/varied_protocol.py": "952ef838da94605f326bebc84ff03a656fe4021db769a05954cd27220b0d2b46",
+    "evaluation/visualize.py": "e2d057893141765752ad70fc03588b2c9006362b6074be6f8208e26200fefd76",
+    "evaluation/__init__.py": "655b5a0e57078cde737357ca86db5cf0785aec5ab99f5d92bac983c13308b869",
+    "experiments/run_dynamic_team.py": "62b2e364436afe2ce485c4ddd6c6a82c2c3a18dc0aa25ec780017f1ac08b321a",
+    "experiments/run_episode.py": "057e4c2b19311f346078dbcf4319a7d0c92b5da787ec12694282639611c38aa9",
+    "experiments/run_final.py": "9016220b29a6f17b4a91cd15d46054aa7832cc1d9b82e2d53c8794fdb8cd116c",
+    "experiments/run_static.py": "2181d5c4b88e7bacd08ecfcf398830dcf018166b7d0bb5b5cf3d11eb4a9474da",
+    "experiments/run_team_comparison.py": "0617d540999452087001e6e410398233809235a250c1d2187f427be5bb8e8dda",
+    "experiments/run_team_episode.py": "77889dc9a6aa187bd9c8b39e9bdd018c0b71cbbb4ffb78bb422502b79dc1570d",
+    "experiments/run_transfer.py": "2722786ef571132f479266019c218a8f25f2aafaffdda1c3a550b6f8581e995c",
+    "experiments/__init__.py": "f67a437b3910b0400486a45167d0001163081e3b8b3f1d6166df4e3a3adf3581",
+    "configs/final_experiment.json": "a95e8b20bc2550b83f25dedcd9744529f7b6d73bf0f72467fb494cd081c0b638",
+    "configs/final_protocol.md": "4aee45d1bd9ede891c7e71f1b6fc99f2f41e8deedebb4aebd3ee882f01ca5fc8",
+    "test_final_protocol.py": "d9cdad3000718605a19e4ef897693670fc0f7ad8ea6da5a824b903979b302f5d"
+  },
+  "models": [
+    {
+      "method": "solo",
+      "seed": 0,
+      "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\solo_seed_0.pt",
+      "sha256": "325a0fc2d33ae84f5bee33a5204e7270d502dcd6ecf0c3a58a65f472b574ff49"
+    },
+    {
+      "method": "solo",
+      "seed": 1,
+      "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\solo_seed_1.pt",
+      "sha256": "f8b57b708f35fca84e4079e26e0c98862c4cc99a46fea8759c4bd43a5adeada7"
+    },
+    {
+      "method": "solo",
+      "seed": 2,
+      "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\solo_seed_2.pt",
+      "sha256": "2563aaebfa09aa453f845f35c797dddd8330d9ca265197f55108a7344edf577f"
+    },
+    {
+      "method": "solo",
+      "seed": 3,
+      "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\solo_seed_3.pt",
+      "sha256": "5fbd05d1ba0592e67741e28c65761b59630bda83353ca5c29bfcfe6cc7fc87cc"
+    },
+    {
+      "method": "solo",
+      "seed": 4,
+      "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\solo_seed_4.pt",
+      "sha256": "a5a7d2839faf142932c750b2c81fb5353a0a9f65024dd9037301590f48cb27d5"
+    },
+    {
+      "method": "shared",
+      "seed": 0,
+      "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\shared_seed_0.pt",
+      "sha256": "8989021056e60a368fdf150cdac23e900facf31b3b5b76735c09a466e5554ab7"
+    },
+    {
+      "method": "shared",
+      "seed": 1,
+      "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\shared_seed_1.pt",
+      "sha256": "89d3a0a68a6e879aaee1dd7827bb3276a1a8488f45adf25ec26344f9ab71031b"
+    },
+    {
+      "method": "shared",
+      "seed": 2,
+      "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\shared_seed_2.pt",
+      "sha256": "ed4350dcb726491815b5992776ac54f1858cffce3090f8c57a4116faec596c49"
+    },
+    {
+      "method": "shared",
+      "seed": 3,
+      "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\shared_seed_3.pt",
+      "sha256": "8e91e10d94b6996c3396f78f31b157a76de78805a80075ec4c25e8dd0b577176"
+    },
+    {
+      "method": "shared",
+      "seed": 4,
+      "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193829020826Z_42837111\\models\\shared_seed_4.pt",
+      "sha256": "8e3ba6d01d5a1ac858cfd63c11cc8cd46e2a45862939b45d41f3decd23726f80"
+    }
+  ],
+  "exclusions_sha256": "88d534ba7e0b6af3c9980c8f559a8e3732aeb895c1b932738df429430e705bd0",
+  "pilot_ids": [
+    "74a9a1dfe51dd014a8fed65a80257fb2421743b62bd28a7764fe17d1444bdab8",
+    "0859c83ae5c7e244e82f2bf4fa91e55b2820990a1d727ee41b8d7ca920cce712",
+    "1d3710df7815fdd2a847bb2e56f7826be9d02a1ce010bdcd6535ba65a219cabe",
+    "db11053ca93aae857f54399e516e0a52a9b87f62d483ef79d1335b59b05d7d87",
+    "a4cb8039b35519dba41a9c59588c9fd113c78e09877f9620b7ef4ea037016593",
+    "c21921ed48e3da72e2887e193c1f3cbfe442718ca5e7eddd162d23b902b5e52b",
+    "01b1048d7accc76e9b85b068b8d871a8c4603f703b83c0e9ccc33c2db62a8d4a",
+    "9feefa1b0739b37bee74d43c42d102c715baabe5a032fbb86f10c31c52c6709e",
+    "b729568f230a74fc0c0448ddf49631e5f413afbe1db9a0b8ef4e4ba6e35ad193",
+    "ed4df1f322df9c429660c49674f2defaccb3557f7aab7990f73dfcb1c83c280d",
+    "1bb939d60f40a9b8e4b34cae724e95f3f908eb20cb7d6d96740db41b97cee85a",
+    "395e62526c514c12ca762c747844a4525bc5e7f105181f7ecff03fe3284dccfb"
+  ],
+  "final_maps_generated": false,
+  "final_maps": 120,
+  "final_unique_episodes": 15120,
+  "timing_repeats": 3,
+  "analysis_rules": "five-seed descriptive mean/std; matched cases; failures retained; no significance/architecture-only/speed-superiority claim"
+}

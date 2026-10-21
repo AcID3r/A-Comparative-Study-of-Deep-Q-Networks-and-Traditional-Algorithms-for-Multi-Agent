@@ -1,0 +1,47 @@
+{
+  "run_directory": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_fixed\\20261006T103855437859Z_d455330a",
+  "training_episode_rows": 10000,
+  "optimizer_update_rows": 63887,
+  "evaluation_rows": 115,
+  "seed_results": [
+    {
+      "seed": 0,
+      "success": true,
+      "moves": 12,
+      "arrival_step": 12,
+      "episode_reward": 88.0
+    },
+    {
+      "seed": 1,
+      "success": true,
+      "moves": 8,
+      "arrival_step": 9,
+      "episode_reward": 91.0
+    },
+    {
+      "seed": 2,
+      "success": true,
+      "moves": 12,
+      "arrival_step": 15,
+      "episode_reward": 85.0
+    },
+    {
+      "seed": 3,
+      "success": true,
+      "moves": 8,
+      "arrival_step": 14,
+      "episode_reward": 86.0
+    },
+    {
+      "seed": 4,
+      "success": true,
+      "moves": 12,
+      "arrival_step": 14,
+      "episode_reward": 86.0
+    }
+  ],
+  "source_hashes_match": true,
+  "checkpoint_trajectories_match": true,
+  "reward_and_counter_checks_passed": true,
+  "scope": "same fixed training map; no generalization claim"
+}

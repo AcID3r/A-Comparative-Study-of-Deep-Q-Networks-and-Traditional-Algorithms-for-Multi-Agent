@@ -1,0 +1,15 @@
+{
+  "episodes": 15120,
+  "unique_geometries": 120,
+  "groups_independently_checked": 837,
+  "final_seal_matches": true,
+  "geometry_exclusions_match": true,
+  "all_failures_retained": true,
+  "exact_single_agent_gaps_checked": true,
+  "source_input_output_hashes_match": true,
+  "actual_collisions": 0,
+  "qenn_unchanged": true,
+  "raw_csv_sha256": "84e5aafb7a1b0e2e14008330f5b1d379f067f9047c077e910eb67d47976681f8",
+  "raw_trace_sha256": "ea42a20a438a23a7e7596666252e5adb864272d27d52802cef95a69037ac63dd",
+  "report_sha256": "3ab8d3ef54cd9dd9e641f26e078c57d886a933f0e8617ebd3389a121c6292ba5"
+}

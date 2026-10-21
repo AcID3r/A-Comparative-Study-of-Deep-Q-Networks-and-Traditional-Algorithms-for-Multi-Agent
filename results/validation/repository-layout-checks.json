@@ -1,0 +1,24 @@
+{
+  "reorganized_files": 29,
+  "local_markdown_links": 57,
+  "frozen_seal_matches": true,
+  "measured_inputs_unchanged": true,
+  "accepted_word_and_pdf_unchanged": true,
+  "qenn_unchanged": true,
+  "large_files_excluded": 3,
+  "missing_large_files": [],
+  "ordinary_git_files_over_100_mib": [],
+  "date": "2026-10-07",
+  "status": "Repository organization complete",
+  "tests": 142,
+  "test_seconds": 46.351,
+  "data_bundle": {
+    "bundle": "dist/graph-search-large-data.zip",
+    "bytes": 53921386,
+    "sha256": "d8c96ac2026e2bfbe817922faa1caaa4fc509bb56baf38db4a34fd84217532a7",
+    "files": 3,
+    "all_content_hashes_match": true
+  },
+  "workspace_git_initialized": false,
+  "remote_published": false
+}

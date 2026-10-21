@@ -1,0 +1,14 @@
+[
+  {
+    "method": "solo",
+    "seed": 0,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193747713350Z_ac14d9ba\\models\\solo_seed_0.pt",
+    "sha256": "e8a6782748c5f0fd6c1a0c04ff5917a3e929e073bd866803571e7aeb6963674b"
+  },
+  {
+    "method": "shared",
+    "seed": 0,
+    "path": "C:\\Users\\gamin\\Desktop\\first_paper\\results\\raw\\dqn_team\\20261006T193747713350Z_ac14d9ba\\models\\shared_seed_0.pt",
+    "sha256": "db6fbdf19aa26d0fd5319336f7c15a261d38b9c118e0eef337e12ed97346f73e"
+  }
+]

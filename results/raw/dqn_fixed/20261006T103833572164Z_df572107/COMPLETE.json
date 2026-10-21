@@ -1,0 +1,6 @@
+{
+  "seeds": 1,
+  "training_episode_rows": 20,
+  "plots_generated": true,
+  "checkpoint_reload_verified": true
+}

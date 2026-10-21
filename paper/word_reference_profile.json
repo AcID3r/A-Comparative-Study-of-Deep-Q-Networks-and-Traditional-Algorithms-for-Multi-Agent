@@ -1,0 +1,45 @@
+{
+  "reference_sha256": "0eb7c34b6358da752b52c38fd9af9daead8469c2df2216df1c272f07c47392f8",
+  "sections": [
+    {
+      "width": 11906,
+      "height": 16838,
+      "top": 1008,
+      "bottom": 1008,
+      "left": 864,
+      "right": 864,
+      "header": 708,
+      "footer": 708,
+      "columns": 1,
+      "gap": 720
+    },
+    {
+      "width": 11906,
+      "height": 16838,
+      "top": 1008,
+      "bottom": 1008,
+      "left": 864,
+      "right": 864,
+      "header": 708,
+      "footer": 708,
+      "columns": 2,
+      "gap": 440
+    }
+  ],
+  "font": "Times New Roman",
+  "title_points": 14.0,
+  "author_points": 11.0,
+  "affiliation_points": 9.0,
+  "caption_points": 9.0,
+  "table_points": 8.0,
+  "body_points": 11,
+  "body_size_note": "Reference omits explicit body size; 11pt Word default made explicit.",
+  "omitted_unconfirmed_author_fields": [
+    "department",
+    "postal location",
+    "email"
+  ],
+  "table_convention": "Roman numbers, centered label/title",
+  "equation_convention": "right-aligned parenthesized numbers",
+  "headers_footers": "blank like reference"
+}

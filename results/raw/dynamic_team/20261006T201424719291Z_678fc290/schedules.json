@@ -1,0 +1,362 @@
+{
+  "999ae25f46150d898d5b430c7de4f6f7cb115189fc1db90a490c2d68b6ba88b5": [
+    {
+      "tick": 2,
+      "position": [
+        3,
+        1
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        3,
+        1
+      ],
+      "operation": "remove"
+    }
+  ],
+  "9b37e67e6a4604812e01fe72dc8a3cc35694d366ad65bdf973ef962025195efe": [
+    {
+      "tick": 2,
+      "position": [
+        2,
+        2
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        2,
+        2
+      ],
+      "operation": "remove"
+    }
+  ],
+  "5fdc35b351510f4e8d79d1edf8691e69b92b61311ce3688da364025f4d27e817": [
+    {
+      "tick": 2,
+      "position": [
+        2,
+        2
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        2,
+        2
+      ],
+      "operation": "remove"
+    }
+  ],
+  "e53465c8a3abe9e35ebe514025f373344dd19ad7c383f0dd6b07715dbe1105a7": [
+    {
+      "tick": 2,
+      "position": [
+        3,
+        2
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        3,
+        2
+      ],
+      "operation": "remove"
+    }
+  ],
+  "38016204e59fc7056c6114f3a76e887ffe32b5e05f0de1714ef388e7f94319cd": [
+    {
+      "tick": 2,
+      "position": [
+        1,
+        1
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        1,
+        1
+      ],
+      "operation": "remove"
+    }
+  ],
+  "4869302466cc3f1304ca60f8c7cc9c7d96e2d7bdbf0b1552398af0b8e5a3a198": [
+    {
+      "tick": 2,
+      "position": [
+        2,
+        2
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        2,
+        2
+      ],
+      "operation": "remove"
+    }
+  ],
+  "72725bc32276f055e0a28467229bb3bf1f4263ec6b9694255326c01e836dd98f": [
+    {
+      "tick": 2,
+      "position": [
+        4,
+        2
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        4,
+        2
+      ],
+      "operation": "remove"
+    }
+  ],
+  "c3ea678613d4433ce6476174ed7c9a1530f2945e16269af1d234f2a780edb8af": [
+    {
+      "tick": 2,
+      "position": [
+        3,
+        2
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        3,
+        2
+      ],
+      "operation": "remove"
+    }
+  ],
+  "f63a4128ce116070668d55cb96b4faa3504018ec410dcf79838445c2957efc90": [
+    {
+      "tick": 2,
+      "position": [
+        1,
+        3
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        1,
+        3
+      ],
+      "operation": "remove"
+    }
+  ],
+  "c82c16bdda2b34eb6e79cd5bbcb0f3a4b53c985f010468c99c704c19c31dadec": [
+    {
+      "tick": 2,
+      "position": [
+        2,
+        4
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        2,
+        4
+      ],
+      "operation": "remove"
+    }
+  ],
+  "4c60c992c2847019a480c19c511ff11891e9395603c9d8e79c4c00022b1c4e64": [
+    {
+      "tick": 2,
+      "position": [
+        1,
+        1
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        1,
+        1
+      ],
+      "operation": "remove"
+    }
+  ],
+  "ae87053e60bd69de15e15aaa70268901170c268f1873662fac1af8e9a83a0f33": [
+    {
+      "tick": 2,
+      "position": [
+        1,
+        0
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        1,
+        0
+      ],
+      "operation": "remove"
+    }
+  ],
+  "0c351bbed94afe02bcbfd0db5faf712540cc146295eeab47008db5d720c09251": [
+    {
+      "tick": 2,
+      "position": [
+        3,
+        2
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        3,
+        2
+      ],
+      "operation": "remove"
+    }
+  ],
+  "7c91f5e0b8045f20eb297eb5721d819c7802109985b722420d4b061c9baba28a": [
+    {
+      "tick": 2,
+      "position": [
+        1,
+        3
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        1,
+        3
+      ],
+      "operation": "remove"
+    }
+  ],
+  "b179a5e0eb097141b4e06a2df390f6cdbb88820ba140b7956b7b68adb5b6f3b5": [
+    {
+      "tick": 2,
+      "position": [
+        0,
+        4
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        0,
+        4
+      ],
+      "operation": "remove"
+    }
+  ],
+  "0eb621d7c5c3c160b58e2453f7becf0352d7caacf2e834840d179687a463232b": [
+    {
+      "tick": 2,
+      "position": [
+        2,
+        1
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        2,
+        1
+      ],
+      "operation": "remove"
+    }
+  ],
+  "58801e4ca6e030db227bb740eab69f6f300d2670214b0cb685cba11cfa63cba2": [
+    {
+      "tick": 2,
+      "position": [
+        4,
+        3
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        4,
+        3
+      ],
+      "operation": "remove"
+    }
+  ],
+  "bc8d4284eeac648029e1a14fdf4127fbe0c39661f2c4d963a7310a9d681a23d9": [
+    {
+      "tick": 2,
+      "position": [
+        2,
+        3
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        2,
+        3
+      ],
+      "operation": "remove"
+    }
+  ],
+  "9eccb8f8bc86f6bec0cb3cd24aabe76781724d1b6fb9f909dc3b6f9c6f970f00": [
+    {
+      "tick": 2,
+      "position": [
+        1,
+        1
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        1,
+        1
+      ],
+      "operation": "remove"
+    }
+  ],
+  "6164cf5baf5a3b3b6c25328a0770aaee2ca0fd84ab89fcdfad4efedca3e467f2": [
+    {
+      "tick": 2,
+      "position": [
+        1,
+        2
+      ],
+      "operation": "add"
+    },
+    {
+      "tick": 8,
+      "position": [
+        1,
+        2
+      ],
+      "operation": "remove"
+    }
+  ]
+}

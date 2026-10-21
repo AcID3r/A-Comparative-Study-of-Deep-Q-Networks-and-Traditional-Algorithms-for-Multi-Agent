@@ -1,0 +1,13 @@
+# Verified installed versions at CP-04, Python 3.12.6, Windows CPU.
+# Baseline/episode checkpoints still require only the standard library.
+torch==2.11.0
+numpy==1.26.4
+matplotlib==3.10.0
+# CP-08 scientific manuscript PDF; installed version verified locally.
+reportlab==4.4.10
+# CP-08 local PDF text/bounds inspection and page rasterization.
+pdfplumber==0.11.10
+pypdfium2==5.10.1
+# CP-09 DOCX creation and native Word export helper; already installed.
+python-docx==1.2.0
+pywin32==306; platform_system == "Windows"

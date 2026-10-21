@@ -1,0 +1,8 @@
+{
+  "source_sha256": "697c1513baf44e6a25cdd185c288ed6101628d20074ec36102ee987f0f236b52",
+  "engine": "Microsoft Word COM",
+  "native_render_complete": false,
+  "error_type": "com_error",
+  "error": "(-2147023584, 'A specified logon session does not exist. It may already have been terminated.', None, None)",
+  "status": "Native pagination unresolved; DOCX structural checks and independent preview are separate."
+}

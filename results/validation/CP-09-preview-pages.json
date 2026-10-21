@@ -1,0 +1,74 @@
+{
+  "docx_sha256": "c77ec6f2fa852cf55588fdb138c4e64c3187589644d43da058bf42ec49626349",
+  "pdf_sha256": "310ae3f7d1766dd4b9791da9e92db32b592a76925c849219e65a6af5ba65d670",
+  "pages": [
+    {
+      "page": 1,
+      "characters": 4510,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "characters": 4624,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "characters": 3237,
+      "images": 3
+    },
+    {
+      "page": 4,
+      "characters": 4812,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "characters": 4303,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "characters": 2327,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "characters": 363,
+      "images": 2
+    },
+    {
+      "page": 8,
+      "characters": 2177,
+      "images": 1
+    },
+    {
+      "page": 9,
+      "characters": 2678,
+      "images": 1
+    },
+    {
+      "page": 10,
+      "characters": 2180,
+      "images": 2
+    },
+    {
+      "page": 11,
+      "characters": 4836,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "characters": 4579,
+      "images": 0
+    }
+  ],
+  "page_count": 12,
+  "text_outside_page": 0,
+  "images_outside_page": 0,
+  "required_sections_and_main_rates_present": true,
+  "native_word_render": false,
+  "review_directory": "paper/word_preview_pages/310ae3f7d176",
+  "visual_review": "pending inspection",
+  "review_kind": "Independent preview only"
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-07",
+  "docx_sha256": "c77ec6f2fa852cf55588fdb138c4e64c3187589644d43da058bf42ec49626349",
+  "reference_unchanged": true,
+  "source_paragraphs_checked": 130,
+  "tables_checked": 10,
+  "figure_hashes_checked": 7,
+  "editable_numbered_equations": 2,
+  "reference_hyperlinks": 9,
+  "headings_columns_geometry_match": true,
+  "all_measured_cells_match": true,
+  "confirmed_author": true,
+  "body_size_assumption": "Reference omits explicit body size; 11pt Word default made explicit.",
+  "native_render": {
+    "source_sha256": "c77ec6f2fa852cf55588fdb138c4e64c3187589644d43da058bf42ec49626349",
+    "engine": "Microsoft Word COM",
+    "native_render_complete": true,
+    "word_version": "16.0",
+    "pages": 11,
+    "pdf_sha256": "e0e7a8e6b0e9e08613c61828303b71afae52060412b499ab6a67617695be0823"
+  },
+  "status": "Structural checks passed; native Word pagination review pending"
+}
